@@ -1,8 +1,0 @@
-#!/bin/sh
-'''exec' "/Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.venv-doccano/bin/python3.11" "$0" "$@"
-' '''
-import sys
-from pip._internal.cli.main import main
-if __name__ == '__main__':
-    sys.argv[0] = sys.argv[0].removesuffix('.exe')
-    sys.exit(main())
