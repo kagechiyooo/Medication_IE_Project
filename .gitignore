@@ -1,0 +1,6 @@
+doccano_env/
+.venv/
+.venv-doccano/
+__pycache__/
+*.pyc
+.DS_Store
