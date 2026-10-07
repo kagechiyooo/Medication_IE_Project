@@ -1,0 +1,66 @@
+"""
+pyexcel.parser
+~~~~~~~~~~~~~~~~~~~
+
+Extract tabular data from external file, stream or content
+
+:copyright: (c) 2014-2026 by C Wang
+:license: New BSD License
+"""
+
+from typing import IO, Any, Union, TextIO, BinaryIO
+
+from pyexcel.internal import garbagecollector as gc
+
+
+class AbstractParser:
+    """
+    Parsing data from tabular data such as excel file
+    """
+
+    def __init__(self, file_type: str):
+        self._file_type = file_type
+
+    def parse_file(self, file_name: str, **keywords):
+        """
+        Parse data from a physical file
+        """
+        raise NotImplementedError("parse_file is not implemented")
+
+    def parse_file_stream(
+        self, file_stream: Union[TextIO, BinaryIO], **keywords
+    ):
+        """
+        Parse data from a file stream
+        """
+        raise NotImplementedError("parse_file_stream is not implemented")
+
+    def parse_file_content(self, file_content: str, **keywords):
+        """
+        Parse data from a given file content
+        """
+        raise NotImplementedError("parse_file_content is not implemented")
+
+    def _free_me_up_later(self, reader: IO[Any]):
+        gc.append(reader)
+
+
+class DbParser(AbstractParser):
+    """
+    Change interface for db parser
+    """
+
+    def parse_file(self, file_name: str, **keywords):
+        raise Exception("parse_file is not supported")
+
+    def parse_file_stream(self, file_stream, **keywords):
+        return self.parse_db(file_stream, **keywords)
+
+    def parse_file_content(self, file_content, **keywords):
+        raise Exception("parse_file_content is not supported")
+
+    def parse_db(self, argument, **keywords):
+        """
+        Parse data from database
+        """
+        raise NotImplementedError("parse_db is not implemented")

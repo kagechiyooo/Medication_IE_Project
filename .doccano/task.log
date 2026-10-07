@@ -1,0 +1,109 @@
+/Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.venv-doccano/lib/python3.11/site-packages/polymorphic/__init__.py:9: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[2026-09-29 01:25:35 +0000] [31670] [INFO] [django_drf_filepond.apps::ready::61] App init: no django-storages backend configured, using default (local) storage backend if set, otherwise you need to manage file storage independently of this app.
+Starting task queue.
+ 
+ -------------- celery@shishimaru.local v5.6.3 (recovery)
+--- ***** ----- 
+-- ******* ---- macOS-26.6.2-arm64-arm-64bit 2026-09-29 01:25:48
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         config:0x107865c50
+- ** ---------- .> transport:   sqla+sqlite:////Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.doccano/db.sqlite3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . data_export.celery_tasks.export_dataset
+  . data_import.celery_tasks.import_dataset
+  . health_check.contrib.celery.tasks.add
+
+[2026-09-29 01:25:49,008: INFO/MainProcess] Connected to sqla+sqlite:////Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.doccano/db.sqlite3
+[2026-09-29 01:25:49,018: INFO/MainProcess] celery@shishimaru.local ready.
+[2026-09-29 01:25:49,106: INFO/SpawnPoolWorker-1] child process 31677 calling self.run()
+/Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.venv-doccano/lib/python3.11/site-packages/polymorphic/__init__.py:9: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[2026-09-29 01:25:49 +0000] [31677] [INFO] [django_drf_filepond.apps::ready::61] App init: no django-storages backend configured, using default (local) storage backend if set, otherwise you need to manage file storage independently of this app.
+[2026-09-29 04:07:50,450: INFO/MainProcess] Task data_import.celery_tasks.import_dataset[40a48719-a4bc-4b6d-8577-1042d28b2859] received
+[2026-09-29 04:07:50,465: ERROR/MainProcess] Task handler raised error: ValueError('not enough values to unpack (expected 3, got 0)')
+billiard.einfo.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.venv-doccano/lib/python3.11/site-packages/billiard/pool.py", line 363, in workloop
+    result = (True, prepare_result(fun(*args, **kwargs)))
+                                   ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.venv-doccano/lib/python3.11/site-packages/celery/app/trace.py", line 762, in fast_trace_task
+    tasks, accept, hostname = _loc
+    ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 0)
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.venv-doccano/lib/python3.11/site-packages/billiard/pool.py", line 363, in workloop
+    result = (True, prepare_result(fun(*args, **kwargs)))
+                                   ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.venv-doccano/lib/python3.11/site-packages/celery/app/trace.py", line 762, in fast_trace_task
+    tasks, accept, hostname = _loc
+    ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 0)
+[2026-09-29 04:13:09,474: INFO/MainProcess] Task data_import.celery_tasks.import_dataset[cb08560a-8e00-4e1b-a68a-8f29ed01e02d] received
+[2026-09-29 04:13:09,480: ERROR/MainProcess] Task handler raised error: ValueError('not enough values to unpack (expected 3, got 0)')
+billiard.einfo.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.venv-doccano/lib/python3.11/site-packages/billiard/pool.py", line 363, in workloop
+    result = (True, prepare_result(fun(*args, **kwargs)))
+                                   ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.venv-doccano/lib/python3.11/site-packages/celery/app/trace.py", line 762, in fast_trace_task
+    tasks, accept, hostname = _loc
+    ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 0)
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.venv-doccano/lib/python3.11/site-packages/billiard/pool.py", line 363, in workloop
+    result = (True, prepare_result(fun(*args, **kwargs)))
+                                   ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.venv-doccano/lib/python3.11/site-packages/celery/app/trace.py", line 762, in fast_trace_task
+    tasks, accept, hostname = _loc
+    ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 0)
+
+worker: Warm shutdown (MainProcess)
+/Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.venv-doccano/lib/python3.11/site-packages/polymorphic/__init__.py:9: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[2026-09-29 04:18:36 +0000] [32426] [INFO] [django_drf_filepond.apps::ready::61] App init: no django-storages backend configured, using default (local) storage backend if set, otherwise you need to manage file storage independently of this app.
+ 
+ -------------- celery@shishimaru.local v5.6.3 (recovery)
+--- ***** ----- 
+-- ******* ---- macOS-26.6.2-arm64-arm-64bit 2026-09-29 04:18:37
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         config:0x10b04a790
+- ** ---------- .> transport:   sqla+sqlite:////Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.doccano/db.sqlite3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 1 (solo)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . data_export.celery_tasks.export_dataset
+  . data_import.celery_tasks.import_dataset
+  . health_check.contrib.celery.tasks.add
+
+[2026-09-29 04:18:37,183: INFO/MainProcess] Connected to sqla+sqlite:////Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.doccano/db.sqlite3
+[2026-09-29 04:18:37,188: INFO/MainProcess] celery@shishimaru.local ready.
+[2026-09-29 04:23:53,983: INFO/MainProcess] Task data_import.celery_tasks.import_dataset[2af8dc93-a17f-42d4-9c60-b753a2d0c91a] received
+[2026-09-29 04:23:54,066: INFO/MainProcess] Task data_import.celery_tasks.import_dataset[2af8dc93-a17f-42d4-9c60-b753a2d0c91a] succeeded in 0.08190216700313613s: {'error': []}

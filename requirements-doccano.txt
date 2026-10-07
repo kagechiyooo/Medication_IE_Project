@@ -1,0 +1,4 @@
+doccano==1.8.4
+numpy<2
+marshmallow<4
+setuptools<81

@@ -1,0 +1,30 @@
+/Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.venv-doccano/lib/python3.11/site-packages/polymorphic/__init__.py:9: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[2026-09-29 01:25:35 +0000] [31669] [INFO] [django_drf_filepond.apps::ready::61] App init: no django-storages backend configured, using default (local) storage backend if set, otherwise you need to manage file storage independently of this app.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.venv-doccano/lib/python3.11/site-packages/waitress/__init__.py", line 13, in serve
+    server = _server(app, **kw)
+             ^^^^^^^^^^^^^^^^^^
+  File "/Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.venv-doccano/lib/python3.11/site-packages/waitress/server.py", line 78, in create_server
+    last_serv = TcpWSGIServer(
+                ^^^^^^^^^^^^^^
+  File "/Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.venv-doccano/lib/python3.11/site-packages/waitress/server.py", line 244, in __init__
+    self.bind_server_socket()
+  File "/Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.venv-doccano/lib/python3.11/site-packages/waitress/server.py", line 361, in bind_server_socket
+    self.bind(sockaddr)
+  File "/Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.venv-doccano/lib/python3.11/site-packages/waitress/wasyncore.py", line 396, in bind
+    return self.socket.bind(addr)
+           ^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 1] Operation not permitted
+/Users/rawita/KU/ปี 4/NLP Project/Medication_IE_Project/.venv-doccano/lib/python3.11/site-packages/polymorphic/__init__.py:9: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[2026-09-29 01:26:36 +0000] [31688] [INFO] [django_drf_filepond.apps::ready::61] App init: no django-storages backend configured, using default (local) storage backend if set, otherwise you need to manage file storage independently of this app.
+[2026-09-29 01:26:36 +0000] [31688] [INFO] [waitress::log_info::486] Serving on http://127.0.0.1:8000
+[2026-09-29 01:27:21 +0000] [31688] [WARNING] [django.request::log_response::246] Bad Request: /v1/auth/login/
+[2026-09-29 01:27:21 +0000] [31688] [WARNING] [django.request::log_response::246] Bad Request: /v1/auth/login/
+[2026-09-29 04:05:54 +0000] [31688] [WARNING] [waitress.queue::add_task::114] Task queue depth is 1
+[2026-09-29 04:05:54 +0000] [31688] [WARNING] [waitress.queue::add_task::114] Task queue depth is 2
+[2026-09-29 04:05:54 +0000] [31688] [WARNING] [waitress.queue::add_task::114] Task queue depth is 2
+[2026-09-29 04:05:54 +0000] [31688] [WARNING] [waitress.queue::add_task::114] Task queue depth is 1
+[2026-09-29 04:10:56 +0000] [31688] [WARNING] [waitress.queue::add_task::114] Task queue depth is 1
