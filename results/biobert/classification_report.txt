@@ -1,0 +1,11 @@
+              precision    recall  f1-score   support
+
+      DOSAGE     0.7692    0.7407    0.7547        27
+        DRUG     0.9615    0.9563    0.9589       366
+   FREQUENCY     0.9604    0.9709    0.9656       275
+       ROUTE     0.9612    0.9725    0.9669       255
+    STRENGTH     0.9167    0.9362    0.9263        47
+
+   micro avg     0.9538    0.9577    0.9558       970
+   macro avg     0.9138    0.9153    0.9145       970
+weighted avg     0.9536    0.9577    0.9556       970

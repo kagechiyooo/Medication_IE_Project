@@ -1,0 +1,22 @@
+{
+  "model": "emilyalsentzer/Bio_ClinicalBERT",
+  "validation": {
+    "eval_loss": 0.1675911247730255,
+    "eval_precision": 0.9256619144602851,
+    "eval_recall": 0.9538300104931794,
+    "eval_f1": 0.9395348837209303,
+    "eval_runtime": 0.5853,
+    "eval_samples_per_second": 580.895,
+    "eval_steps_per_second": 73.466,
+    "epoch": 5.0
+  },
+  "test": {
+    "test_loss": 0.12338756024837494,
+    "test_precision": 0.9444444444444444,
+    "test_recall": 0.9639175257731959,
+    "test_f1": 0.9540816326530612,
+    "test_runtime": 0.6378,
+    "test_samples_per_second": 534.662,
+    "test_steps_per_second": 67.421
+  }
+}
