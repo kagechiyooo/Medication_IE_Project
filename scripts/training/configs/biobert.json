@@ -1,0 +1,13 @@
+{
+  "model_key": "biobert",
+  "model_name": "dmis-lab/biobert-base-cased-v1.2",
+  "train_file": "data/final/train.jsonl",
+  "validation_file": "data/final/validation.jsonl",
+  "test_file": "data/final/test.jsonl",
+  "output_dir": "models/biobert",
+  "result_dir": "results/biobert",
+  "learning_rate": 2e-5,
+  "epochs": 5,
+  "batch_size": 8,
+  "seed": 42
+}

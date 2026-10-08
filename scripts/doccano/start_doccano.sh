@@ -4,7 +4,15 @@ cd "$(dirname "$0")/.."
 export DOCCANO_HOME="$PWD/.doccano"
 export DEBUG=False
 mkdir -p "$DOCCANO_HOME"
-exec .venv-doccano/bin/python - <<'PY'
+DOCCANO_PYTHON="$PWD/.venv-doccano/bin/python"
+if [ ! -x "$DOCCANO_PYTHON" ]; then
+  DOCCANO_PYTHON="$HOME/doccano_env/bin/python"
+fi
+if [ ! -x "$DOCCANO_PYTHON" ]; then
+  echo "Doccano Python environment not found. Install requirements-doccano.txt first." >&2
+  exit 1
+fi
+exec "$DOCCANO_PYTHON" - <<'PY'
 import os
 import subprocess
 from pathlib import Path
