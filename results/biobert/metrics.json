@@ -1,0 +1,22 @@
+{
+  "model": "dmis-lab/biobert-base-cased-v1.2",
+  "validation": {
+    "eval_loss": 0.16987979412078857,
+    "eval_precision": 0.9318181818181818,
+    "eval_recall": 0.9464847848898216,
+    "eval_f1": 0.9390942217595003,
+    "eval_runtime": 0.6219,
+    "eval_samples_per_second": 546.686,
+    "eval_steps_per_second": 69.14,
+    "epoch": 5.0
+  },
+  "test": {
+    "test_loss": 0.13417154550552368,
+    "test_precision": 0.9537987679671458,
+    "test_recall": 0.9577319587628866,
+    "test_f1": 0.9557613168724279,
+    "test_runtime": 0.607,
+    "test_samples_per_second": 561.738,
+    "test_steps_per_second": 70.835
+  }
+}
