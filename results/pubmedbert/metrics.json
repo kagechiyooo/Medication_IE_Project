@@ -1,0 +1,22 @@
+{
+  "model": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+  "validation": {
+    "eval_loss": 0.15669529139995575,
+    "eval_precision": 0.934020618556701,
+    "eval_recall": 0.950682056663169,
+    "eval_f1": 0.9422776911076444,
+    "eval_runtime": 0.6088,
+    "eval_samples_per_second": 558.463,
+    "eval_steps_per_second": 70.629,
+    "epoch": 5.0
+  },
+  "test": {
+    "test_loss": 0.14278164505958557,
+    "test_precision": 0.9459183673469388,
+    "test_recall": 0.9556701030927836,
+    "test_f1": 0.9507692307692308,
+    "test_runtime": 0.6705,
+    "test_samples_per_second": 508.613,
+    "test_steps_per_second": 64.136
+  }
+}

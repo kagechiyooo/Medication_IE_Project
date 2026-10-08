@@ -1,0 +1,22 @@
+{
+  "model": "medicalai/ClinicalBERT",
+  "validation": {
+    "eval_loss": 0.1394878327846527,
+    "eval_precision": 0.9328512396694215,
+    "eval_recall": 0.9475341028331584,
+    "eval_f1": 0.9401353461738676,
+    "eval_runtime": 0.3331,
+    "eval_samples_per_second": 1020.763,
+    "eval_steps_per_second": 129.097,
+    "epoch": 5.0
+  },
+  "test": {
+    "test_loss": 0.12433750927448273,
+    "test_precision": 0.943089430894309,
+    "test_recall": 0.9567010309278351,
+    "test_f1": 0.9498464687819858,
+    "test_runtime": 0.3237,
+    "test_samples_per_second": 1053.416,
+    "test_steps_per_second": 132.835
+  }
+}
