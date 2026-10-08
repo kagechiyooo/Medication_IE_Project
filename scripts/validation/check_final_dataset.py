@@ -2,9 +2,9 @@ import json
 from collections import Counter
 
 FILES = {
-    "train": "data/train_final.jsonl",
-    "validation": "data/validation_final.jsonl",
-    "test": "data/test_final.jsonl"
+    "train": "data/final/train.jsonl",
+    "validation": "data/final/validation.jsonl",
+    "test": "data/final/test.jsonl"
 }
 
 ENTITY_TYPES = [
@@ -52,3 +52,10 @@ for split_name, path in FILES.items():
             f"B-{entity}:",
             counter[f"B-{entity}"]
         )
+
+    total_entities = sum(
+        counter[f"B-{entity}"]
+        for entity in ENTITY_TYPES
+    )
+
+    print("Total entities:", total_entities)
