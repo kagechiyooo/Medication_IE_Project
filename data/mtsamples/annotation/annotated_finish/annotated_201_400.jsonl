@@ -1,0 +1,200 @@
+{"id":1,"text":"NovoLog insulin via insulin pump about 30 units of insulin daily.,12.","label":[[0,15,"DRUG"],[39,47,"DOSAGE"],[59,64,"FREQUENCY"]],"Comments":[]}
+{"id":2,"text":"Valsartan 80 mg daily.,14.","label":[[0,9,"DRUG"],[10,15,"STRENGTH"],[16,21,"FREQUENCY"]],"Comments":[]}
+{"id":3,"text":"we have started her on Coreg 6.25 mg b.i.d.","label":[[23,28,"DRUG"],[29,37,"STRENGTH"],[37,43,"FREQUENCY"]],"Comments":[]}
+{"id":4,"text":"and Xanax 0.5 mg b.i.d-given a 60 pill prescription.,REVIEW OF SYSTEMS: ,","label":[[4,9,"DRUG"],[10,16,"STRENGTH"],[16,22,"FREQUENCY"]],"Comments":[]}
+{"id":5,"text":"Recommend the patient use 1 unit of insulin for every 10-g carbohydrate load consumed.","label":[[26,32,"DOSAGE"],[36,43,"DRUG"]],"Comments":[]}
+{"id":6,"text":"She states that she has been taking her aspirin at 325 mg q.a.m.","label":[[40,47,"DRUG"],[51,57,"STRENGTH"],[58,64,"FREQUENCY"]],"Comments":[]}
+{"id":7,"text":"Mucinex one to two tablets b.i.d.,","label":[[0,7,"DRUG"],[8,26,"DOSAGE"],[26,33,"FREQUENCY"]],"Comments":[]}
+{"id":8,"text":"He is now currently taking Abilify at 7.5 mg.,OBJECTIVE: ,","label":[[27,34,"DRUG"],[38,44,"STRENGTH"]],"Comments":[]}
+{"id":9,"text":"Decrease Abilify from 7.5 mg to 5 mg tablet one a day,","label":[[9,16,"DRUG"],[22,36,"STRENGTH"],[44,48,"DOSAGE"],[48,54,"FREQUENCY"]],"Comments":[]}
+{"id":10,"text":"I am introducing slow Luvox 25 mg tablet one-half a.m.","label":[[22,27,"DRUG"],[28,33,"STRENGTH"],[41,49,"DOSAGE"],[50,54,"FREQUENCY"]],"Comments":[]}
+{"id":11,"text":"if no side effects in one week we will to tablet one up to therapeutic level.,I also will call ABCD regarding the referral to psychologists for functional behavioral analysis.","label":[[49,52,"DOSAGE"]],"Comments":[]}
+{"id":12,"text":"Bactrim double strength 1 tablet b.i.d.","label":[[0,7,"DRUG"],[8,23,"STRENGTH"],[24,32,"DOSAGE"],[33,39,"FREQUENCY"]],"Comments":[]}
+{"id":13,"text":"Byetta injected twice daily.,REVIEW OF SYSTEMS: ,","label":[[0,6,"DRUG"],[15,27,"FREQUENCY"]],"Comments":[]}
+{"id":14,"text":"The patient has been taking amoxicillin 500 mg b.i.d.","label":[[28,39,"DRUG"],[40,46,"STRENGTH"],[47,53,"FREQUENCY"]],"Comments":[]}
+{"id":15,"text":"Continue the amoxicillin 500 mg two at bedtime.,3.","label":[[13,24,"DRUG"],[24,31,"STRENGTH"],[32,35,"DOSAGE"],[36,46,"FREQUENCY"]],"Comments":[]}
+{"id":16,"text":"Nasal and oral airflow were monitored using a triple port Thermistor.","label":[],"Comments":[]}
+{"id":17,"text":"Patient is currently taking amoxicillin-clavulanate 125 mg-31.25 mg tablet,","label":[[28,51,"DRUG"],[52,67,"STRENGTH"]],"Comments":[]}
+{"id":18,"text":"Adrenocot 0.5 mg tablet medication was prescribed by A.","label":[[0,9,"DRUG"],[10,16,"STRENGTH"]],"Comments":[]}
+{"id":19,"text":"Vioxx Dosage:  12.5 mg tablet Sig:  BID Dispense:  30 Refills:  2 Allow Generic:  No","label":[[0,5,"DRUG"],[15,22,"STRENGTH"],[36,39,"FREQUENCY"]],"Comments":[]}
+{"id":20,"text":"Also was recommended to take 7.5 mg of Mobic every day for her joint pains.","label":[[29,35,"DOSAGE"],[39,44,"DRUG"],[45,54,"FREQUENCY"]],"Comments":[]}
+{"id":21,"text":"the patient was then sedated using a total of 4 mg of Versed and 50 mcg of fentanyl.","label":[[46,50,"DOSAGE"],[54,60,"DRUG"],[65,71,"DOSAGE"],[75,84,"DRUG"]],"Comments":[]}
+{"id":22,"text":"Broad spectrum antibiotics and Solu-Medrol 1g IV qd were started.","label":[[31,42,"DRUG"],[43,45,"STRENGTH"],[46,48,"ROUTE"],[49,51,"FREQUENCY"]],"Comments":[]}
+{"id":23,"text":"She was then given a one day course of Praziquantel 3.6g total in 3 doses; and started on Prednisone 60 mg po qd; the broad spectrum antibiotics and Solu-Medrol were discontinued.,On 5\/22\/97,","label":[[39,51,"DRUG"],[52,56,"DOSAGE"],[90,100,"DRUG"],[101,106,"STRENGTH"],[110,112,"FREQUENCY"],[149,160,"DRUG"]],"Comments":[]}
+{"id":24,"text":"Propulsid 20mg tid,","label":[[0,9,"DRUG"],[10,14,"STRENGTH"],[15,18,"FREQUENCY"]],"Comments":[]}
+{"id":25,"text":"Lithium 300mg bid.,PMH:,","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[13,17,"FREQUENCY"]],"Comments":[]}
+{"id":26,"text":"Sinemet CR 25\/100 1tab TID,","label":[[0,10,"DRUG"],[11,17,"STRENGTH"],[18,22,"DOSAGE"],[23,26,"FREQUENCY"]],"Comments":[]}
+{"id":27,"text":"Lopressor 25mg qhs,","label":[[0,9,"DRUG"],[10,14,"STRENGTH"],[15,19,"FREQUENCY"]],"Comments":[]}
+{"id":28,"text":"Vitamin E 1tab TID,","label":[[0,9,"DRUG"],[10,14,"DOSAGE"],[15,18,"FREQUENCY"]],"Comments":[]}
+{"id":29,"text":"The patient continued Sinemet CR 25\/100 1tab TID and was told to monitor orthostatic BP at home.","label":[[22,32,"DRUG"],[33,39,"STRENGTH"],[40,44,"DOSAGE"],[45,48,"FREQUENCY"]],"Comments":[]}
+{"id":30,"text":"She had just resumed taking oral birth control pills one week prior to the ER visit after having stopped their use for several months.","label":[[28,32,"ROUTE"]],"Comments":[]}
+{"id":31,"text":"She was started on Prednisone 60mg qd and Tagamet 400mg qhs.,On 2\/26\/96,","label":[[19,29,"DRUG"],[30,34,"STRENGTH"],[35,37,"FREQUENCY"],[42,49,"DRUG"],[50,55,"STRENGTH"],[56,59,"FREQUENCY"]],"Comments":[]}
+{"id":32,"text":"The patient was placed on FeSO4 225mg tid.,She was continued on heparin IV,","label":[[26,31,"DRUG"],[32,37,"STRENGTH"],[38,41,"FREQUENCY"],[64,71,"DRUG"],[72,74,"ROUTE"]],"Comments":[]}
+{"id":33,"text":"They recommended treatment with ASA 325mg bid.","label":[[32,35,"DRUG"],[36,41,"STRENGTH"],[42,46,"FREQUENCY"]],"Comments":[]}
+{"id":34,"text":"Rheumatology recommended Plaquenil 200mg bid.","label":[[25,34,"DRUG"],[35,40,"STRENGTH"],[41,44,"FREQUENCY"]],"Comments":[]}
+{"id":35,"text":"She was treated with Ticlopidine 250mg bid.","label":[[21,32,"DRUG"],[32,38,"STRENGTH"],[39,42,"FREQUENCY"]],"Comments":[]}
+{"id":36,"text":"She was discharged home on Isordil 20 tid,","label":[[27,34,"DRUG"],[38,41,"FREQUENCY"]],"Comments":[]}
+{"id":37,"text":"and Ticlid 250mg bid.","label":[[4,10,"DRUG"],[11,16,"STRENGTH"],[17,20,"FREQUENCY"]],"Comments":[]}
+{"id":38,"text":"Acyclovir 400mg bid,","label":[[0,9,"DRUG"],[10,15,"STRENGTH"],[16,19,"FREQUENCY"]],"Comments":[]}
+{"id":39,"text":"Stavudine 40mg bid,","label":[[0,9,"DRUG"],[9,14,"STRENGTH"],[15,18,"FREQUENCY"]],"Comments":[]}
+{"id":40,"text":"This consisted of Pyrimethamine 75mg qd and Sulfadiazine 2 g bid.","label":[[18,31,"DRUG"],[32,36,"STRENGTH"],[37,39,"FREQUENCY"],[43,56,"DRUG"],[57,60,"STRENGTH"],[61,64,"FREQUENCY"]],"Comments":[]}
+{"id":41,"text":"She continues to take ASA 325 mg qd.","label":[[22,25,"DRUG"],[26,32,"STRENGTH"],[33,35,"FREQUENCY"]],"Comments":[]}
+{"id":42,"text":"Zantac 150mg bid,","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,16,"FREQUENCY"]],"Comments":[]}
+{"id":43,"text":"Vasotec 10mg bid,","label":[[0,7,"DRUG"],[8,12,"STRENGTH"],[13,16,"FREQUENCY"]],"Comments":[]}
+{"id":44,"text":"CaCO3 500mg bid,","label":[[0,5,"DRUG"],[6,11,"STRENGTH"],[12,15,"FREQUENCY"]],"Comments":[]}
+{"id":45,"text":"His appetite has been especially poor in the past month.,MEDS:,Sulfasalazine qid.","label":[[63,76,"DRUG"],[77,80,"FREQUENCY"]],"Comments":[]}
+{"id":46,"text":"TID ratio was 0.88.,IMPRESSION:,","label":[],"Comments":[]}
+{"id":47,"text":"The heart rate recovered in a normal fashion after using metoprolol 5 mg.,The heart images were somewhat suboptimal to evaluate because of obesity and some problems with the short axis windows mainly at peak exercise.,The EF at rest appeared to be normal at 55 to 60 with normal wall motion including anterior,","label":[[57,67,"DRUG"],[68,72,"DOSAGE"]],"Comments":[]}
+{"id":48,"text":"Cx negative.,The patient was assumed to have had a SAH secondary to central venous thrombosis due to oral contraceptive use.","label":[[101,106,"ROUTE"]],"Comments":[]}
+{"id":49,"text":"He occasionally experiences bilateral lower extremity cramping (?claudication) after walking for prolonged periods.,MEDS: ,Lithium 300mg bid,","label":[[123,130,"DRUG"],[131,136,"STRENGTH"],[137,140,"FREQUENCY"]],"Comments":[]}
+{"id":50,"text":"Accupril 20mg bid,","label":[[0,8,"DRUG"],[9,13,"STRENGTH"],[14,17,"FREQUENCY"]],"Comments":[]}
+{"id":51,"text":"Advil prn.,PMH:,","label":[[0,5,"DRUG"],[6,9,"FREQUENCY"]],"Comments":[]}
+{"id":52,"text":"Oral contrast was not administered.","label":[[0,5,"ROUTE"]],"Comments":[]}
+{"id":53,"text":"Total of 100 mL of Isovue was administered intravenously.","label":[[9,15,"DOSAGE"],[19,25,"DRUG"],[43,56,"ROUTE"]],"Comments":[]}
+{"id":54,"text":"Oral contrast was also administered.,The lung bases are clear.","label":[[0,4,"ROUTE"]],"Comments":[]}
+{"id":55,"text":"Lopressor 5 mg IV.,HEART RATE AFTER MEDICATION:,","label":[[0,9,"DRUG"],[10,14,"STRENGTH"],[15,17,"ROUTE"]],"Comments":[]}
+{"id":56,"text":"Contrast injection was timed using a 10 mL bolus of Ultravist 370 IV.","label":[[37,42,"DOSAGE"],[52,65,"DRUG"],[66,68,"ROUTE"]],"Comments":[]}
+{"id":57,"text":"The ptosis improved upon administration of Tensilon and he was placed on Mestinon 30mg tid.","label":[[43,51,"DRUG"],[73,81,"DRUG"],[82,86,"STRENGTH"],[87,90,"FREQUENCY"]],"Comments":[]}
+{"id":58,"text":"The dosage was increased to 60mg tid and his diplopia worsened and the dose decreased back to 30mg tid.","label":[[27,32,"DOSAGE"],[94,98,"DOSAGE"],[99,102,"FREQUENCY"]],"Comments":[]}
+{"id":59,"text":"Mestinon 30mg tid.,PMH:,","label":[[0,8,"DRUG"],[9,13,"STRENGTH"],[14,17,"FREQUENCY"]],"Comments":[]}
+{"id":60,"text":"He was treated with Fludrocortisone 0.05 mg BID and within 24hrs,","label":[[20,35,"DRUG"],[36,43,"STRENGTH"],[43,47,"FREQUENCY"]],"Comments":[]}
+{"id":61,"text":"He sometimes takes the other half of the tablet in the afternoon.","label":[[29,47,"DOSAGE"],[47,65,"FREQUENCY"]],"Comments":[]}
+{"id":62,"text":"He would drink up to half of a fifth of rum on a daily basis when available.,The patient is currently on Lexapro 10 mg in the morning and diazepam 10 mg at bedtime.","label":[[105,112,"DRUG"],[113,118,"STRENGTH"],[118,133,"FREQUENCY"],[138,146,"DRUG"],[147,152,"STRENGTH"],[153,163,"FREQUENCY"]],"Comments":[]}
+{"id":63,"text":"I would recommend that we try Seroquel 25 mg twice daily on an as-needed basis to see if this diminishes anxiety.","label":[[30,38,"DRUG"],[39,44,"STRENGTH"],[45,56,"FREQUENCY"],[60,78,"FREQUENCY"]],"Comments":[]}
+{"id":64,"text":"states he has been unable to get out of bed at times and isolates and keeps to himself.,He has been on a variety of different medications including Celexa 40 mg and ADD medication different times,","label":[[147,154,"DRUG"],[155,160,"STRENGTH"]],"Comments":[]}
+{"id":65,"text":"I will start quetiapine at a dose of 100 mg at bedtime,","label":[[13,23,"DRUG"],[37,43,"DOSAGE"],[44,54,"FREQUENCY"]],"Comments":[]}
+{"id":66,"text":"He has been started on Ativan 2 mg p.o.","label":[[23,29,"DRUG"],[30,34,"STRENGTH"],[35,39,"ROUTE"]],"Comments":[]}
+{"id":67,"text":"He also has been started on Seroquel 12.5 mg p.o.","label":[[28,36,"DRUG"],[37,44,"STRENGTH"],[45,49,"ROUTE"]],"Comments":[]}
+{"id":68,"text":"Bisacodyl suppository 10 mg per rectum daily.,5.","label":[[0,9,"DRUG"],[22,27,"STRENGTH"],[28,38,"ROUTE"],[38,44,"FREQUENCY"]],"Comments":[]}
+{"id":69,"text":"Saliva substitute 30 mL spray p.o.","label":[[0,17,"DRUG"],[30,34,"ROUTE"]],"Comments":[]}
+{"id":70,"text":"he was started on Seroquel 20 mg p.o.","label":[[18,26,"DRUG"],[26,32,"STRENGTH"],[32,37,"ROUTE"]],"Comments":[]}
+{"id":71,"text":"in addition to Aricept 5 mg daily.","label":[[15,22,"DRUG"],[23,28,"STRENGTH"],[28,34,"FREQUENCY"]],"Comments":[]}
+{"id":72,"text":"Norvasc 5 mg daily,","label":[[0,7,"DRUG"],[8,12,"STRENGTH"],[13,18,"FREQUENCY"]],"Comments":[]}
+{"id":73,"text":"TriCor 145 mg daily,","label":[[0,6,"DRUG"],[7,13,"STRENGTH"],[14,20,"FREQUENCY"]],"Comments":[]}
+{"id":74,"text":"aspirin one tablet daily,","label":[[0,8,"DRUG"],[8,18,"DOSAGE"],[19,25,"FREQUENCY"]],"Comments":[]}
+{"id":75,"text":"Continue Lexapro 20 mg p.o.","label":[[9,16,"DRUG"],[17,22,"STRENGTH"],[23,27,"ROUTE"]],"Comments":[]}
+{"id":76,"text":"Norco one tablet p.o.","label":[[0,5,"DRUG"],[6,16,"DOSAGE"],[17,21,"ROUTE"]],"Comments":[]}
+{"id":77,"text":"Zofran 4 mg IV q.6h.,HOME MEDICATIONS:,","label":[[0,6,"DRUG"],[7,11,"STRENGTH"],[12,14,"ROUTE"],[15,20,"FREQUENCY"]],"Comments":[]}
+{"id":78,"text":"Continue Lexapro 10 mg daily and Pamelor 25 mg each bedtime monitor for adverse effects of TCA and worsening of depressive symptoms.","label":[[9,16,"DRUG"],[17,22,"STRENGTH"],[23,28,"FREQUENCY"],[33,40,"DRUG"],[41,46,"STRENGTH"],[47,59,"FREQUENCY"]],"Comments":[]}
+{"id":79,"text":"The patient currently is taking Synthroid 75 mcg per day and lithium 1200 mg p.o.","label":[[32,41,"DRUG"],[42,48,"STRENGTH"],[49,56,"FREQUENCY"],[61,68,"DRUG"],[69,76,"STRENGTH"],[77,81,"ROUTE"]],"Comments":[]}
+{"id":80,"text":"His outpatient medications include Lotrel 30 mg p.o.","label":[[35,41,"DRUG"],[42,47,"STRENGTH"],[48,52,"ROUTE"]],"Comments":[]}
+{"id":81,"text":"Lovenox 40 mg subcutaneously daily,","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[14,28,"ROUTE"],[28,34,"FREQUENCY"]],"Comments":[]}
+{"id":82,"text":"Nexium 40 mg IV daily,","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,15,"ROUTE"],[16,21,"FREQUENCY"]],"Comments":[]}
+{"id":83,"text":"She was taking Remeron 15 mg q.h.s.,","label":[[14,22,"DRUG"],[23,29,"STRENGTH"],[29,35,"FREQUENCY"]],"Comments":[]}
+{"id":84,"text":"She is currently taking Trileptal 450 mg b.i.d.,","label":[[24,33,"DRUG"],[34,40,"STRENGTH"],[41,47,"FREQUENCY"]],"Comments":[]}
+{"id":85,"text":"Centrum multivitamin tablets,","label":[[0,20,"DRUG"]],"Comments":[]}
+{"id":86,"text":"I would like to start her on amitriptyline at a dose of 10 mg at time.","label":[[29,42,"DRUG"],[56,61,"DOSAGE"]],"Comments":[]}
+{"id":87,"text":"She will take Motrin at a dose of 800 mg as needed for her severe headaches.,She will make a diary of her migraine symptoms so that we can find any triggering food items,","label":[[14,20,"DRUG"],[34,40,"DOSAGE"],[41,50,"FREQUENCY"]],"Comments":[]}
+{"id":88,"text":"Note that medical records say that he was supposed to be taking Lipitor 40 mg,","label":[[63,71,"DRUG"],[72,77,"STRENGTH"]],"Comments":[]}
+{"id":89,"text":"Aspirin 81 mg daily,","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[14,19,"FREQUENCY"]],"Comments":[]}
+{"id":90,"text":"Lipitor 80 mg daily,","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[14,19,"FREQUENCY"]],"Comments":[]}
+{"id":91,"text":"who presented to Hospital four days ago after an overdose of about 30 Haldol tablets 5 mg each and Tylenol tablet 325 mg each,","label":[[67,69,"DOSAGE"],[70,76,"DRUG"],[85,90,"STRENGTH"],[99,106,"DRUG"],[114,121,"STRENGTH"]],"Comments":[]}
+{"id":92,"text":"40 tablets.","label":[[0,10,"DOSAGE"]],"Comments":[]}
+{"id":93,"text":"She took 30 tablets of Haldol and 40 tablets of Tylenol.","label":[[9,19,"DOSAGE"],[23,29,"DRUG"],[34,44,"DOSAGE"],[48,55,"DRUG"]],"Comments":[]}
+{"id":94,"text":"Lasix 80 mg daily,","label":[[0,5,"DRUG"],[6,11,"STRENGTH"],[12,17,"FREQUENCY"]],"Comments":[]}
+{"id":95,"text":"lactulose 10 g daily,","label":[[0,9,"DRUG"],[10,14,"STRENGTH"],[15,20,"FREQUENCY"]],"Comments":[]}
+{"id":96,"text":"Cozaar 50 mg daily,","label":[[0,6,"DRUG"],[6,12,"STRENGTH"],[13,18,"FREQUENCY"]],"Comments":[]}
+{"id":97,"text":"Synthroid 75 mcg daily,","label":[[0,9,"DRUG"],[10,16,"STRENGTH"],[17,23,"FREQUENCY"]],"Comments":[]}
+{"id":98,"text":"Singulair 10 mg daily,","label":[[0,9,"DRUG"],[10,15,"STRENGTH"],[16,22,"FREQUENCY"]],"Comments":[]}
+{"id":99,"text":"Pravachol 20 mg daily,","label":[[0,9,"DRUG"],[9,15,"STRENGTH"],[16,21,"FREQUENCY"]],"Comments":[]}
+{"id":100,"text":"Feldene 20 mg daily,","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[14,20,"FREQUENCY"]],"Comments":[]}
+{"id":101,"text":"Paxil 20 mg daily,","label":[[0,5,"DRUG"],[6,11,"STRENGTH"],[12,17,"FREQUENCY"]],"Comments":[]}
+{"id":102,"text":"Minipress 2 mg daily,","label":[[0,9,"DRUG"],[10,14,"STRENGTH"],[15,21,"FREQUENCY"]],"Comments":[]}
+{"id":103,"text":"Senokot one tablet b.i.d.,","label":[[0,7,"DRUG"],[8,18,"DOSAGE"],[18,25,"FREQUENCY"]],"Comments":[]}
+{"id":104,"text":"Details regarding this episode of child sexual assault were not forthcoming.,The claimant now takes Effexor 75 mg b.i.d.","label":[[100,107,"DRUG"],[108,113,"STRENGTH"],[114,120,"FREQUENCY"]],"Comments":[]}
+{"id":105,"text":"which she is not taking at the moment are lithium 300 mg p.o.","label":[[41,49,"DRUG"],[50,56,"STRENGTH"],[57,61,"ROUTE"]],"Comments":[]}
+{"id":106,"text":"Lotrimin AF  Dosage:  1% cream  Sig:  apply qid  Dispense:  4oz tube Refills:  0  Allow Generic:  Yes","label":[[0,11,"DRUG"],[22,24,"STRENGTH"],[44,47,"FREQUENCY"]],"Comments":[]}
+{"id":107,"text":"She has currently been taking 100 mg of Zoloft administered by her primary medical doctor.","label":[[30,36,"DOSAGE"],[40,46,"DRUG"]],"Comments":[]}
+{"id":108,"text":"A bacterial infection may also be suspected in which case a skin culture will confirm this.,*  Try a non-prescription antifungal powder or cream available in drugstores; your doctor can prescribe a stronger topical antifungal medication if necessary.,*  Oral antibiotics may be prescribed for a possible bacterial infection.,*  Keep feet as dry as possible! Change socks twice a day if necessary and wear those made of natural fibers,","label":[[207,214,"ROUTE"],[253,258,"ROUTE"]],"Comments":[]}
+{"id":109,"text":"dispense 24 tablets,","label":[],"Comments":[]}
+{"id":110,"text":"one tablet to be taken by mouth q.6h as needed for pain.","label":[[0,10,"DOSAGE"],[22,31,"ROUTE"],[32,36,"FREQUENCY"]],"Comments":[]}
+{"id":111,"text":"The patient is also taking ibuprofen 800 mg occasionally as needed for pain management.","label":[[26,36,"DRUG"],[37,43,"STRENGTH"],[44,56,"ROUTE"],[57,66,"FREQUENCY"]],"Comments":[]}
+{"id":112,"text":"We will place him on Clarinex 5 mg once daily,","label":[[21,29,"DRUG"],[30,34,"STRENGTH"],[35,46,"FREQUENCY"]],"Comments":[]}
+{"id":113,"text":"some Rhinocort-AQ nasal spray one spray each nostril once daily and otherwise discussed the importance of him wearing glasses.,4.","label":[[5,17,"DRUG"],[18,23,"ROUTE"],[30,39,"DOSAGE"],[40,52,"ROUTE"],[53,63,"FREQUENCY"]],"Comments":[]}
+{"id":114,"text":"Prescription for Atarax 10 mg tablets one to two tablets p.o.","label":[[17,23,"DRUG"],[24,29,"STRENGTH"],[37,56,"DOSAGE"],[57,61,"ROUTE"]],"Comments":[]}
+{"id":115,"text":"she will need to be on PO steroid medication,","label":[[23,25,"ROUTE"]],"Comments":[]}
+{"id":116,"text":"He is currently on immunotherapy and also takes Advair 500\/50 mg,","label":[[47,54,"DRUG"],[55,64,"STRENGTH"]],"Comments":[]}
+{"id":117,"text":"she is taking approximately 30 mL every feeding and is taking Formula or breast milk,","label":[],"Comments":[]}
+{"id":118,"text":"She has been taking 1 teaspoon every 6 hours.","label":[[20,30,"DOSAGE"],[31,45,"FREQUENCY"]],"Comments":[]}
+{"id":119,"text":"I will start her home medications of Pulmicort twice daily and albuterol on a p.r.n.","label":[[37,46,"DRUG"],[47,58,"FREQUENCY"],[63,72,"DRUG"],[78,84,"FREQUENCY"]],"Comments":[]}
+{"id":120,"text":"He was given ceftriaxone 500 mg IV once daily to treat otitis media and possible sepsis,","label":[[12,24,"DRUG"],[25,31,"STRENGTH"],[32,34,"ROUTE"],[35,45,"FREQUENCY"]],"Comments":[]}
+{"id":121,"text":"once daily and instructed to follow up with Dr.","label":[[0,10,"FREQUENCY"]],"Comments":[]}
+{"id":122,"text":"bringing her to a total daily dose of just under 40 mg\/kg per day.","label":[[38,57,"DOSAGE"],[58,65,"FREQUENCY"]],"Comments":[]}
+{"id":123,"text":"feeds had been started and were advanced 1 ml q.6h.","label":[[46,51,"FREQUENCY"]],"Comments":[]}
+{"id":124,"text":"Diazoxide was started 5 mg\/kg per os every 8 hours and fingersticks were done to monitor blood glucose level.","label":[[0,9,"DRUG"],[22,29,"DOSAGE"],[29,36,"ROUTE"],[37,50,"FREQUENCY"]],"Comments":[]}
+{"id":125,"text":"Blood glucose level stabilized and then diazoxide was weaned off until daily dose of 6 mg\/kg and then the diazoxide was discontinued.","label":[[40,49,"DRUG"],[71,76,"FREQUENCY"],[85,92,"DOSAGE"],[106,115,"DRUG"]],"Comments":[]}
+{"id":126,"text":"The patient is also able to take p.o.","label":[],"Comments":[]}
+{"id":127,"text":"Ciprodex Otic Solution in the right ear twice daily.,2.","label":[[0,8,"DRUG"],[9,13,"ROUTE"],[23,39,"ROUTE"],[40,52,"FREQUENCY"]],"Comments":[]}
+{"id":128,"text":"Augmentin 500 mg three times daily x10 days.,FOLLOW UP:  ,1.","label":[[0,9,"DRUG"],[10,16,"STRENGTH"],[17,34,"FREQUENCY"]],"Comments":[]}
+{"id":129,"text":"He is more calm and quite and taking good p.o.; so with a very close followup and a cardiac followup,","label":[[42,46,"ROUTE"]],"Comments":[]}
+{"id":130,"text":"PO ad-lib.,DISCHARGE MEDICATIONS: ,","label":[],"Comments":[]}
+{"id":131,"text":"G-CSF 50 mcg subcutaneously given daily in his thighs alternating with each dose.,3.","label":[[0,5,"DRUG"],[6,12,"DOSAGE"],[13,27,"ROUTE"],[34,39,"FREQUENCY"]],"Comments":[]}
+{"id":132,"text":"Fluconazole 37.5 mg daily.,4.","label":[[0,11,"DRUG"],[12,19,"STRENGTH"],[20,25,"FREQUENCY"]],"Comments":[]}
+{"id":133,"text":"We will get a chest x-ray and start Lasix at 1 mg\/kg twice daily.","label":[[35,41,"DRUG"],[45,52,"DOSAGE"],[53,65,"FREQUENCY"]],"Comments":[]}
+{"id":134,"text":"2 puffs twice daily until otherwise instructed by the primary care provider.,3.","label":[[0,7,"DOSAGE"],[8,19,"FREQUENCY"]],"Comments":[]}
+{"id":135,"text":"twice daily for 10 days.,4.","label":[[0,11,"FREQUENCY"]],"Comments":[]}
+{"id":136,"text":"and ciprofloxacin for right otitis externa eardrops twice daily.,","label":[[4,17,"DRUG"],[51,64,"FREQUENCY"]],"Comments":[]}
+{"id":137,"text":"He was administered Versed 2 mg IV.","label":[[20,26,"DRUG"],[27,31,"DOSAGE"],[32,34,"ROUTE"]],"Comments":[]}
+{"id":138,"text":"Then 1 mL of Depo-Medrol and 2 mL of 0.25% Marcaine were injected using the anterior approach.","label":[[5,9,"DOSAGE"],[13,24,"DRUG"],[29,33,"DOSAGE"],[36,42,"STRENGTH"],[43,51,"DRUG"]],"Comments":[]}
+{"id":139,"text":"1 mL of solution was administered at this site after aspiration,","label":[[0,4,"DOSAGE"]],"Comments":[]}
+{"id":140,"text":"She is requesting that we decrease her medications from 480 mg to 240 mg to 360 mg of morphine per day in the form of Avinza.","label":[[56,62,"DOSAGE"],[66,72,"DOSAGE"],[76,82,"DOSAGE"],[95,102,"FREQUENCY"],[118,124,"DRUG"]],"Comments":[]}
+{"id":141,"text":"Vioxx Dosage:  25 mg tablet Sig:  TID Dispense:  60 Refills:  0 Allow Generic:  Yes,PATIENT INSTRUCTIONS:,","label":[[0,5,"DRUG"],[15,20,"STRENGTH"],[34,37,"FREQUENCY"]],"Comments":[]}
+{"id":142,"text":"A has maintained him on opioid medications consisting of Norco 10\/325 mg for breakthrough pain and oxycodone 30 mg t.i.d.","label":[[56,62,"DRUG"],[63,72,"STRENGTH"],[99,108,"DRUG"],[109,114,"STRENGTH"],[115,121,"FREQUENCY"]],"Comments":[]}
+{"id":143,"text":"and Lyrica 100 mg q.daily.","label":[[4,10,"DRUG"],[11,17,"STRENGTH"],[18,26,"FREQUENCY"]],"Comments":[]}
+{"id":144,"text":"Trental 400mg po TID,5.","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[14,16,"ROUTE"],[17,20,"FREQUENCY"]],"Comments":[]}
+{"id":145,"text":"Norvasc 5mg po BID,6.","label":[[0,7,"DRUG"],[8,11,"STRENGTH"],[12,14,"ROUTE"],[14,18,"FREQUENCY"]],"Comments":[]}
+{"id":146,"text":"Prinivil 20mg po BID,7.","label":[[0,8,"DRUG"],[9,13,"STRENGTH"],[14,16,"ROUTE"],[17,20,"FREQUENCY"]],"Comments":[]}
+{"id":147,"text":"Terasozin 5mg po BID,10.","label":[[0,9,"DRUG"],[10,13,"STRENGTH"],[14,16,"ROUTE"],[17,20,"FREQUENCY"]],"Comments":[]}
+{"id":148,"text":"Elavil 30mg po QHS,11.","label":[[0,6,"DRUG"],[7,11,"STRENGTH"],[12,14,"ROUTE"],[15,18,"FREQUENCY"]],"Comments":[]}
+{"id":149,"text":"Vicodin 1-2tabs po Q6H prn,12.","label":[[0,7,"DRUG"],[8,15,"DOSAGE"],[15,18,"ROUTE"],[19,22,"FREQUENCY"],[23,26,"FREQUENCY"]],"Comments":[]}
+{"id":150,"text":"Calcium carbonate 2gm po QID,15.","label":[[0,17,"DRUG"],[18,21,"STRENGTH"],[22,24,"ROUTE"],[25,28,"FREQUENCY"]],"Comments":[]}
+{"id":151,"text":"Chocolate Ensure one can po QID,17.","label":[],"Comments":[]}
+{"id":152,"text":"Zanaflex one-half to one tablet p.r.n.","label":[[0,8,"DRUG"],[9,31,"DOSAGE"],[32,38,"FREQUENCY"]],"Comments":[]}
+{"id":153,"text":"We discussed treatment options at length and he is willing to undergo a trial of Lyrica.,He is sensitive to medications based on his past efforts and is given a prescription for 150 mg that he will start at bedtime.","label":[[81,87,"DRUG"],[178,185,"STRENGTH"],[204,215,"FREQUENCY"]],"Comments":[]}
+{"id":154,"text":"Celebrex 200 mg once daily,","label":[[0,8,"DRUG"],[9,15,"STRENGTH"],[16,26,"FREQUENCY"]],"Comments":[]}
+{"id":155,"text":"iron 240 mg twice daily,","label":[[0,4,"DRUG"],[5,11,"STRENGTH"],[12,23,"FREQUENCY"]],"Comments":[]}
+{"id":156,"text":"She also is on warfarin 1 mg daily,","label":[[15,23,"DRUG"],[24,28,"STRENGTH"],[29,35,"FREQUENCY"]],"Comments":[]}
+{"id":157,"text":"She is on Neurontin 300 mg three times daily.,HABITS:,","label":[[10,19,"DRUG"],[20,26,"STRENGTH"],[27,44,"FREQUENCY"]],"Comments":[]}
+{"id":158,"text":"She drinks beer approximately twice daily.","label":[],"Comments":[]}
+{"id":159,"text":"she could put on an extra 50 mcg patch and take a couple of extra Percocet if needed.","label":[[26,32,"STRENGTH"],[48,56,"DOSAGE"],[66,74,"DRUG"],[75,84,"FREQUENCY"]],"Comments":[]}
+{"id":160,"text":"I have written a prescription for this for 120 tablets and two refills.","label":[],"Comments":[]}
+{"id":161,"text":"no hematuria.,ENDOCRINE:  The patient is status post pituitary tumor resection and is on supplemental hormone.,MEDICATIONS:  Depo-Testosterone 200 mg IM q.3 weekly,","label":[[125,142,"DRUG"],[143,149,"STRENGTH"],[150,152,"ROUTE"],[153,157,"FREQUENCY"]],"Comments":[]}
+{"id":162,"text":"prednisone 1 tablet p.o.","label":[[0,10,"DRUG"],[11,19,"DOSAGE"],[20,24,"ROUTE"]],"Comments":[]}
+{"id":163,"text":"desmopressin 1 tablet p.o.","label":[[0,12,"DRUG"],[13,21,"DOSAGE"],[22,26,"ROUTE"]],"Comments":[]}
+{"id":164,"text":"She is taking some Lortab 7.5 mg tablets,","label":[[19,25,"DRUG"],[26,32,"STRENGTH"]],"Comments":[]}
+{"id":165,"text":"Lovenox 30 mg subcu daily x2 weeks,","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[14,19,"ROUTE"],[20,25,"FREQUENCY"]],"Comments":[]}
+{"id":166,"text":"Zithromax one week 250 mg daily,","label":[[0,9,"DRUG"],[19,25,"STRENGTH"],[26,31,"FREQUENCY"]],"Comments":[]}
+{"id":167,"text":"The DVT prophylaxis was maintained with Lovenox 40 mg subcu daily until the INR was greater than 1.7 and it was discontinued on 08\/30\/2007 when the INR was 1.92 within therapeutic range.","label":[[40,47,"DRUG"],[48,53,"STRENGTH"],[54,59,"ROUTE"],[60,65,"FREQUENCY"]],"Comments":[]}
+{"id":168,"text":"The patient is advised to continue taking the following medications:  Celebrex 200 mg daily,","label":[[70,78,"DRUG"],[79,85,"STRENGTH"],[86,91,"FREQUENCY"]],"Comments":[]}
+{"id":169,"text":"Synthroid 137 mcg daily,","label":[[0,9,"DRUG"],[10,18,"STRENGTH"],[18,24,"FREQUENCY"]],"Comments":[]}
+{"id":170,"text":"Percocet 5\/325 mg one to two tablets q.6h.","label":[[0,8,"DRUG"],[9,17,"STRENGTH"],[18,36,"DOSAGE"],[37,42,"FREQUENCY"]],"Comments":[]}
+{"id":171,"text":"and Toprol-XL 50 mg daily.","label":[[4,13,"DRUG"],[14,19,"STRENGTH"],[20,26,"FREQUENCY"]],"Comments":[]}
+{"id":172,"text":"the patient is taking Coumadin 7 mg daily.","label":[[22,30,"DRUG"],[30,35,"STRENGTH"],[36,42,"FREQUENCY"]],"Comments":[]}
+{"id":173,"text":"The patient did well on oral pain medications.","label":[[24,28,"ROUTE"]],"Comments":[]}
+{"id":174,"text":"Vicodin 5\/500 mg take one to two tablets p.o.","label":[[0,7,"DRUG"],[8,16,"STRENGTH"],[22,40,"DOSAGE"],[41,45,"ROUTE"]],"Comments":[]}
+{"id":175,"text":"Lisinopril 10 mg daily.,IV MEDICATIONS FOR PAIN:  ,Demerol appears to work the best.,ALLERGIES: ,","label":[[0,10,"DRUG"],[11,16,"STRENGTH"],[17,23,"FREQUENCY"],[24,26,"ROUTE"],[51,58,"DRUG"]],"Comments":[]}
+{"id":176,"text":"She transferred to oral pain medication.","label":[[19,23,"ROUTE"]],"Comments":[]}
+{"id":177,"text":"and oxycodone IR 5 mg one to two tablets q.4h.,","label":[[4,16,"DRUG"],[17,21,"STRENGTH"],[22,40,"DOSAGE"],[41,46,"FREQUENCY"]],"Comments":[]}
+{"id":178,"text":"Paxil 40 mg daily,","label":[[0,5,"DRUG"],[6,11,"STRENGTH"],[12,17,"FREQUENCY"]],"Comments":[]}
+{"id":179,"text":"DVT prophylaxis will be maintained with Arixtra 2.5 mg subcutaneously daily until the INR is greater than 1.7 and Coumadin will be adjusted according to the INR.","label":[[40,47,"DRUG"],[48,55,"STRENGTH"],[55,70,"ROUTE"],[70,75,"FREQUENCY"],[114,122,"DRUG"]],"Comments":[]}
+{"id":180,"text":"She will continue on 5 mg every day.,8.","label":[[21,25,"DOSAGE"],[26,35,"FREQUENCY"]],"Comments":[]}
+{"id":181,"text":"was started on Nexium 20 mg one p.o.","label":[[15,21,"DRUG"],[22,27,"STRENGTH"],[28,31,"DOSAGE"],[32,36,"ROUTE"]],"Comments":[]}
+{"id":182,"text":"also Percocet 5\/325 mg 1 to 2 tablets q.i.d.","label":[[4,13,"DRUG"],[14,22,"STRENGTH"],[23,37,"DOSAGE"],[38,44,"FREQUENCY"]],"Comments":[]}
+{"id":183,"text":"and Protonix 40 mg daily.,4.","label":[[4,12,"DRUG"],[13,18,"STRENGTH"],[19,25,"FREQUENCY"]],"Comments":[]}
+{"id":184,"text":"He was taking p.o.","label":[[14,18,"ROUTE"]],"Comments":[]}
+{"id":185,"text":"I discussed at length with the patient that this will likely take an oral steroid to quite her down.","label":[[69,73,"ROUTE"]],"Comments":[]}
+{"id":186,"text":"Vioxx 12.5 mg tablet (BID).,PMH: ,","label":[[0,5,"DRUG"],[6,13,"STRENGTH"],[21,26,"FREQUENCY"]],"Comments":[]}
+{"id":187,"text":"Wellbutrin XL 450 mg daily,","label":[[0,13,"DRUG"],[14,20,"STRENGTH"],[21,27,"FREQUENCY"]],"Comments":[]}
+{"id":188,"text":"Ritalin long-acting 60 mg daily,","label":[[0,19,"DRUG"],[20,25,"STRENGTH"],[26,32,"FREQUENCY"]],"Comments":[]}
+{"id":189,"text":"Commence Ocuvite PreserVision capulets one tablet twice a day by mouth for age-related macular degeneration.,3.","label":[[9,29,"DRUG"],[39,49,"DOSAGE"],[50,61,"FREQUENCY"],[62,70,"ROUTE"]],"Comments":[]}
+{"id":190,"text":"CellCept - 500 mg twice a daily.,2.","label":[[0,8,"DRUG"],[11,17,"STRENGTH"],[18,32,"FREQUENCY"]],"Comments":[]}
+{"id":191,"text":"Prednisone - 5 mg once daily.,4.","label":[[0,10,"DRUG"],[13,17,"STRENGTH"],[18,29,"FREQUENCY"]],"Comments":[]}
+{"id":192,"text":"Pantoprazole - 40 mg once daily.,6.","label":[[0,12,"DRUG"],[15,20,"STRENGTH"],[21,32,"FREQUENCY"]],"Comments":[]}
+{"id":193,"text":"Aspirin - 81 mg once daily.,FOLLOWUP CARE:  ,The patient is to follow up with Dr.","label":[[0,7,"DRUG"],[10,15,"STRENGTH"],[16,27,"FREQUENCY"]],"Comments":[]}
+{"id":194,"text":"He will take 1 p.o.","label":[[15,19,"ROUTE"]],"Comments":[]}
+{"id":195,"text":"so I phoned in a two-week course of Augmentin 400 mg chewable twice daily with food at Walgreens.","label":[[36,45,"DRUG"],[46,53,"STRENGTH"],[62,73,"FREQUENCY"]],"Comments":[]}
+{"id":196,"text":"Digoxin 250 mcg daily,","label":[[0,7,"DRUG"],[8,15,"STRENGTH"],[15,22,"FREQUENCY"]],"Comments":[]}
+{"id":197,"text":"lisinopril 5 mg daily,","label":[[0,10,"DRUG"],[11,15,"STRENGTH"],[16,22,"FREQUENCY"]],"Comments":[]}
+{"id":198,"text":"metoprolol 50 mg twice daily,","label":[[0,10,"DRUG"],[11,16,"STRENGTH"],[17,29,"FREQUENCY"]],"Comments":[]}
+{"id":199,"text":"He states he has been taking his wife's Lasix tablets for diuretic benefit when he feels weight gain coming on and increased edema.","label":[[40,45,"DRUG"],[76,131,"FREQUENCY"]],"Comments":[]}
+{"id":200,"text":"We should consider adding him on a low-dose furosemide tablet to be taken either daily or when his weight is above his target range.","label":[[44,54,"DRUG"],[81,86,"FREQUENCY"],[90,132,"FREQUENCY"]],"Comments":[]}
