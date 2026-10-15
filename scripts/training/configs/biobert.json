@@ -6,8 +6,31 @@
   "test_file": "data/final/test.jsonl",
   "output_dir": "models/biobert",
   "result_dir": "results/biobert",
-  "learning_rate": 2e-5,
-  "epochs": 5,
-  "batch_size": 8,
-  "seed": 42
+  "seed": 42,
+  "grid": {
+    "learning_rate": [
+      1e-05,
+      2e-05,
+      3e-05,
+      4e-05,
+      5e-05
+    ],
+    "batch_size": [
+      8,
+      16,
+      32
+    ],
+    "epochs": [
+      3,
+      5,
+      7,
+      10,
+      20
+    ]
+  },
+  "repeat_seeds": [
+    42,
+    123,
+    2026
+  ]
 }
