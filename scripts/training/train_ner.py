@@ -330,7 +330,6 @@ def run_grid(config, repeat_best=False):
         # Ties: first configuration in declared grid order.
         best = max(records,key=lambda row:row['validation']['macro_f1'])
         save_json(result_dir/'best_config.json',dict(best,grid_complete=True,configurations=len(records)))
-        save_json(result_dir/'metrics.json',{'model':model_name,'validation':best['validation']})
         shutil.copyfile(best['classification_report_path'],result_dir/'validation_classification_report.txt')
 
 

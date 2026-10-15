@@ -177,7 +177,6 @@ def maintain_storage(config, signature, record_path):
 
 def write_grid_results(result_dir, records):
     result_dir = Path(result_dir)
-    save_json(result_dir/'grid_results.json', records)
     fields = ['experiment_id','model','learning_rate','batch_size','configured_epochs','seed','status',
               'best_checkpoint_epoch','best_model_path','weights_state','training_seconds'] + ['val_'+k for k in METRIC_NAMES] + ['error']
     path = result_dir/'grid_results.csv'

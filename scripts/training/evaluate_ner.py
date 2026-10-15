@@ -270,9 +270,6 @@ def evaluate_config(config):
         result_dir
     )
 
-    import csv
-    with open(os.path.join(result_dir,'test_metrics.csv'),'w',encoding='utf-8-sig',newline='') as f:
-        writer=csv.DictWriter(f,fieldnames=list(metrics));writer.writeheader();writer.writerow(metrics)
     return metrics
 
 
