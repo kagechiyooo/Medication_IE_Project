@@ -2,11 +2,11 @@ import json
 import random
 from collections import Counter
 
-INPUT_FILE = "data/mtsamples/mtsamples_annotated_001_400_bio.jsonl"
+INPUT_FILE = "data/mtsamples/bio/mtsamples_annotated_001_800_bio.jsonl"
 
-TRAIN_FILE = "data/mtsamples/mtsamples_train.jsonl"
-VAL_FILE = "data/mtsamples/mtsamples_val.jsonl"
-TEST_FILE = "data/mtsamples/mtsamples_test.jsonl"
+TRAIN_FILE = "data/mtsamples/splits/mtsamples_train_001_800.jsonl"
+VAL_FILE = "data/mtsamples/splits/mtsamples_val_001_800.jsonl"
+TEST_FILE = "data/mtsamples/splits/mtsamples_test_001_800.jsonl"
 
 ENTITY_TYPES = [
     "DRUG",
@@ -16,9 +16,9 @@ ENTITY_TYPES = [
     "ROUTE"
 ]
 
-TRAIN_SIZE = 280
-VAL_SIZE = 60
-TEST_SIZE = 60
+TRAIN_SIZE = 560
+VAL_SIZE = 120
+TEST_SIZE = 120
 
 SEED = 42
 N_TRIALS = 10000
