@@ -80,24 +80,16 @@ def tokenize_and_align_labels(examples, tokenizer):
     return tokenized_inputs
 
 
-def main():
 
-    parser = argparse.ArgumentParser()
+from ner_common import (additional_metrics, seed_everything, save_json, read_json,
+                        signature_for, completed_run, write_grid_results, decode_labels, compatible_signatures)
 
-    parser.add_argument(
-        "--config",
-        required=True,
-        help="path ของ config JSON"
-    )
 
-    args = parser.parse_args()
-
-    config = load_config(args.config)
-
-    model_dir = os.path.join(
-        config["output_dir"],
-        "best_model"
-    )
+def evaluate_config(config):
+    best = read_json(os.path.join(config['result_dir'], 'best_config.json'))
+    if not best.get('grid_complete') or best['seed'] != 42 or best['signature'] not in compatible_signatures(config):
+        raise ValueError('Require complete matching seed-42 grid before final testing')
+    model_dir = best['best_model_path']
 
     result_dir = config["result_dir"]
 
@@ -141,10 +133,7 @@ def main():
             result_dir,
             "eval_temp"
         ),
-        per_device_eval_batch_size=config.get(
-            "batch_size",
-            8
-        ),
+        per_device_eval_batch_size=best['batch_size'],
         report_to="none",
     )
 
@@ -222,11 +211,19 @@ def main():
         digits=4
     )
 
+    extra_metrics = additional_metrics(true_labels, true_predictions)
     metrics = {
         "model": config["model_name"],
         "precision": precision,
         "recall": recall,
         "f1": f1,
+        **extra_metrics,
+        "learning_rate":best['learning_rate'],
+        "batch_size":best['batch_size'],
+        "configured_epochs":best['configured_epochs'],
+        "best_checkpoint_epoch":best['best_checkpoint_epoch'],
+        "best_model_path":model_dir,
+        "seed":42,
     }
 
     with open(
@@ -269,6 +266,51 @@ def main():
         result_dir
     )
 
+    import csv
+    with open(os.path.join(result_dir,'test_metrics.csv'),'w',encoding='utf-8-sig',newline='') as f:
+        writer=csv.DictWriter(f,fieldnames=list(metrics));writer.writeheader();writer.writerow(metrics)
+    return metrics
 
-if __name__ == "__main__":
+
+def main():
+    parser = argparse.ArgumentParser()
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument('--config', help='Evaluate one model after all four grids are complete')
+    group.add_argument('--configs', nargs=4, help='Evaluate all four models')
+    args = parser.parse_args()
+    paths = args.configs or [args.config]
+    configs = [load_config(path) for path in paths]
+    # All four grid results must exist before any final test, even with --config.
+    config_folder = os.path.dirname(os.path.abspath(paths[0]))
+    all_configs = [load_config(os.path.join(config_folder,key+'.json')) for key in
+                   ['biobert','bioclinicalbert','clinicalbert','pubmedbert']]
+    for item in all_configs:
+        best=read_json(os.path.join(item['result_dir'],'best_config.json'))
+        if not best.get('grid_complete') or best['seed'] != 42 or best['signature'] not in compatible_signatures(item):
+            raise ValueError('Complete all four matching grids before final testing')
+    if args.configs and {c['model_key'] for c in configs} != {c['model_key'] for c in all_configs}:
+        raise ValueError('Provide each of the four model configs exactly once')
+    if len({os.path.realpath(c['test_file']) for c in all_configs}) != 1:
+        raise ValueError('All four models must use the same test file')
+    results=[]
+    for config in configs:
+        import torch
+        try:
+            results.append(evaluate_config(config))
+        except torch.cuda.OutOfMemoryError as error:
+            save_json(os.path.join(config['result_dir'],'final_test_status.json'),{'status':'OOM','error':str(error)})
+            raise
+        save_json(os.path.join(config['result_dir'],'final_test_status.json'),{'status':'Completed'})
+        import gc
+        gc.collect()
+        if torch.cuda.is_available(): torch.cuda.empty_cache()
+    if args.configs:
+        import csv
+        os.makedirs('results/final_comparison',exist_ok=True)
+        save_json('results/final_comparison/comparison.json',results)
+        with open('results/final_comparison/comparison.csv','w',encoding='utf-8-sig',newline='') as f:
+            writer=csv.DictWriter(f,fieldnames=list(results[0]));writer.writeheader();writer.writerows(results)
+
+
+if __name__ == '__main__':
     main()
