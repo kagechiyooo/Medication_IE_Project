@@ -1,10 +1,17 @@
-# Python 3.10/3.11. Proposed baseline; runtime integration not tested here.
-# Use a torch build suitable for your machine (CPU/CUDA) from pytorch.org.
+
+# Training environment: Python 3.12
+# Install a CUDA-compatible PyTorch build for the server.
+
 torch>=2.6,<3
 transformers==4.57.1
-datasets>=3,<5
+datasets==4.4.1
+huggingface-hub==0.36.2
+tokenizers==0.22.2
+pyarrow==25.0.1
+numpy==2.5.3
+fsspec==2025.10.0
+
 evaluate>=0.4,<0.5
 seqeval==1.2.2
 accelerate>=1.1,<2
-numpy>=1.26,<3
 scikit-learn>=1.4,<2
