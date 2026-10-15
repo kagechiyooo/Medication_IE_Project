@@ -2,23 +2,23 @@ import json
 
 FILES = {
     "train": [
-        "data/glaucoma/train.jsonl",
-        "data/mtsamples/mtsamples_train.jsonl"
+    "data/glaucoma/splits/train.jsonl",
+    "data/mtsamples/splits/mtsamples_train_001_800.jsonl"
     ],
     "validation": [
-        "data/glaucoma/validation.jsonl",
-        "data/mtsamples/mtsamples_val.jsonl"
+        "data/glaucoma/splits/validation.jsonl",
+        "data/mtsamples/splits/mtsamples_val_001_800.jsonl"
     ],
     "test": [
-        "data/glaucoma/test.jsonl",
-        "data/mtsamples/mtsamples_test.jsonl"
+        "data/glaucoma/splits/test.jsonl",
+        "data/mtsamples/splits/mtsamples_test_001_800.jsonl"
     ]
 }
 
 OUTPUTS = {
-    "train": "data/train_final.jsonl",
-    "validation": "data/validation_final.jsonl",
-    "test": "data/test_final.jsonl"
+    "train": "data/final/train.jsonl",
+    "validation": "data/final/validation.jsonl",
+    "test": "data/final/test.jsonl"
 }
 
 

@@ -1,0 +1,400 @@
+{"id":1,"text":"We have also increased his lisinopril to 5 mg daily,","label":[[27,37,"DRUG"],[41,45,"DOSAGE"],[46,51,"FREQUENCY"]],"Comments":[]}
+{"id":2,"text":"Milk of Magnesia 30 mL daily p.r.n.,","label":[[0,16,"DRUG"],[17,22,"DOSAGE"],[23,35,"FREQUENCY"]],"Comments":[]}
+{"id":3,"text":"BuSpar 50 mg daily.,2.","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,18,"FREQUENCY"]],"Comments":[]}
+{"id":4,"text":"Zetia 10 mg daily.,5.","label":[[0,5,"DRUG"],[6,11,"STRENGTH"],[12,17,"FREQUENCY"]],"Comments":[]}
+{"id":5,"text":"Tetracycline 250 mg daily,","label":[[0,12,"DRUG"],[13,19,"STRENGTH"],[20,25,"FREQUENCY"]],"Comments":[]}
+{"id":6,"text":"Coumadin 7.5 mg daily.,3.","label":[[0,8,"DRUG"],[9,15,"STRENGTH"],[16,21,"FREQUENCY"]],"Comments":[]}
+{"id":7,"text":"Diovan 320 mg daily.,4.","label":[[0,6,"DRUG"],[7,13,"STRENGTH"],[14,19,"FREQUENCY"]],"Comments":[]}
+{"id":8,"text":"Lasix 80 mg daily.,6.","label":[[0,5,"DRUG"],[6,11,"STRENGTH"],[12,17,"FREQUENCY"]],"Comments":[]}
+{"id":9,"text":"Toprol XL 100 mg daily.,8.","label":[[0,9,"DRUG"],[10,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":10,"text":"Motrin 600 mg tablets 1 tablet p.o.","label":[[0,6,"DRUG"],[7,13,"STRENGTH"],[22,30,"DOSAGE"],[31,35,"ROUTE"]],"Comments":[]}
+{"id":11,"text":"Colace 100 mg tablets 1 tablet p.o.","label":[[0,6,"DRUG"],[7,13,"STRENGTH"],[22,30,"DOSAGE"],[31,35,"ROUTE"]],"Comments":[]}
+{"id":12,"text":"constipation and ferrous sulfate 60 mg tablets 1 tablet p.o.","label":[[0,12,"DRUG"],[17,32,"DRUG"],[33,38,"STRENGTH"],[47,55,"DOSAGE"],[56,60,"FREQUENCY"]],"Comments":[]}
+{"id":13,"text":"and multiple vitamin 1 tablet p.o.","label":[[4,20,"DRUG"],[21,29,"DOSAGE"],[30,34,"ROUTE"]],"Comments":[]}
+{"id":14,"text":"amitriptyline 15 mg daily,","label":[[0,13,"DRUG"],[14,19,"STRENGTH"],[20,25,"FREQUENCY"]],"Comments":[]}
+{"id":15,"text":"Synthroid 0.088 mg daily,","label":[[0,9,"DRUG"],[10,18,"STRENGTH"],[19,24,"FREQUENCY"]],"Comments":[]}
+{"id":16,"text":"Started on hydralazine 50 mg t.i.d.,","label":[[11,22,"DRUG"],[23,28,"DOSAGE"],[29,35,"FREQUENCY"]],"Comments":[]}
+{"id":17,"text":"Return in three weeks for reevaluation.,MEDICATIONS PRESCRIBED: ,Metronidazole 500 mg #14 1 BID for 7 days.","label":[[40,51,"DRUG"],[79,85,"STRENGTH"],[90,91,"DOSAGE"],[92,95,"FREQUENCY"]],"Comments":[]}
+{"id":18,"text":"Doxycycline 100 mg #14 1 BID.","label":[[0,11,"DRUG"],[12,18,"STRENGTH"],[23,24,"DOSAGE"],[25,28,"FREQUENCY"]],"Comments":[]}
+{"id":19,"text":"NatalCare Plus Dosage:  Prenatal Multivitamins tablet Sig:  QD Dispense:  60 Refills:  4 Allow Generic:  Yes,PATIENT INSTRUCTIONS:,","label":[[0,14,"DRUG"],[24,46,"DRUG"],[60,62,"FREQUENCY"]],"Comments":[]}
+{"id":20,"text":"and seizures as an infant.,PAST SURGICAL HX:  ,Plastic surgery on her ear after a dog bite in 1997.,MEDICATIONS:  ,Zoloft 50 mg a day and LactAid.,ALLERGIES:  ,NO KNOWN DRUG ALLERGIES.,SOCIAL HX: ,","label":[[115,121,"DRUG"],[122,127,"DOSAGE"],[128,133,"FREQUENCY"],[138,145,"DRUG"]],"Comments":[]}
+{"id":21,"text":"Atenolol 50 mg daily,2.","label":[[0,8,"DRUG"],[9,14,"STRENGTH"],[15,20,"FREQUENCY"]],"Comments":[]}
+{"id":22,"text":"Norvasc 5 mg daily.,10.","label":[[0,7,"DRUG"],[8,12,"STRENGTH"],[13,18,"FREQUENCY"]],"Comments":[]}
+{"id":23,"text":"Prescription written for 20 tablets.","label":[],"Comments":[]}
+{"id":24,"text":"Vicodin tablets 1 tablet p.o.","label":[[0,7,"DRUG"],[16,24,"DOSAGE"],[25,29,"ROUTE"]],"Comments":[]}
+{"id":25,"text":"ferrous sulfate  tablets 1 tablet p.o.","label":[[0,15,"DRUG"],[25,33,"DOSAGE"],[34,38,"ROUTE"]],"Comments":[]}
+{"id":26,"text":"Lexapro 10 mg daily.,2.","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[14,19,"FREQUENCY"]],"Comments":[]}
+{"id":27,"text":"Tramadol 50 mg tablets two by mouth four times a day.,3.","label":[[0,8,"DRUG"],[9,14,"STRENGTH"],[23,26,"DOSAGE"],[27,35,"ROUTE"],[36,52,"FREQUENCY"]],"Comments":[]}
+{"id":28,"text":"Ambien 10 mg tablets one by mouth at bedtime.,ALLERGIES:  AMOXICILLIN CAUSES THROAT SWELLING.","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[21,24,"DOSAGE"],[25,33,"ROUTE"],[34,44,"FREQUENCY"]],"Comments":[]}
+{"id":29,"text":"Prescription was given for Allegra 180 mg q.d.","label":[[27,34,"DRUG"],[35,41,"STRENGTH"],[42,46,"FREQUENCY"]],"Comments":[]}
+{"id":30,"text":"Prescription for trazodone 50 mg p.r.n.","label":[[17,26,"DRUG"],[27,32,"STRENGTH"],[33,39,"FREQUENCY"]],"Comments":[]}
+{"id":31,"text":"He also takes Proscar 5 mg q.d and Synthroid 0.2 mg q.d.,PHYSICAL EXAMINATION:,Vital Signs:  BP 134\/80,","label":[[14,21,"DRUG"],[22,26,"STRENGTH"],[27,30,"FREQUENCY"],[35,44,"DRUG"],[45,51,"STRENGTH"],[52,56,"FREQUENCY"]],"Comments":[]}
+{"id":32,"text":"According to the list shows the patient takes hydrocodone 10\/325 mg every 6 hours,","label":[[46,57,"DRUG"],[58,67,"STRENGTH"],[68,81,"FREQUENCY"]],"Comments":[]}
+{"id":33,"text":"The patient also takes Neurontin 200 mg 3 times a day,","label":[[23,32,"DRUG"],[33,39,"STRENGTH"],[40,53,"FREQUENCY"]],"Comments":[]}
+{"id":34,"text":"Family administered Diastat 7.5 mg x1 dose.","label":[[20,27,"DRUG"],[28,34,"DOSAGE"],[35,42,"FREQUENCY"]],"Comments":[]}
+{"id":35,"text":"and then 75 mg twice daily.","label":[[9,14,"DOSAGE"],[15,26,"FREQUENCY"]],"Comments":[]}
+{"id":36,"text":"He has done very well taking 300 mg twice a day without any further seizures.","label":[[29,35,"DOSAGE"],[36,47,"FREQUENCY"]],"Comments":[]}
+{"id":37,"text":"I will continue on Trileptal 300 mg twice a day,","label":[[19,28,"DRUG"],[29,35,"DOSAGE"],[36,47,"FREQUENCY"]],"Comments":[]}
+{"id":38,"text":"He currently is taking methadone up to eight tablets four times a day,","label":[[23,32,"DRUG"],[33,52,"DOSAGE"],[53,69,"FREQUENCY"]],"Comments":[]}
+{"id":39,"text":"and Dilaudid two tablets by mouth every two hours to help reduce his pain.","label":[[4,12,"DRUG"],[13,24,"DOSAGE"],[25,33,"ROUTE"],[34,49,"FREQUENCY"]],"Comments":[]}
+{"id":40,"text":"He also is currently taking Neurontin 1600 mg three times a day,","label":[[28,37,"DRUG"],[38,45,"DOSAGE"],[46,63,"FREQUENCY"]],"Comments":[]}
+{"id":41,"text":"He comes to my office today continuing on Dilantin 300 mg daily and has been seizure episode free for the past 2 1\/2 years.","label":[[42,50,"DRUG"],[51,57,"DOSAGE"],[58,63,"FREQUENCY"]],"Comments":[]}
+{"id":42,"text":"She has tried taking Imitrex as well as Motrin 800 mg twice a day,","label":[[21,28,"DRUG"],[40,46,"DRUG"],[47,53,"DOSAGE"],[54,65,"FREQUENCY"]],"Comments":[]}
+{"id":43,"text":"Senokot three tablets p.o.","label":[[0,7,"DRUG"],[8,21,"DOSAGE"],[22,26,"ROUTE"]],"Comments":[]}
+{"id":44,"text":"and Dilaudid 2 mg tablets p.o.","label":[[4,12,"DRUG"],[13,17,"STRENGTH"],[26,30,"ROUTE"]],"Comments":[]}
+{"id":45,"text":"he uses a lower dose of 2.5 three times a day to 5 mg three times a day.,8.","label":[[24,27,"DOSAGE"],[28,45,"FREQUENCY"],[49,53,"DOSAGE"]],"Comments":[]}
+{"id":46,"text":"Since then he has only been on oral medication for his diabetes.","label":[],"Comments":[]}
+{"id":47,"text":"She was given additional fosphenytoin and had a total dose of 15 mg\/kg administered.","label":[[25,37,"DRUG"],[62,70,"DOSAGE"]],"Comments":[]}
+{"id":48,"text":"she did give an IV Depacon 250 mg and the above dosage can be continued IV until she is taking p.o.","label":[[16,18,"ROUTE"],[19,26,"DRUG"],[27,33,"DOSAGE"],[72,74,"ROUTE"],[95,99,"ROUTE"]],"Comments":[]}
+{"id":49,"text":"She was finally put on Effexor 25 mg two tablets h.s.","label":[[23,30,"DRUG"],[31,36,"STRENGTH"],[37,48,"DOSAGE"],[49,53,"FREQUENCY"]],"Comments":[]}
+{"id":50,"text":",I reviewed the information that was sent down with him from the nursing home which includes his medical history.,MEDICATIONS:  ,Keppra 1500 twice a day and Decadron 6 mg four times a day.","label":[[129,135,"DRUG"],[136,140,"DOSAGE"],[141,152,"FREQUENCY"],[157,165,"DRUG"],[166,170,"DOSAGE"],[171,187,"FREQUENCY"]],"Comments":[]}
+{"id":51,"text":"Medications Prescribed: Therapeutic trial of Inderal 40mg - 1\/2 tab b.i.d.","label":[[45,52,"DRUG"],[53,57,"STRENGTH"],[60,67,"DOSAGE"],[68,74,"FREQUENCY"]],"Comments":[]}
+{"id":52,"text":"Darvocet prn,","label":[[0,8,"DRUG"],[9,12,"FREQUENCY"]],"Comments":[]}
+{"id":53,"text":"Reglan prn,","label":[[0,6,"DRUG"],[7,10,"FREQUENCY"]],"Comments":[]}
+{"id":54,"text":"SLNTG prn,","label":[[0,5,"DRUG"],[6,9,"FREQUENCY"]],"Comments":[]}
+{"id":55,"text":"Valium prn,","label":[[0,6,"DRUG"],[7,10,"FREQUENCY"]],"Comments":[]}
+{"id":56,"text":"Nubain prn.,PMH:,","label":[[0,6,"DRUG"],[7,10,"FREQUENCY"]],"Comments":[]}
+{"id":57,"text":"The patient's medications include Lamictal for a total of 200 mg twice a day.","label":[[34,42,"DRUG"],[58,64,"DOSAGE"],[65,76,"FREQUENCY"]],"Comments":[]}
+{"id":58,"text":"It is a 150 mg tablet and 25 mg tablets.","label":[[8,14,"STRENGTH"],[26,31,"STRENGTH"]],"Comments":[]}
+{"id":59,"text":"He is on Zonegran using 25 mg capsules 2 capsules twice daily,","label":[[9,17,"DRUG"],[24,29,"STRENGTH"],[39,49,"DOSAGE"],[50,61,"FREQUENCY"]],"Comments":[]}
+{"id":60,"text":"Elavil 25mg qhs was prescribed.","label":[[0,6,"DRUG"],[7,11,"STRENGTH"],[12,15,"FREQUENCY"]],"Comments":[]}
+{"id":61,"text":"fluticasone 50 mcg nasal spray,","label":[[0,11,"DRUG"],[12,18,"STRENGTH"],[19,24,"ROUTE"]],"Comments":[]}
+{"id":62,"text":"I wanted her to start taking the Neurontin 300 mg per day and then 300 mg b.i.d.","label":[[33,42,"DRUG"],[43,49,"DOSAGE"],[50,57,"FREQUENCY"],[67,73,"DOSAGE"],[74,80,"FREQUENCY"]],"Comments":[]}
+{"id":63,"text":"The patient is to start taking aspirin 162 mg per day.,2.","label":[[31,38,"DRUG"],[39,45,"DOSAGE"],[46,53,"FREQUENCY"]],"Comments":[]}
+{"id":64,"text":"Capoten 2.5mg bid,","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[14,17,"FREQUENCY"]],"Comments":[]}
+{"id":65,"text":"Salsalate 750mg tid,","label":[[0,9,"DRUG"],[10,15,"STRENGTH"],[16,19,"FREQUENCY"]],"Comments":[]}
+{"id":66,"text":"\"Ginsana\" (Ginseng) 100mg bid.,PMH: ,1)Atrial fibrillation,","label":[[1,8,"DRUG"],[11,18,"DRUG"],[20,25,"STRENGTH"],[26,29,"FREQUENCY"]],"Comments":[]}
+{"id":67,"text":"Mannitol was administered (1g\/kg),","label":[[0,8,"DRUG"],[27,32,"DOSAGE"]],"Comments":[]}
+{"id":68,"text":"Proventil MDI bid,","label":[[0,9,"DRUG"],[10,13,"ROUTE"],[14,17,"FREQUENCY"]],"Comments":[]}
+{"id":69,"text":"Azmacort MDI bid,","label":[[0,8,"DRUG"],[13,16,"FREQUENCY"]],"Comments":[]}
+{"id":70,"text":"Doxycycline 100mg bid,","label":[[0,11,"DRUG"],[12,17,"STRENGTH"],[18,21,"FREQUENCY"]],"Comments":[]}
+{"id":71,"text":"She was placed on Ticlid 250mg bid.","label":[[18,24,"DRUG"],[25,30,"DOSAGE"],[31,34,"FREQUENCY"]],"Comments":[]}
+{"id":72,"text":"Flomax 0.4 mg daily,","label":[[0,6,"DRUG"],[7,13,"STRENGTH"],[14,19,"FREQUENCY"]],"Comments":[]}
+{"id":73,"text":"The patient was prescribed Flomax 0.4 mg daily.","label":[[27,33,"DRUG"],[34,40,"STRENGTH"],[41,46,"FREQUENCY"]],"Comments":[]}
+{"id":74,"text":"as well as some minor headaches treated with over-the-counter medications.,CURRENT MEDICATIONS:  ,Lamotrigine 150 mg p.o.","label":[[98,109,"DRUG"],[110,116,"STRENGTH"],[117,121,"ROUTE"]],"Comments":[]}
+{"id":75,"text":"Continue lamotrigine 150 mg p.o.","label":[[9,20,"DRUG"],[21,27,"DOSAGE"],[28,32,"ROUTE"]],"Comments":[]}
+{"id":76,"text":"citalopram (Celexa) 40 mg daily,","label":[[0,10,"DRUG"],[12,18,"DRUG"],[20,25,"STRENGTH"],[26,31,"FREQUENCY"]],"Comments":[]}
+{"id":77,"text":"She was written for Aricept to start at 5 mg for three weeks,","label":[[20,27,"DRUG"],[40,44,"DOSAGE"]],"Comments":[]}
+{"id":78,"text":"within about two weeks symptoms were back to baseline.,She was then treated with intravenous Solu-Medrol 500 mg daily for five days followed by a prednisone or Medrol taper (July 2005).","label":[[81,92,"ROUTE"],[93,104,"DRUG"],[105,111,"DOSAGE"],[112,117,"FREQUENCY"],[146,156,"DRUG"],[160,166,"DRUG"]],"Comments":[]}
+{"id":79,"text":"she was restarted on oral prednisone 10 mg tablets.","label":[[21,25,"ROUTE"],[26,36,"DRUG"],[37,42,"STRENGTH"]],"Comments":[]}
+{"id":80,"text":"She takes one-half tablet daily and this again has seemed to reduce the swelling and stiffness in her legs.","label":[[10,25,"DOSAGE"],[26,31,"FREQUENCY"]],"Comments":[]}
+{"id":81,"text":"He also has been taking Zyrtec 10 mg a day with only partial relief of the symptoms.","label":[[24,30,"DRUG"],[31,36,"DOSAGE"],[37,42,"FREQUENCY"]],"Comments":[]}
+{"id":82,"text":"Vilheim to make decisions for her.,MEDICATIONS,:  Premarin 0.625 mg p.o.","label":[[50,58,"DRUG"],[59,67,"STRENGTH"],[68,72,"ROUTE"]],"Comments":[]}
+{"id":83,"text":"Singulair 10 mg once daily,","label":[[0,9,"DRUG"],[10,15,"STRENGTH"],[16,26,"FREQUENCY"]],"Comments":[]}
+{"id":84,"text":"Cardizem 365 mg once daily,","label":[[0,8,"DRUG"],[9,15,"STRENGTH"],[16,26,"FREQUENCY"]],"Comments":[]}
+{"id":85,"text":"Coreg 25 mg once daily,","label":[[0,5,"DRUG"],[6,11,"STRENGTH"],[12,23,"FREQUENCY"]],"Comments":[]}
+{"id":86,"text":"Lanoxin 0.125 mg once daily,","label":[[0,7,"DRUG"],[8,16,"STRENGTH"],[17,27,"FREQUENCY"]],"Comments":[]}
+{"id":87,"text":"Crestor 10 mg once daily,","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[14,24,"FREQUENCY"]],"Comments":[]}
+{"id":88,"text":"lisinopril 10 mg once daily,","label":[[0,10,"DRUG"],[11,16,"STRENGTH"],[17,27,"FREQUENCY"]],"Comments":[]}
+{"id":89,"text":"Phoslo 3 tablets with meals,","label":[[0,6,"DRUG"],[7,16,"DOSAGE"],[17,27,"FREQUENCY"]],"Comments":[]}
+{"id":90,"text":"and Advair 250 mg inhaler b.i.d.,REVIEW OF SYSTEMS: ,","label":[[4,10,"DRUG"],[11,17,"STRENGTH"],[26,32,"FREQUENCY"]],"Comments":[]}
+{"id":91,"text":"Gengraf 125\/50 mg daily,","label":[[0,7,"DRUG"],[8,17,"STRENGTH"],[18,23,"FREQUENCY"]],"Comments":[]}
+{"id":92,"text":"baby aspirin 81 mg daily,","label":[[0,12,"DRUG"],[13,18,"STRENGTH"],[19,24,"FREQUENCY"]],"Comments":[]}
+{"id":93,"text":"WelChol 625 mg daily,","label":[[0,7,"DRUG"],[8,14,"STRENGTH"],[15,20,"FREQUENCY"]],"Comments":[]}
+{"id":94,"text":"and Pravachol 10 mg daily.,PAST MEDICAL HISTORY:,1.","label":[[4,13,"DRUG"],[14,19,"STRENGTH"],[20,25,"FREQUENCY"]],"Comments":[]}
+{"id":95,"text":"He took some nitroglycerin tablets at home with no relief.","label":[[13,26,"DRUG"]],"Comments":[]}
+{"id":96,"text":"Diovan HCT 80\/12.5 mg daily,","label":[[0,10,"DRUG"],[11,21,"STRENGTH"],[22,27,"FREQUENCY"]],"Comments":[]}
+{"id":97,"text":"metformin 500 mg daily.,ALLERGIES:,","label":[[0,9,"DRUG"],[10,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":98,"text":"Include metoprolol 100 mg two tablets b.i.d.,","label":[[8,18,"DRUG"],[19,25,"STRENGTH"],[26,37,"DOSAGE"],[38,44,"FREQUENCY"]],"Comments":[]}
+{"id":99,"text":"Plavix 75 mg daily,","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,18,"FREQUENCY"]],"Comments":[]}
+{"id":100,"text":"Cozaar 25 mg daily,","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,18,"FREQUENCY"]],"Comments":[]}
+{"id":101,"text":"Prilosec 20 mg daily,","label":[[0,8,"DRUG"],[9,14,"STRENGTH"],[15,20,"FREQUENCY"]],"Comments":[]}
+{"id":102,"text":"metoprolol 6.25 mg daily,","label":[[0,10,"DRUG"],[11,18,"STRENGTH"],[19,24,"FREQUENCY"]],"Comments":[]}
+{"id":103,"text":"Zocor 80 mg daily,","label":[[0,5,"DRUG"],[6,11,"STRENGTH"],[12,17,"FREQUENCY"]],"Comments":[]}
+{"id":104,"text":"Start Aranesp 60 mcg every two weeks.,3.","label":[[6,13,"DRUG"],[14,20,"DOSAGE"],[22,36,"FREQUENCY"]],"Comments":[]}
+{"id":105,"text":"I am going to instruct him in a low-potassium diet and decrease his valsartan to 20 mg daily.","label":[[68,77,"DRUG"],[81,86,"DOSAGE"],[87,92,"FREQUENCY"]],"Comments":[]}
+{"id":106,"text":"His bicarbonate is 18 and I will initiate the sodium bicarbonate 650 mg three tablets t.i.d.,6.","label":[[46,64,"DRUG"],[65,71,"STRENGTH"],[72,85,"DOSAGE"],[86,92,"FREQUENCY"]],"Comments":[]}
+{"id":107,"text":"Imdur 20 mg two to three times daily,","label":[[0,5,"DRUG"],[6,11,"STRENGTH"],[12,36,"FREQUENCY"]],"Comments":[]}
+{"id":108,"text":"insulin 70\/30 40\/45 units daily,","label":[[0,13,"DRUG"],[14,25,"DOSAGE"],[26,31,"FREQUENCY"]],"Comments":[]}
+{"id":109,"text":"? Triglide 50 mg daily,","label":[[2,10,"DRUG"],[11,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":110,"text":"Lasix 60 mg daily,","label":[[0,5,"DRUG"],[6,11,"STRENGTH"],[12,17,"FREQUENCY"]],"Comments":[]}
+{"id":111,"text":"Niaspan 500 mg daily,","label":[[0,7,"DRUG"],[8,14,"STRENGTH"],[15,20,"FREQUENCY"]],"Comments":[]}
+{"id":112,"text":"atenolol 50 mg daily,","label":[[0,8,"DRUG"],[9,14,"STRENGTH"],[15,20,"FREQUENCY"]],"Comments":[]}
+{"id":113,"text":"Crestor 5 mg daily,","label":[[0,7,"DRUG"],[8,12,"STRENGTH"],[13,18,"FREQUENCY"]],"Comments":[]}
+{"id":114,"text":"Digitek 0.125 mg daily,","label":[[0,7,"DRUG"],[8,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":115,"text":"Celexa 20 mg daily,","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,18,"FREQUENCY"]],"Comments":[]}
+{"id":116,"text":"and Flomax 0.4 mg daily.,PAST MEDICAL HISTORY:,1.","label":[[4,10,"DRUG"],[11,17,"STRENGTH"],[18,23,"FREQUENCY"]],"Comments":[]}
+{"id":117,"text":"Decrease atenolol to 25 mg daily.,4.","label":[[9,17,"DRUG"],[21,26,"DOSAGE"],[27,32,"FREQUENCY"]],"Comments":[]}
+{"id":118,"text":"Decrease enalapril to 10 mg daily.,5.","label":[[9,18,"DRUG"],[22,27,"DOSAGE"],[28,33,"FREQUENCY"]],"Comments":[]}
+{"id":119,"text":"Decrease Lasix to 20 mg daily.,6.","label":[[9,14,"DRUG"],[18,23,"DOSAGE"],[24,29,"FREQUENCY"]],"Comments":[]}
+{"id":120,"text":"and he was prescribed hydrocodone\/acetaminophen tablets and Motrin 800 mg tablets.,October 4,","label":[[22,47,"DRUG"],[60,66,"DRUG"],[67,73,"STRENGTH"]],"Comments":[]}
+{"id":121,"text":"He was prescribed Motrin 800 mg tablets and an order was sent to physical therapy.","label":[[18,24,"DRUG"],[25,31,"STRENGTH"]],"Comments":[]}
+{"id":122,"text":"Abc reports that he occasionally takes 800 mg doses of ibuprofen.","label":[[39,45,"DOSAGE"],[55,64,"DRUG"]],"Comments":[]}
+{"id":123,"text":"We will start Keflex 500 mg one p.o.","label":[[14,20,"DRUG"],[21,27,"STRENGTH"],[28,31,"DOSAGE"],[32,36,"ROUTE"]],"Comments":[]}
+{"id":124,"text":"He takes one hydrocodone 7.5\/750 mg daily.,Examination of his left knee revealed there was bilateral varus deformity,","label":[[9,12,"DOSAGE"],[13,24,"DRUG"],[25,35,"STRENGTH"],[36,41,"FREQUENCY"]],"Comments":[]}
+{"id":125,"text":"one tablet q.4-6 hours prn pain,","label":[[0,10,"DOSAGE"],[11,26,"FREQUENCY"]],"Comments":[]}
+{"id":126,"text":"#60 tablets,","label":[],"Comments":[]}
+{"id":127,"text":"prn spasms,","label":[],"Comments":[]}
+{"id":128,"text":"#90 tablets,","label":[],"Comments":[]}
+{"id":129,"text":"and dispensed some Wellbutrin XL tablets,","label":[[19,32,"DRUG"]],"Comments":[]}
+{"id":130,"text":"150-mg XL tablet q.a.m.,","label":[[0,6,"STRENGTH"],[17,23,"FREQUENCY"]],"Comments":[]}
+{"id":131,"text":"#30 tablets.,","label":[],"Comments":[]}
+{"id":132,"text":"Medications include Toprol 12.5 mg twice daily,","label":[[20,26,"DRUG"],[27,34,"STRENGTH"],[35,46,"FREQUENCY"]],"Comments":[]}
+{"id":133,"text":"ranitidine 75 mg daily,","label":[[0,10,"DRUG"],[11,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":134,"text":"not typically taken and a prescription in the house for Keflex 500 mg q.i.d.","label":[[56,62,"DRUG"],[63,69,"STRENGTH"],[70,76,"FREQUENCY"]],"Comments":[]}
+{"id":135,"text":"His medications include Avelox 400 mg.","label":[[24,30,"DRUG"],[31,37,"STRENGTH"]],"Comments":[]}
+{"id":136,"text":"Lasix 80 mg twice daily,","label":[[0,5,"DRUG"],[6,11,"STRENGTH"],[12,23,"FREQUENCY"]],"Comments":[]}
+{"id":137,"text":"Inspra twice daily,","label":[[0,6,"DRUG"],[7,18,"FREQUENCY"]],"Comments":[]}
+{"id":138,"text":"Norvasc 10 mg daily,","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[14,19,"FREQUENCY"]],"Comments":[]}
+{"id":139,"text":"We are going to increase methadone to 70 mg every eight hours and continue 30 mg for breakthrough.","label":[[25,34,"DRUG"],[38,43,"DOSAGE"],[44,61,"FREQUENCY"],[75,80,"DOSAGE"]],"Comments":[]}
+{"id":140,"text":"We will start Megace 200 mg daily.,4.","label":[[14,20,"DRUG"],[21,27,"DOSAGE"],[28,33,"FREQUENCY"]],"Comments":[]}
+{"id":141,"text":"We will start oxycodone 5 mg q.2h.","label":[[14,23,"DRUG"],[24,28,"DOSAGE"],[29,34,"FREQUENCY"]],"Comments":[]}
+{"id":142,"text":"We will use lorazepam 0.25-0.5 mg at bedtime as needed.,6.","label":[[12,21,"DRUG"],[22,33,"DOSAGE"],[34,54,"FREQUENCY"]],"Comments":[]}
+{"id":143,"text":"No melena or hematochezia.,CURRENT MEDICATIONS:  ,Macrobid 100 mg q.d.,ALLERGIES:  ,Sulfa,","label":[[50,58,"DRUG"],[59,65,"STRENGTH"],[66,70,"FREQUENCY"]],"Comments":[]}
+{"id":144,"text":"Protonix 40 mg intravenous (IV) daily.,4.","label":[[0,8,"DRUG"],[9,14,"DOSAGE"],[15,26,"ROUTE"],[28,30,"ROUTE"],[32,37,"FREQUENCY"]],"Comments":[]}
+{"id":145,"text":"which showed no evidence of pulmonary embolism and the patient was started on prophylactic doses of Lovenox at 40 mg a day.","label":[[100,107,"DRUG"],[111,116,"DOSAGE"],[117,122,"FREQUENCY"]],"Comments":[]}
+{"id":146,"text":"but continue estradiol\/Prometrium.,Iron deficiency will be treated with oral iron supplements and we will follow her counts.","label":[[13,22,"DRUG"],[23,33,"DRUG"],[72,76,"ROUTE"],[77,93,"DRUG"]],"Comments":[]}
+{"id":147,"text":"Protonix 40 mg daily.","label":[[0,8,"DRUG"],[9,14,"STRENGTH"],[15,20,"FREQUENCY"]],"Comments":[]}
+{"id":148,"text":"Zanaflex 4-mg tablet,","label":[[0,8,"DRUG"],[9,13,"STRENGTH"]],"Comments":[]}
+{"id":149,"text":"one-half tablet daily and 6 mg at bedtime.","label":[[0,15,"DOSAGE"],[16,21,"FREQUENCY"],[26,30,"DOSAGE"],[31,41,"FREQUENCY"]],"Comments":[]}
+{"id":150,"text":"we will continue intravenous heparin and subsequent oral anticoagulation with Coumadin.","label":[[17,28,"ROUTE"],[29,36,"DRUG"],[52,56,"ROUTE"],[78,86,"DRUG"]],"Comments":[]}
+{"id":151,"text":"Dilantin 300 mg daily.,2.","label":[[0,8,"DRUG"],[9,15,"STRENGTH"],[16,21,"FREQUENCY"]],"Comments":[]}
+{"id":152,"text":"Pen-VK 500 mg daily.,6.","label":[[0,6,"DRUG"],[7,13,"STRENGTH"],[14,19,"FREQUENCY"]],"Comments":[]}
+{"id":153,"text":"Ibuprofen 600 mg daily.,7.","label":[[0,9,"DRUG"],[10,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":154,"text":"Temodar 100 mg daily.,9.","label":[[0,7,"DRUG"],[8,14,"STRENGTH"],[15,20,"FREQUENCY"]],"Comments":[]}
+{"id":155,"text":"Diovan 80\/12.5 mg daily,","label":[[0,6,"DRUG"],[7,17,"STRENGTH"],[18,23,"FREQUENCY"]],"Comments":[]}
+{"id":156,"text":"Lipitor 10 mg daily,","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[14,19,"FREQUENCY"]],"Comments":[]}
+{"id":157,"text":"Lutein 20 mg daily,","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,18,"FREQUENCY"]],"Comments":[]}
+{"id":158,"text":"folic acid 0.8 mg daily and multivitamin daily.,ALLERGIES:  ,No known drug allergies.,FAMILY HISTORY: ,","label":[[0,10,"DRUG"],[11,17,"STRENGTH"],[18,23,"FREQUENCY"],[28,40,"DRUG"],[41,46,"FREQUENCY"]],"Comments":[]}
+{"id":159,"text":"Advair 1 puff bid Lisinopril 10 mg qd Lopressor 50 mg bid Aspirin 81 mg qd Plavix 75 mg qd Multivitamins Feso4 1 tab qd Colace 100 mg qd,REVIEW OF SYSTEMS REVEALS:,","label":[[0,6,"DRUG"],[7,13,"DOSAGE"],[14,17,"FREQUENCY"],[18,28,"DRUG"],[29,34,"STRENGTH"],[35,37,"FREQUENCY"],[38,47,"DRUG"],[48,53,"STRENGTH"],[54,57,"FREQUENCY"],[58,65,"DRUG"],[66,71,"STRENGTH"],[72,74,"FREQUENCY"],[75,81,"STRENGTH"],[82,87,"STRENGTH"],[88,91,"FREQUENCY"],[91,104,"DRUG"],[105,110,"DRUG"],[111,116,"DOSAGE"],[117,119,"FREQUENCY"],[120,126,"DRUG"],[127,133,"STRENGTH"],[134,136,"FREQUENCY"]],"Comments":[]}
+{"id":160,"text":"refusing oral or IM medications,","label":[],"Comments":[]}
+{"id":161,"text":"and then three days prior to admission was given daily 1 g Rocephin and started on azithromycin.","label":[[49,54,"FREQUENCY"],[55,58,"DOSAGE"],[59,67,"DRUG"],[83,95,"DRUG"]],"Comments":[]}
+{"id":162,"text":"She is to continue the increased dose of prednisone at 20 mg (up from 5 mg per day).","label":[[41,51,"DRUG"],[55,60,"DOSAGE"],[70,74,"DOSAGE"],[75,82,"FREQUENCY"]],"Comments":[]}
+{"id":163,"text":"the patient continued to receive Coreg 12.5 mg daily and Lasix 40 mg twice a day for her congestive heart failure,","label":[[33,38,"DRUG"],[39,46,"STRENGTH"],[47,52,"FREQUENCY"],[57,62,"DRUG"],[63,68,"STRENGTH"],[69,80,"FREQUENCY"]],"Comments":[]}
+{"id":164,"text":"Nitro-Dur patch 0.3 mg per hour one patch daily.,4.","label":[[0,9,"DRUG"],[16,31,"STRENGTH"],[32,41,"DOSAGE"],[42,47,"FREQUENCY"]],"Comments":[]}
+{"id":165,"text":"Bactrim DS 800mg\/160 mg tablet one tablet q.12h.","label":[[0,10,"DRUG"],[11,23,"STRENGTH"],[31,41,"DOSAGE"],[42,48,"FREQUENCY"]],"Comments":[]}
+{"id":166,"text":"Levaquin 750 mg one tablet p.o.","label":[[0,8,"DRUG"],[9,15,"STRENGTH"],[16,26,"DOSAGE"],[27,31,"ROUTE"]],"Comments":[]}
+{"id":167,"text":"She is taking oral birth control medications and also has an intrauterine device to prevent pregnancy as the patient is on Accutane.,PAST MEDICAL HISTORY:,","label":[[14,18,"ROUTE"],[19,44,"DRUG"],[123,131,"DRUG"]],"Comments":[]}
+{"id":168,"text":"The patient was encouraged to take Motrin 400 mg q.6h.","label":[[35,41,"DRUG"],[42,48,"DOSAGE"],[49,54,"FREQUENCY"]],"Comments":[]}
+{"id":169,"text":"I did urge him to use Claritin 10 mg once daily until the redness and swelling has gone.","label":[[22,30,"DRUG"],[31,36,"DOSAGE"],[37,47,"FREQUENCY"]],"Comments":[]}
+{"id":170,"text":"Atacand 16 mg daily,","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[14,19,"FREQUENCY"]],"Comments":[]}
+{"id":171,"text":"pantoprazole 40 mg daily,","label":[[0,12,"DRUG"],[13,18,"STRENGTH"],[19,24,"FREQUENCY"]],"Comments":[]}
+{"id":172,"text":"Detrol 4 mg daily,","label":[[0,6,"DRUG"],[7,11,"STRENGTH"],[12,17,"FREQUENCY"]],"Comments":[]}
+{"id":173,"text":"Zyrtec 10 mg daily,","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,18,"FREQUENCY"]],"Comments":[]}
+{"id":174,"text":"and fluticasone spray 50 mcg two sprays daily.,PAST SURGICAL HISTORY:,","label":[[4,15,"DRUG"],[22,28,"STRENGTH"],[29,39,"DOSAGE"],[40,45,"FREQUENCY"]],"Comments":[]}
+{"id":175,"text":"dose unknown; oxazepam 15 mg daily; aspirin 80 one daily; ibuprofen PRN; Darvocet-N 100 PRN.,SOCIAL HISTORY:,","label":[[14,22,"DRUG"],[23,28,"STRENGTH"],[29,34,"FREQUENCY"],[36,43,"DRUG"],[44,46,"STRENGTH"],[47,50,"DOSAGE"],[51,56,"FREQUENCY"],[58,67,"DRUG"],[68,71,"FREQUENCY"],[73,83,"DRUG"],[84,87,"STRENGTH"],[88,91,"FREQUENCY"]],"Comments":[]}
+{"id":176,"text":"Citalopram 10mg once daily for depression; low dose tramadol PRN pain.,PHYSICAL EXAMINATION: ,","label":[[0,10,"DRUG"],[11,15,"STRENGTH"],[16,26,"FREQUENCY"],[52,60,"DRUG"],[61,64,"FREQUENCY"]],"Comments":[]}
+{"id":177,"text":"she was given propranolol at 40mg daily and continued on telemetry.","label":[[14,25,"DRUG"],[29,33,"DOSAGE"],[34,39,"FREQUENCY"]],"Comments":[]}
+{"id":178,"text":"Propranolol was increased from 40mg daily to 60mg twice daily.,","label":[[0,11,"DRUG"],[31,35,"DOSAGE"],[36,41,"FREQUENCY"],[45,49,"DOSAGE"],[50,61,"FREQUENCY"]],"Comments":[]}
+{"id":179,"text":"one tablet twice daily.,3.","label":[[0,10,"DOSAGE"],[11,22,"FREQUENCY"]],"Comments":[]}
+{"id":180,"text":"Patient was instructed to use 2 forms of birth control and was discharged an oral contraceptive,","label":[[77,95,"DRUG"]],"Comments":[]}
+{"id":181,"text":"taken one tablet daily.,5.","label":[[6,16,"DOSAGE"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":182,"text":"I have advised him to take Lasix 40 mg p.o.","label":[[27,32,"DRUG"],[33,38,"DOSAGE"],[39,43,"ROUTE"]],"Comments":[]}
+{"id":183,"text":"in light of the fact that the patient is obtunded and is not taking anything right now in the way of oral food or fluids,","label":[],"Comments":[]}
+{"id":184,"text":"Prozac 40 mg orally daily.,SOCIAL HISTORY:,","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,19,"ROUTE"],[20,25,"FREQUENCY"]],"Comments":[]}
+{"id":185,"text":"which was resistant to all oral medications.,ALLERGIES: ,","label":[],"Comments":[]}
+{"id":186,"text":"We will start her on IV Vasotec every 4 hours p.r.n.","label":[[21,23,"ROUTE"],[24,31,"DRUG"],[32,52,"FREQUENCY"]],"Comments":[]}
+{"id":187,"text":"We will start her on Lovenox subcutaneously 40 mg every day and we will continue with the Ecotrin as swallowing evaluation was done.","label":[[21,28,"DRUG"],[29,43,"ROUTE"],[44,49,"DOSAGE"],[50,59,"FREQUENCY"],[90,97,"DRUG"]],"Comments":[]}
+{"id":188,"text":"I will continue with the IV fluids at 75 mL an hour with a D5 normal saline at the range of 75 mL an hour and adding potassium 10 mEq per 1000 mL and I would follow the patient on daily basis.","label":[[25,27,"ROUTE"],[59,75,"DRUG"],[117,126,"DRUG"],[127,145,"STRENGTH"]],"Comments":[]}
+{"id":189,"text":"with his current medications which include the Lantus at 30 units along with Actos,","label":[[47,53,"DRUG"],[57,65,"DOSAGE"],[77,82,"DRUG"]],"Comments":[]}
+{"id":190,"text":"Hydroxyurea 500 mg daily,","label":[[0,11,"DRUG"],[12,18,"STRENGTH"],[19,24,"FREQUENCY"]],"Comments":[]}
+{"id":191,"text":"Synthroid 0.1 mg daily,","label":[[0,9,"DRUG"],[10,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":192,"text":"Included Dilantin 400 mg daily,","label":[[9,17,"DRUG"],[18,24,"STRENGTH"],[25,30,"FREQUENCY"]],"Comments":[]}
+{"id":193,"text":"Hypertension treated with Cozaar 100 mg daily and Norvasc 10 mg daily.","label":[[26,32,"DRUG"],[33,39,"STRENGTH"],[40,45,"FREQUENCY"],[50,57,"DRUG"],[58,63,"STRENGTH"],[64,69,"FREQUENCY"]],"Comments":[]}
+{"id":194,"text":"Esophageal reflux treated with Nexium 40 mg daily.","label":[[31,37,"DRUG"],[38,43,"STRENGTH"],[44,49,"FREQUENCY"]],"Comments":[]}
+{"id":195,"text":"Allergic rhinitis treated with Allegra 180 mg daily.","label":[[31,38,"DRUG"],[39,45,"STRENGTH"],[46,51,"FREQUENCY"]],"Comments":[]}
+{"id":196,"text":"depression and anxiety treated with Paxil 25 mg daily,","label":[[36,41,"DRUG"],[42,47,"STRENGTH"],[48,53,"FREQUENCY"]],"Comments":[]}
+{"id":197,"text":"and Claritin 10 mg daily p.r.n.,FAMILY HISTORY: ,","label":[[4,12,"DRUG"],[13,18,"STRENGTH"],[19,31,"FREQUENCY"]],"Comments":[]}
+{"id":198,"text":"We will start Lovenox 1 mg per kg subcu daily and Coumadin 5 mg p.o.","label":[[14,21,"DRUG"],[22,33,"DOSAGE"],[34,39,"ROUTE"],[40,45,"FREQUENCY"],[50,58,"DRUG"],[59,63,"DOSAGE"],[64,68,"ROUTE"]],"Comments":[]}
+{"id":199,"text":"The patient said that he missed 3 doses of digoxin in the last 3 days after being discharged from Anaheim Memorial and then took 3 tablets together.","label":[[32,39,"DOSAGE"],[43,50,"DRUG"],[129,138,"DOSAGE"]],"Comments":[]}
+{"id":200,"text":"The patient was advised that he will develop more opioid dependence and I will stop the pain medications for now and give him only oral pain medications in the anticipation of the discharge in the next 1 or 2 days.","label":[],"Comments":[]}
+{"id":201,"text":"Crestor 10 mg daily,","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[14,19,"FREQUENCY"]],"Comments":[]}
+{"id":202,"text":"Micardis 80 mg daily,","label":[[0,8,"DRUG"],[9,14,"STRENGTH"],[15,20,"FREQUENCY"]],"Comments":[]}
+{"id":203,"text":"Imdur 30 mg daily,","label":[[0,5,"DRUG"],[6,11,"STRENGTH"],[12,17,"FREQUENCY"]],"Comments":[]}
+{"id":204,"text":"Amlodipine 10 mg daily,","label":[[0,10,"DRUG"],[11,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":205,"text":"Ecotrin 325 mg daily,","label":[[0,7,"DRUG"],[8,14,"STRENGTH"],[15,20,"FREQUENCY"]],"Comments":[]}
+{"id":206,"text":"and calcitriol 0.5 mcg daily.,REVIEW OF SYSTEMS: ,","label":[[4,14,"DRUG"],[15,22,"STRENGTH"],[23,28,"FREQUENCY"]],"Comments":[]}
+{"id":207,"text":"We will add allopurinol 50 mg daily.","label":[[12,23,"DRUG"],[24,29,"STRENGTH"],[30,35,"FREQUENCY"]],"Comments":[]}
+{"id":208,"text":"Digoxin 0.125 mg daily.,4.","label":[[0,7,"DRUG"],[8,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":209,"text":"Prozac 20 mg daily.,6.","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,18,"FREQUENCY"]],"Comments":[]}
+{"id":210,"text":"Lasix 40 mg daily.,7.","label":[[0,5,"DRUG"],[6,11,"STRENGTH"],[12,17,"FREQUENCY"]],"Comments":[]}
+{"id":211,"text":"Lisinopril 10 mg daily.,11.","label":[[0,10,"DRUG"],[11,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":212,"text":"Metoprolol 25 mg twice daily.,13.","label":[[0,10,"DRUG"],[11,16,"STRENGTH"],[17,28,"FREQUENCY"]],"Comments":[]}
+{"id":213,"text":"Zegerid 40 mg daily.,15.","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[14,19,"FREQUENCY"]],"Comments":[]}
+{"id":214,"text":"Simvastatin 10 mg daily.,ALLERGIES:  Percocet,","label":[[0,11,"DRUG"],[12,17,"STRENGTH"],[18,23,"FREQUENCY"]],"Comments":[]}
+{"id":215,"text":"we will continue the patient on her current regimen of Lantus 12 units subcu.","label":[[55,61,"DRUG"],[62,70,"DOSAGE"],[71,76,"ROUTE"]],"Comments":[]}
+{"id":216,"text":"We will continue to check her sugars every 6 hours and adjust insulin as necessary.","label":[[62,69,"DRUG"]],"Comments":[]}
+{"id":217,"text":"Evidence of right lower arm amputation.,The patient was started on Prevacid 30 mg daily,","label":[[67,75,"DRUG"],[76,81,"STRENGTH"],[82,87,"FREQUENCY"]],"Comments":[]}
+{"id":218,"text":"Lortab 7.5 mg up to three times daily for chronic arthritic discomfort,","label":[[0,6,"DRUG"],[7,13,"STRENGTH"],[14,31,"FREQUENCY"]],"Comments":[]}
+{"id":219,"text":"Miacalcin nasal spray once daily,","label":[[0,9,"DRUG"],[10,15,"ROUTE"],[22,32,"FREQUENCY"]],"Comments":[]}
+{"id":220,"text":"omeprazole 20 mg daily,","label":[[0,10,"DRUG"],[11,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":221,"text":"Diovan 320 mg daily,","label":[[0,6,"DRUG"],[7,13,"STRENGTH"],[14,19,"FREQUENCY"]],"Comments":[]}
+{"id":222,"text":"glyburide 5 mg daily,","label":[[0,9,"DRUG"],[10,14,"STRENGTH"],[15,20,"FREQUENCY"]],"Comments":[]}
+{"id":223,"text":"furosemide 40 mg daily,","label":[[0,10,"DRUG"],[11,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":224,"text":"amlodipine 5 mg daily,","label":[[0,10,"DRUG"],[11,15,"STRENGTH"],[16,21,"FREQUENCY"]],"Comments":[]}
+{"id":225,"text":"in addition to Tekturna 150 mg daily,","label":[[15,23,"DRUG"],[24,30,"STRENGTH"],[31,36,"FREQUENCY"]],"Comments":[]}
+{"id":226,"text":"Zoloft 25 mg daily.,ALLERGIES:  ,He has known history of allergy to clonidine,","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,18,"FREQUENCY"],[68,77,"DRUG"]],"Comments":[]}
+{"id":227,"text":"clarithromycin 500 mg po bid,","label":[[0,14,"DRUG"],[15,21,"STRENGTH"],[22,24,"ROUTE"],[25,28,"FREQUENCY"]],"Comments":[]}
+{"id":228,"text":"Prograf 5 mg po bid,","label":[[0,7,"DRUG"],[8,12,"STRENGTH"],[13,15,"ROUTE"],[16,19,"FREQUENCY"]],"Comments":[]}
+{"id":229,"text":"ranitidine 150 mg po bid,","label":[[0,10,"DRUG"],[11,17,"STRENGTH"],[18,20,"ROUTE"],[21,24,"FREQUENCY"]],"Comments":[]}
+{"id":230,"text":"furosemide 40 mg po bid,","label":[[0,10,"DRUG"],[11,16,"STRENGTH"],[17,19,"ROUTE"],[20,23,"FREQUENCY"]],"Comments":[]}
+{"id":231,"text":"metformin 500 mg po bid,","label":[[0,9,"DRUG"],[10,16,"STRENGTH"],[17,19,"ROUTE"],[20,23,"FREQUENCY"]],"Comments":[]}
+{"id":232,"text":"If not then she will fill a prescription for Omnicef 300 mg capsule 1 p.o.","label":[[45,52,"DRUG"],[53,59,"STRENGTH"],[68,69,"DOSAGE"],[70,74,"ROUTE"]],"Comments":[]}
+{"id":233,"text":"medications are Lotensin 20 mg daily,","label":[[16,24,"DRUG"],[25,30,"STRENGTH"],[31,36,"FREQUENCY"]],"Comments":[]}
+{"id":234,"text":"Toprol 50 mg daily,","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,18,"FREQUENCY"]],"Comments":[]}
+{"id":235,"text":"Plavix 75 mg daily and aspirin 81 mg daily.,ALLERGIES:,","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,18,"FREQUENCY"],[23,30,"DRUG"],[31,36,"STRENGTH"],[37,42,"FREQUENCY"]],"Comments":[]}
+{"id":236,"text":"I will continue him on his amiodarone 200 mg twice daily and consult CHI to evaluate him.,3.","label":[[27,37,"DRUG"],[38,44,"STRENGTH"],[45,56,"FREQUENCY"]],"Comments":[]}
+{"id":237,"text":"prn; and Fluticasone nasal inhaler.","label":[[9,20,"DRUG"]],"Comments":[]}
+{"id":238,"text":"Claritin 10mg po qd,No herbal medication use.,Allergies:,","label":[[0,8,"DRUG"],[9,13,"STRENGTH"],[14,16,"ROUTE"],[17,19,"FREQUENCY"]],"Comments":[]}
+{"id":239,"text":"ENDOCRINE:  Unable to assess because of patient's bed-bound status.,MEDICATIONS:  ,Percocet 2 tablets 4 times a day,","label":[[83,91,"DRUG"],[92,101,"DOSAGE"],[102,115,"FREQUENCY"]],"Comments":[]}
+{"id":240,"text":"Neurontin 1 tablet b.i.d.","label":[[0,9,"DRUG"],[10,18,"DOSAGE"],[19,25,"FREQUENCY"]],"Comments":[]}
+{"id":241,"text":"Flexeril 1 tablet t.i.d.,","label":[[0,8,"DRUG"],[9,17,"DOSAGE"],[18,24,"FREQUENCY"]],"Comments":[]}
+{"id":242,"text":"Synthroid 125 mcg daily,","label":[[0,9,"DRUG"],[10,17,"STRENGTH"],[18,23,"FREQUENCY"]],"Comments":[]}
+{"id":243,"text":"continue Neurontin 600 mg b.i.d.,","label":[[9,18,"DRUG"],[19,25,"STRENGTH"],[26,32,"FREQUENCY"]],"Comments":[]}
+{"id":244,"text":"Acetaminophen 325 mg 2 tablets twice daily,","label":[[0,13,"DRUG"],[14,20,"STRENGTH"],[21,30,"DOSAGE"],[31,42,"FREQUENCY"]],"Comments":[]}
+{"id":245,"text":"Coreg 6.25 mg twice daily,","label":[[0,5,"DRUG"],[6,13,"STRENGTH"],[14,25,"FREQUENCY"]],"Comments":[]}
+{"id":246,"text":"Docusate sodium 100 mg 1 cap twice daily,","label":[[0,15,"DRUG"],[16,22,"STRENGTH"],[23,28,"DOSAGE"],[29,40,"FREQUENCY"]],"Comments":[]}
+{"id":247,"text":"ibuprofen 600 mg twice daily with food,","label":[[0,9,"DRUG"],[10,16,"STRENGTH"],[17,28,"FREQUENCY"]],"Comments":[]}
+{"id":248,"text":"ferrous sulfate 325 mg daily,","label":[[0,15,"DRUG"],[16,22,"STRENGTH"],[23,28,"FREQUENCY"]],"Comments":[]}
+{"id":249,"text":"Tapazole 5 mg daily,","label":[[0,8,"DRUG"],[9,13,"STRENGTH"],[14,19,"FREQUENCY"]],"Comments":[]}
+{"id":250,"text":"Zoloft 50 mg daily,","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,18,"FREQUENCY"]],"Comments":[]}
+{"id":251,"text":"It seems to be stable on the Zoloft 50 mg daily,","label":[[29,35,"DRUG"],[36,41,"STRENGTH"],[42,47,"FREQUENCY"]],"Comments":[]}
+{"id":252,"text":"3 to take 1 tablet before bed as needed for her back pain.","label":[[10,18,"DOSAGE"],[19,39,"FREQUENCY"]],"Comments":[]}
+{"id":253,"text":"Toprol-XL 100 mg daily,","label":[[0,9,"DRUG"],[10,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":254,"text":"Levoxyl 50 mcg daily,","label":[[0,7,"DRUG"],[8,14,"STRENGTH"],[15,20,"FREQUENCY"]],"Comments":[]}
+{"id":255,"text":"AyrGel to both nostrils twice daily,","label":[[0,6,"DRUG"],[10,23,"ROUTE"],[24,35,"FREQUENCY"]],"Comments":[]}
+{"id":256,"text":"Senna S 2 tablets twice daily,","label":[[0,7,"DRUG"],[8,17,"DOSAGE"],[18,29,"FREQUENCY"]],"Comments":[]}
+{"id":257,"text":"Timoptic 1 drop both eyes twice daily,","label":[[0,8,"DRUG"],[9,15,"DOSAGE"],[16,25,"ROUTE"],[26,37,"FREQUENCY"]],"Comments":[]}
+{"id":258,"text":"Tylenol 1000 mg 3 times daily,","label":[[0,7,"DRUG"],[8,15,"STRENGTH"],[16,29,"FREQUENCY"]],"Comments":[]}
+{"id":259,"text":"I have a feeling she would not tolerate either the FiberCon tablets or Metamucil powder in a drink.","label":[[51,59,"DRUG"],[71,80,"DRUG"]],"Comments":[]}
+{"id":260,"text":"Tylenol #3 q6h prn,","label":[[0,10,"DRUG"],[11,18,"FREQUENCY"]],"Comments":[]}
+{"id":261,"text":"ibuprofen 800 mg q8h prn,","label":[[0,9,"DRUG"],[10,16,"STRENGTH"],[17,24,"FREQUENCY"]],"Comments":[]}
+{"id":262,"text":"methocarbamol 750 mg qid.,ALLERGIES:,","label":[[0,13,"DRUG"],[14,20,"STRENGTH"],[21,24,"FREQUENCY"]],"Comments":[]}
+{"id":263,"text":"Captopril 25 mg po tid.,6.","label":[[0,9,"DRUG"],[10,15,"STRENGTH"],[16,18,"ROUTE"],[19,22,"FREQUENCY"]],"Comments":[]}
+{"id":264,"text":"Carvedilol 3.125 mg po bid.,ALLERGIES:,","label":[[0,10,"DRUG"],[11,19,"STRENGTH"],[20,22,"ROUTE"],[23,26,"FREQUENCY"]],"Comments":[]}
+{"id":265,"text":"is up to 4-1\/2 hours sprints twice daily and may go up 15 minutes every three days or so; which she has been tolerating fairly well as long as they kind of get her distracted towards the end,","label":[],"Comments":[]}
+{"id":266,"text":"Vioxx 25 mg daily,","label":[[0,5,"DRUG"],[6,11,"STRENGTH"],[12,17,"FREQUENCY"]],"Comments":[]}
+{"id":267,"text":"HCTZ 25 mg one-half tablet daily,","label":[[0,4,"DRUG"],[5,10,"STRENGTH"],[11,26,"DOSAGE"],[27,32,"FREQUENCY"]],"Comments":[]}
+{"id":268,"text":"Zoloft 100 mg daily,","label":[[0,6,"DRUG"],[7,13,"STRENGTH"],[14,19,"FREQUENCY"]],"Comments":[]}
+{"id":269,"text":"Zyrtec 10 mg daily.,ALLERGIES TO MEDICATIONS: ,","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,18,"FREQUENCY"]],"Comments":[]}
+{"id":270,"text":"Amoxicillin a teaspoon twice daily for 10 days.","label":[[0,11,"DRUG"],[12,22,"DOSAGE"],[23,34,"FREQUENCY"]],"Comments":[]}
+{"id":271,"text":"Nifedipine-XR 90 mg daily,","label":[[0,13,"DRUG"],[14,19,"STRENGTH"],[20,25,"FREQUENCY"]],"Comments":[]}
+{"id":272,"text":"furosemide 20 mg half tablet b.i.d.,","label":[[0,10,"DRUG"],[11,16,"STRENGTH"],[17,28,"DOSAGE"],[29,35,"FREQUENCY"]],"Comments":[]}
+{"id":273,"text":"lisinopril 20 mg daily,","label":[[0,10,"DRUG"],[11,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":274,"text":"Ogen 0.625 mg daily,","label":[[0,4,"DRUG"],[5,13,"STRENGTH"],[14,19,"FREQUENCY"]],"Comments":[]}
+{"id":275,"text":"We will try starting her back on Wellbutrin XL 150 mg daily.","label":[[33,46,"DRUG"],[47,53,"STRENGTH"],[54,59,"FREQUENCY"]],"Comments":[]}
+{"id":276,"text":"She may increase to 300 mg daily after three to seven days.","label":[[20,26,"STRENGTH"],[27,32,"FREQUENCY"]],"Comments":[]}
+{"id":277,"text":"We will start her on fluoxetine 20 mg one tablet p.o.","label":[[21,31,"DRUG"],[32,37,"STRENGTH"],[38,48,"DOSAGE"],[49,53,"ROUTE"]],"Comments":[]}
+{"id":278,"text":"Levothroid 0.05 mg daily,","label":[[0,10,"DRUG"],[11,18,"STRENGTH"],[19,24,"FREQUENCY"]],"Comments":[]}
+{"id":279,"text":"Diazepam 5 mg tablet 1 p.o.","label":[[0,8,"DRUG"],[9,13,"STRENGTH"],[21,22,"DOSAGE"],[23,27,"ROUTE"]],"Comments":[]}
+{"id":280,"text":"total of 5 tablets.,3.","label":[[9,18,"DOSAGE"]],"Comments":[]}
+{"id":281,"text":"the patient ended up taking a total of six Ecstasy tablets.","label":[[39,42,"DOSAGE"],[43,50,"DRUG"]],"Comments":[]}
+{"id":282,"text":"Enteric-coated aspirin 81 mg one daily.","label":[[0,22,"DRUG"],[23,28,"STRENGTH"],[29,32,"DOSAGE"],[33,38,"FREQUENCY"]],"Comments":[]}
+{"id":283,"text":"TriCor 48 mg one daily.,3.","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,16,"DOSAGE"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":284,"text":"Zantac 40 mg one daily.,4.","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,16,"DOSAGE"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":285,"text":"Lisinopril 20 mg one daily.,5.","label":[[0,10,"DRUG"],[11,16,"STRENGTH"],[17,20,"DOSAGE"],[21,26,"FREQUENCY"]],"Comments":[]}
+{"id":286,"text":"Mobic 75 mg one daily for arthritis.,6.","label":[[0,5,"DRUG"],[6,11,"STRENGTH"],[12,15,"DOSAGE"],[16,21,"FREQUENCY"]],"Comments":[]}
+{"id":287,"text":"Metformin 500 mg one daily.,7.","label":[[0,9,"DRUG"],[10,16,"STRENGTH"],[17,20,"DOSAGE"],[21,26,"FREQUENCY"]],"Comments":[]}
+{"id":288,"text":"Zocor 20 mg one daily,","label":[[0,5,"DRUG"],[6,11,"STRENGTH"],[12,15,"DOSAGE"],[16,21,"FREQUENCY"]],"Comments":[]}
+{"id":289,"text":"Effexor XR 37.5 mg one daily.,DIET: ,","label":[[0,10,"DRUG"],[11,18,"STRENGTH"],[19,22,"DOSAGE"],[23,28,"FREQUENCY"]],"Comments":[]}
+{"id":290,"text":"Calcium with vitamin D 1 tablet twice a day.,2.","label":[[0,22,"DRUG"],[23,31,"DOSAGE"],[32,43,"FREQUENCY"]],"Comments":[]}
+{"id":291,"text":"Lovenox 40 mg in 0.4 mL solution inject subcutaneously once daily for 14 days.,3.","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[17,23,"DOSAGE"],[40,54,"ROUTE"],[55,65,"FREQUENCY"]],"Comments":[]}
+{"id":292,"text":"Vicodin 5\/500 mg and take one tablet by mouth every four hours as needed for pain.,4.","label":[[0,7,"DRUG"],[8,16,"STRENGTH"],[26,36,"DOSAGE"],[37,45,"ROUTE"],[46,72,"FREQUENCY"]],"Comments":[]}
+{"id":293,"text":"Phenergan 12.5 mg tablets,","label":[[0,9,"DRUG"],[10,17,"STRENGTH"]],"Comments":[]}
+{"id":294,"text":"take one tablet by mouth every six hours p.r.n.","label":[[5,15,"DOSAGE"],[16,24,"ROUTE"],[25,47,"FREQUENCY"]],"Comments":[]}
+{"id":295,"text":"Imodium A-D tablets take one tablet by mouth b.i.d.","label":[[0,11,"DRUG"],[25,35,"DOSAGE"],[36,44,"ROUTE"],[45,51,"FREQUENCY"]],"Comments":[]}
+{"id":296,"text":"She is to continue taking Coreg 12.5 mg p.o.","label":[[26,31,"DRUG"],[32,39,"STRENGTH"],[40,44,"ROUTE"]],"Comments":[]}
+{"id":297,"text":"Cardizem CD 120 mg daily.,4.","label":[[0,11,"DRUG"],[12,18,"STRENGTH"],[19,24,"FREQUENCY"]],"Comments":[]}
+{"id":298,"text":"Paxil 10 mg daily.,10.","label":[[0,5,"DRUG"],[6,11,"STRENGTH"],[12,17,"FREQUENCY"]],"Comments":[]}
+{"id":299,"text":"Prednisone 20 mg daily.,11.","label":[[0,10,"DRUG"],[11,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":300,"text":"one q.4h PRN pain.,12.","label":[[0,3,"DOSAGE"],[4,12,"FREQUENCY"]],"Comments":[]}
+{"id":301,"text":"Synthroid 50 mcg daily.,14.","label":[[0,9,"DRUG"],[10,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":302,"text":"Nexium 40 mg daily.,HOSPITAL COURSE:,","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,18,"FREQUENCY"]],"Comments":[]}
+{"id":303,"text":"Prednisolone 60 mg orally once daily,","label":[[0,12,"DRUG"],[13,18,"STRENGTH"],[19,25,"ROUTE"],[26,36,"FREQUENCY"]],"Comments":[]}
+{"id":304,"text":"Coumadin 5 mg orally once daily,","label":[[0,8,"DRUG"],[9,13,"STRENGTH"],[14,20,"ROUTE"],[21,31,"FREQUENCY"]],"Comments":[]}
+{"id":305,"text":"magnesium oxide 200 mg orally once daily.,TRANSFER INSTRUCTIONS:,","label":[[0,15,"DRUG"],[16,22,"STRENGTH"],[23,29,"ROUTE"],[30,40,"FREQUENCY"]],"Comments":[]}
+{"id":306,"text":"Levaquin 750 mg daily x14 days.,Followup is with Dr.","label":[[0,8,"DRUG"],[9,15,"STRENGTH"],[16,21,"FREQUENCY"]],"Comments":[]}
+{"id":307,"text":"Celexa 40 mg daily.,3.","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,18,"FREQUENCY"]],"Comments":[]}
+{"id":308,"text":"Aspirin 81 mg orally once daily.,2.","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[14,20,"ROUTE"],[21,31,"FREQUENCY"]],"Comments":[]}
+{"id":309,"text":"Calcium with vitamin D two tablets orally once daily.,3.","label":[[0,22,"DRUG"],[23,34,"DOSAGE"],[35,41,"ROUTE"],[42,52,"FREQUENCY"]],"Comments":[]}
+{"id":310,"text":"Nexium 40 mg orally once daily.,4.","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,19,"ROUTE"],[20,30,"FREQUENCY"]],"Comments":[]}
+{"id":311,"text":"Multivitamins with minerals one capsule once daily.,5.","label":[[0,27,"DRUG"],[28,39,"DOSAGE"],[40,50,"FREQUENCY"]],"Comments":[]}
+{"id":312,"text":"Zoloft 25 mg orally once daily.,6.","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,19,"ROUTE"],[20,30,"FREQUENCY"]],"Comments":[]}
+{"id":313,"text":"Omeprazole 20 mg daily.,2.","label":[[0,10,"DRUG"],[11,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":314,"text":"Medication was adjusted to benazepril 20 mg a day.","label":[[27,37,"DRUG"],[38,43,"STRENGTH"],[44,49,"FREQUENCY"]],"Comments":[]}
+{"id":315,"text":"Famotidine 20 mg 1 tablet p.o.","label":[[0,10,"DRUG"],[11,16,"STRENGTH"],[17,25,"DOSAGE"],[26,30,"ROUTE"]],"Comments":[]}
+{"id":316,"text":"Milk of Magnesia suspension 30 mL daily for constipation.,9.","label":[[0,16,"DRUG"],[28,33,"DOSAGE"],[34,39,"FREQUENCY"]],"Comments":[]}
+{"id":317,"text":"one to two tablets every 6 hours p.r.n.","label":[[0,18,"DOSAGE"],[19,39,"FREQUENCY"]],"Comments":[]}
+{"id":318,"text":"Tylenol 325 mg tablets every 4 to 6 hours as needed for pain.,12.","label":[[0,7,"DRUG"],[8,14,"STRENGTH"],[23,51,"FREQUENCY"]],"Comments":[]}
+{"id":319,"text":"requiring acute care.,CURRENT MEDICATIONS:  ,Include those on admission combined with IV Flagyl 500 mg every 8 hours and Levaquin 500 mg daily.,HOSPITAL SUMMARY: ,","label":[[86,88,"ROUTE"],[89,96,"DRUG"],[96,102,"STRENGTH"],[103,116,"FREQUENCY"],[121,129,"DRUG"],[130,136,"STRENGTH"],[137,142,"FREQUENCY"]],"Comments":[]}
+{"id":320,"text":"The patient was started on Cipro 250 mg p.o.","label":[[27,32,"DRUG"],[33,39,"STRENGTH"],[40,44,"ROUTE"]],"Comments":[]}
+{"id":321,"text":"one tablet p.o.","label":[[0,10,"DOSAGE"],[11,15,"ROUTE"]],"Comments":[]}
+{"id":322,"text":"The patient was started on cefepime 1 g IV q.12h.","label":[[27,35,"DRUG"],[36,39,"STRENGTH"],[40,42,"ROUTE"],[43,49,"FREQUENCY"]],"Comments":[]}
+{"id":323,"text":",Medications:  Lasix 40 mg daily,","label":[[15,20,"DRUG"],[21,26,"STRENGTH"],[27,32,"FREQUENCY"]],"Comments":[]}
+{"id":324,"text":"digoxin 0.125 mg daily,","label":[[0,7,"DRUG"],[8,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":325,"text":"Augmentin 875 mg 1 tablet twice a day for 1 week,","label":[[0,9,"DRUG"],[10,16,"STRENGTH"],[17,25,"DOSAGE"],[26,37,"FREQUENCY"]],"Comments":[]}
+{"id":326,"text":"Nexium 40 mg daily,","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,18,"FREQUENCY"]],"Comments":[]}
+{"id":327,"text":"potassium 10 mEq daily and diclofenac 50 mg twice a day.","label":[[0,9,"DRUG"],[10,16,"STRENGTH"],[17,22,"FREQUENCY"],[27,37,"DRUG"],[38,43,"STRENGTH"],[44,55,"FREQUENCY"]],"Comments":[]}
+{"id":328,"text":"Her lisinopril was increased to 40 mg daily.","label":[[4,14,"DRUG"],[32,37,"STRENGTH"],[38,43,"FREQUENCY"]],"Comments":[]}
+{"id":329,"text":"I will continue HCTZ at 24 mg daily.","label":[[16,20,"DRUG"],[24,29,"STRENGTH"],[30,35,"FREQUENCY"]],"Comments":[]}
+{"id":330,"text":"Januvia 100 mg daily.,6.","label":[[0,7,"DRUG"],[8,14,"STRENGTH"],[15,20,"FREQUENCY"]],"Comments":[]}
+{"id":331,"text":"Vitamin B tablet.,14.","label":[[0,9,"DRUG"]],"Comments":[]}
+{"id":332,"text":"she has not been able to take much in the way of PO intake over the past week.","label":[],"Comments":[]}
+{"id":333,"text":"Lovastatin 20 mg daily.,4.","label":[[0,10,"DRUG"],[11,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":334,"text":"Continue p.o.","label":[],"Comments":[]}
+{"id":335,"text":"The patient was started on intravenous antibiotic therapy with Levaquin and later on that was changed to oral formulation.","label":[[27,38,"ROUTE"],[63,71,"DRUG"],[105,109,"ROUTE"]],"Comments":[]}
+{"id":336,"text":"and start the patient on intravenous Ancef 2 g q.8 h.","label":[[25,36,"ROUTE"],[37,42,"DRUG"],[43,46,"STRENGTH"],[47,53,"FREQUENCY"]],"Comments":[]}
+{"id":337,"text":"continue niacin 1000 mg in the morning,","label":[[9,15,"DRUG"],[16,23,"STRENGTH"],[24,38,"FREQUENCY"]],"Comments":[]}
+{"id":338,"text":"and 1000 mg in the evening; aspirin 81 mg daily; multivitamins; vitamin E 400 units daily; and vitamin C 500 mg daily.","label":[[4,11,"STRENGTH"],[12,26,"FREQUENCY"],[28,35,"DRUG"],[36,41,"STRENGTH"],[42,47,"FREQUENCY"],[49,62,"DRUG"],[64,73,"DRUG"],[74,83,"DOSAGE"],[84,89,"FREQUENCY"],[95,104,"DRUG"],[105,111,"STRENGTH"],[112,117,"FREQUENCY"]],"Comments":[]}
+{"id":339,"text":"Bactrim 400\/80 Tab PO BID #30.,SOCIAL HISTORY:,","label":[[0,7,"DRUG"],[8,14,"STRENGTH"],[19,21,"ROUTE"],[22,25,"FREQUENCY"]],"Comments":[]}
+{"id":340,"text":"Bactrim 400\/80 Tab PO BID #30.","label":[[0,7,"DRUG"],[8,14,"STRENGTH"],[19,21,"ROUTE"],[22,25,"FREQUENCY"]],"Comments":[]}
+{"id":341,"text":"Patient is a three years old male who about 45 minutes prior admission to the emergency room ingested about two to three tablets of Celesta 40 mg per tablets.","label":[[108,128,"DOSAGE"],[132,139,"DRUG"],[140,157,"STRENGTH"]],"Comments":[]}
+{"id":342,"text":"she saw the patient having the Celesta foils in his hands and half of tablet was moist and on the floor.","label":[[31,38,"DRUG"]],"Comments":[]}
+{"id":343,"text":"The patient said that the pills \"didn't taste good,\" so it is presumed that the patient actually ingested at least two-and-a-half tablets of Celesta,","label":[[115,137,"DOSAGE"],[141,148,"DRUG"]],"Comments":[]}
+{"id":344,"text":"40 mg per tablet.,PAST MEDICAL HISTORY:,","label":[[0,16,"STRENGTH"]],"Comments":[]}
+{"id":345,"text":"Discharged home with Synthroid 0.5 mg 1 tablet p.o.","label":[[21,30,"DRUG"],[31,37,"STRENGTH"],[38,46,"DOSAGE"],[47,51,"ROUTE"]],"Comments":[]}
+{"id":346,"text":"Renagel 2 tablets 800 mg p.o.","label":[[0,7,"DRUG"],[8,17,"DOSAGE"],[18,24,"STRENGTH"],[25,29,"ROUTE"]],"Comments":[]}
+{"id":347,"text":"2 tablets twice a day,","label":[[0,9,"DOSAGE"],[10,21,"FREQUENCY"]],"Comments":[]}
+{"id":348,"text":"Vicodin 1 tablet p.o.","label":[[0,7,"DRUG"],[8,16,"DOSAGE"],[17,21,"ROUTE"]],"Comments":[]}
+{"id":349,"text":"He is taking it at a dose of 100 mg per day.","label":[[29,35,"STRENGTH"],[36,43,"FREQUENCY"]],"Comments":[]}
+{"id":350,"text":"Continue Imuran 100 mg per day.,4.","label":[[9,15,"DRUG"],[16,22,"STRENGTH"],[23,30,"FREQUENCY"]],"Comments":[]}
+{"id":351,"text":"then he will call our office and a prescription for Zantac 150 mg per day will be provided.","label":[[52,58,"DRUG"],[59,65,"STRENGTH"],[66,73,"FREQUENCY"]],"Comments":[]}
+{"id":352,"text":"Feosol 325 mg daily,","label":[[0,6,"DRUG"],[7,13,"STRENGTH"],[14,19,"FREQUENCY"]],"Comments":[]}
+{"id":353,"text":"Synthroid 80 mcg daily,","label":[[0,9,"DRUG"],[10,16,"STRENGTH"],[17,22,"FREQUENCY"]],"Comments":[]}
+{"id":354,"text":"Actos 30 mg daily,","label":[[0,5,"DRUG"],[6,11,"STRENGTH"],[12,17,"FREQUENCY"]],"Comments":[]}
+{"id":355,"text":"Mevacor 40 mg daily,","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[14,19,"FREQUENCY"]],"Comments":[]}
+{"id":356,"text":"and lisinopril 20 mg daily.,ALLERGIES:,","label":[[4,14,"DRUG"],[15,20,"STRENGTH"],[21,26,"FREQUENCY"]],"Comments":[]}
+{"id":357,"text":"He was started on 60 mg p.o.","label":[[18,23,"STRENGTH"],[24,28,"ROUTE"]],"Comments":[]}
+{"id":358,"text":"We will start him on 15 mg p.o.","label":[[21,26,"STRENGTH"],[27,31,"ROUTE"]],"Comments":[]}
+{"id":359,"text":"we will start him on 40 mg for 1 week.","label":[[21,26,"STRENGTH"]],"Comments":[]}
+{"id":360,"text":"we will start him on 30 mg for 1 week,","label":[[21,26,"STRENGTH"]],"Comments":[]}
+{"id":361,"text":"He will continue his Pepcid 40 mg at night,","label":[[21,27,"DRUG"],[28,33,"STRENGTH"],[34,42,"FREQUENCY"]],"Comments":[]}
+{"id":362,"text":"He went to his primary care physician who prescribed cimetidine 400mg qhs x 5 days; however,","label":[[53,63,"DRUG"],[64,69,"STRENGTH"],[70,73,"FREQUENCY"]],"Comments":[]}
+{"id":363,"text":"Tylenol prn (1-2 tabs every other day for the last 2 wks),","label":[[0,7,"DRUG"],[8,11,"FREQUENCY"],[13,21,"DOSAGE"],[22,37,"FREQUENCY"]],"Comments":[]}
+{"id":364,"text":"Cimetidine 400mg po qhs x 5 days.,REVIEW OF SYSTEMS:,","label":[[0,10,"DRUG"],[11,16,"STRENGTH"],[17,19,"ROUTE"],[20,23,"FREQUENCY"]],"Comments":[]}
+{"id":365,"text":"Lisinopril 5 mg daily; metoprolol 25 mg twice daily; furosemide 40 mg once daily; Isentress 400 mg once daily,","label":[[0,10,"DRUG"],[11,15,"STRENGTH"],[16,21,"FREQUENCY"],[23,33,"DRUG"],[34,39,"STRENGTH"],[40,51,"FREQUENCY"],[53,63,"DRUG"],[64,69,"STRENGTH"],[70,80,"FREQUENCY"],[82,91,"DRUG"],[92,98,"STRENGTH"],[99,109,"FREQUENCY"]],"Comments":[]}
+{"id":366,"text":"the patient does not take this medication for the last 3 months; Norvir 100 mg once daily; Prezista 400 mg once daily.","label":[[65,71,"DRUG"],[72,78,"STRENGTH"],[79,89,"FREQUENCY"],[91,99,"DRUG"],[100,106,"STRENGTH"],[107,117,"FREQUENCY"]],"Comments":[]}
+{"id":367,"text":"she takes inhalation of albuterol and Ambien 10 mg once daily.,SOCIAL HISTORY: ,","label":[[10,20,"ROUTE"],[24,33,"DRUG"],[38,44,"DRUG"],[45,50,"STRENGTH"],[51,61,"FREQUENCY"]],"Comments":[]}
+{"id":368,"text":"We will give IV Nexium 40 mg daily for GI prophylaxis.","label":[[13,15,"ROUTE"],[16,22,"DRUG"],[23,28,"STRENGTH"],[29,34,"FREQUENCY"]],"Comments":[]}
+{"id":369,"text":"The patient was started on aztreonam 1 g IV every 8 hours,","label":[[27,36,"DRUG"],[37,40,"STRENGTH"],[41,43,"ROUTE"],[44,57,"FREQUENCY"]],"Comments":[]}
+{"id":370,"text":"he was advanced to a soft diet and his pain medications were transitioned to p.o.","label":[[77,81,"ROUTE"]],"Comments":[]}
+{"id":371,"text":"it was determined that he was stable for discharge to home as he was taking p.o.","label":[],"Comments":[]}
+{"id":372,"text":"Appendectomy as a child and cholecystectomy in 2003.,MEDICATIONS:  ,His medications are lisinopril 40 mg daily,","label":[[88,99,"DRUG"],[99,104,"STRENGTH"],[105,110,"FREQUENCY"]],"Comments":[]}
+{"id":373,"text":"hydrochlorothiazide 25 mg daily,","label":[[0,19,"DRUG"],[20,25,"STRENGTH"],[26,31,"FREQUENCY"]],"Comments":[]}
+{"id":374,"text":"Januvia 100 mg daily,","label":[[0,7,"DRUG"],[8,14,"STRENGTH"],[15,20,"FREQUENCY"]],"Comments":[]}
+{"id":375,"text":"and Flomax 0.4 mg daily.,ALLERGIES: ,","label":[[4,10,"DRUG"],[11,17,"STRENGTH"],[18,23,"FREQUENCY"]],"Comments":[]}
+{"id":376,"text":"and she was afebrile with her pain control with oral pain medications.","label":[[48,52,"ROUTE"]],"Comments":[]}
+{"id":377,"text":",MEDICATIONS: ,Diltiazem 30 mg tid,","label":[[15,24,"DRUG"],[25,30,"STRENGTH"],[31,34,"FREQUENCY"]],"Comments":[]}
+{"id":378,"text":"iron 325 mg bid,","label":[[0,4,"DRUG"],[5,11,"STRENGTH"],[12,15,"FREQUENCY"]],"Comments":[]}
+{"id":379,"text":"The patient was advised to continue her vestibular rehabilitation exercises and the additional medical treatment of betahistine at 24 mg dose bid.","label":[[116,127,"DRUG"],[131,136,"STRENGTH"],[142,145,"FREQUENCY"]],"Comments":[]}
+{"id":380,"text":"875 mg bid.","label":[[0,6,"STRENGTH"],[7,10,"FREQUENCY"]],"Comments":[]}
+{"id":381,"text":"MucoFen 800 mg bid.,PLAN:,","label":[[0,7,"DRUG"],[8,14,"STRENGTH"],[15,18,"FREQUENCY"]],"Comments":[]}
+{"id":382,"text":"Aspirin 81 mg daily.","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[14,19,"FREQUENCY"]],"Comments":[]}
+{"id":383,"text":"Include levothyroxine 300 mcg daily,","label":[[8,21,"DRUG"],[22,29,"STRENGTH"],[30,35,"FREQUENCY"]],"Comments":[]}
+{"id":384,"text":"I will continue on 300 mcg daily of Synthroid.","label":[[19,26,"STRENGTH"],[27,32,"FREQUENCY"],[36,45,"DRUG"]],"Comments":[]}
+{"id":385,"text":"The patient took one of his own nitroglycerin tablets without any relief.","label":[[32,45,"DRUG"]],"Comments":[]}
+{"id":386,"text":"Toprol-XL 25 mg once a day which I started although she had been bradycardic,","label":[[0,9,"DRUG"],[10,15,"STRENGTH"],[16,26,"FREQUENCY"]],"Comments":[]}
+{"id":387,"text":"He states that he took 3 nitroglycerin tablets sublingually over the past 1 hour,","label":[[23,24,"DOSAGE"],[25,38,"DRUG"],[47,59,"ROUTE"]],"Comments":[]}
+{"id":388,"text":"Nitroglycerin 1\/150 sublingually PRN chest pain.,ALLERGIES: ,","label":[[0,13,"DRUG"],[14,19,"STRENGTH"],[20,32,"ROUTE"],[33,36,"FREQUENCY"]],"Comments":[]}
+{"id":389,"text":"and lisinopril 10 mg daily secondary to his hypertension,","label":[[4,14,"DRUG"],[15,20,"STRENGTH"],[21,26,"FREQUENCY"]],"Comments":[]}
+{"id":390,"text":"Cardiology was consulted and their recommendations were to reduce the lisinopril to 5 mg daily.","label":[[70,80,"DRUG"],[84,88,"STRENGTH"],[89,94,"FREQUENCY"]],"Comments":[]}
+{"id":391,"text":"Renal agreed with decreasing his lisinopril to 5 mg daily and decreasing the Coreg to 6.25 mg b.i.d.","label":[[33,43,"DRUG"],[47,51,"STRENGTH"],[52,57,"FREQUENCY"],[77,82,"DRUG"],[86,93,"STRENGTH"],[94,100,"FREQUENCY"]],"Comments":[]}
+{"id":392,"text":"Lisinopril 2.5 mg daily.,6.","label":[[0,10,"DRUG"],[11,17,"STRENGTH"],[18,23,"FREQUENCY"]],"Comments":[]}
+{"id":393,"text":"he was started on oral Keflex and instructed to follow up with the Vascular Clinic as scheduled.","label":[[18,22,"ROUTE"],[23,29,"DRUG"]],"Comments":[]}
+{"id":394,"text":"Acetaminophen 325 mg daily.,2.","label":[[0,13,"DRUG"],[14,20,"STRENGTH"],[21,25,"FREQUENCY"]],"Comments":[]}
+{"id":395,"text":"Vitamin C 500 mg one to two times daily.,4.","label":[[0,9,"DRUG"],[10,16,"STRENGTH"],[17,39,"FREQUENCY"]],"Comments":[]}
+{"id":396,"text":"Aspirin 81 mg daily.,5.","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[14,19,"FREQUENCY"]],"Comments":[]}
+{"id":397,"text":"Calcium 600 mg plus vitamin D daily.,8.","label":[[0,7,"DRUG"],[8,14,"STRENGTH"],[20,29,"DRUG"],[30,35,"FREQUENCY"]],"Comments":[]}
+{"id":398,"text":"Plavix 75 mg daily.,9.","label":[[0,6,"DRUG"],[7,12,"STRENGTH"],[13,18,"FREQUENCY"]],"Comments":[]}
+{"id":399,"text":"Lexapro 10 mg daily at bedtime.,11.","label":[[0,7,"DRUG"],[8,13,"STRENGTH"],[14,30,"FREQUENCY"]],"Comments":[]}
+{"id":400,"text":"Hydrochlorothiazide 25 mg one-half tablet daily.,12.","label":[[0,19,"DRUG"],[20,25,"STRENGTH"],[26,41,"DOSAGE"],[42,47,"FREQUENCY"]],"Comments":[]}

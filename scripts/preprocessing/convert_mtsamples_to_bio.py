@@ -1,8 +1,9 @@
 import json
 import re
 
-input_file = "data/mtsamples/mtsamples_annotated_001_400_checked.jsonl"
-output_file = "data/mtsamples/mtsamples_annotated_001_400_bio.jsonl"
+input_file = "data/mtsamples/annotation/annotated_finish/mtsamples_annotated_401_800_checked.jsonl"
+
+output_file = "data/mtsamples/bio/mtsamples_annotated_401_800_bio.jsonl"
 
 
 def tokenize_with_spans(text):
