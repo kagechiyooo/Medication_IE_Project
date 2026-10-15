@@ -279,22 +279,26 @@ def evaluate_config(config):
 def main():
     parser = argparse.ArgumentParser()
     group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument('--config', help='Evaluate one model after all four grids are complete')
+    group.add_argument('--config', help='Evaluate one model after its grid is complete')
     group.add_argument('--configs', nargs=4, help='Evaluate all four models')
     args = parser.parse_args()
     paths = args.configs or [args.config]
     configs = [load_config(path) for path in paths]
-    # All four grid results must exist before any final test, even with --config.
-    config_folder = os.path.dirname(os.path.abspath(paths[0]))
-    all_configs = [load_config(os.path.join(config_folder,key+'.json')) for key in
-                   ['biobert','bioclinicalbert','clinicalbert','pubmedbert']]
-    for item in all_configs:
-        best=read_json(os.path.join(item['result_dir'],'best_config.json'))
-        if not best.get('grid_complete') or best['seed'] != 42 or best['signature'] not in compatible_signatures(item):
-            raise ValueError('Complete all four matching grids before final testing')
-    if args.configs and {c['model_key'] for c in configs} != {c['model_key'] for c in all_configs}:
+    if args.configs and {c['model_key'] for c in configs} != {
+        'biobert', 'bioclinicalbert', 'clinicalbert', 'pubmedbert'
+    }:
         raise ValueError('Provide each of the four model configs exactly once')
-    if len({os.path.realpath(c['test_file']) for c in all_configs}) != 1:
+    for item in configs:
+        best_path = os.path.join(item['result_dir'], 'best_config.json')
+        if not os.path.isfile(best_path):
+            raise FileNotFoundError(
+                f"Best Configuration not found: {os.path.abspath(best_path)}. "
+                "Check result_dir, the current working directory, and whether Grid Search completed."
+            )
+        best=read_json(best_path)
+        if not best.get('grid_complete') or best['seed'] != 42 or best['signature'] not in compatible_signatures(item):
+            raise ValueError(f"Require complete matching seed-42 grid for {item['model_key']} before final testing")
+    if args.configs and len({os.path.realpath(c['test_file']) for c in configs}) != 1:
         raise ValueError('All four models must use the same test file')
     results=[]
     for config in configs:
