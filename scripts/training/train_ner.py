@@ -212,6 +212,10 @@ def train_configuration(config, tokenized_dataset, tokenizer, seed, experiment_d
     val_output = trainer.predict(tokenized_dataset['validation'])
     true_labels, true_predictions = decode_labels(val_output.predictions, val_output.label_ids, ID2LABEL)
     report = classification_report(true_labels, true_predictions, digits=4)
+    report += (
+        f"\nToken-level BIO Accuracy: {val_metrics['eval_accuracy']:.4f} "
+        f"({val_metrics['eval_accuracy']:.2%})\n"
+    )
     report_path = experiment_dir / 'validation_classification_report.txt'
     report_path.write_text(report, encoding='utf-8')
     final_model_dir = experiment_dir / 'best_model'

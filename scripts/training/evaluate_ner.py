@@ -212,6 +212,10 @@ def evaluate_config(config):
     )
 
     extra_metrics = additional_metrics(true_labels, true_predictions)
+    report += (
+        f"\nToken-level BIO Accuracy: {extra_metrics['accuracy']:.4f} "
+        f"({extra_metrics['accuracy']:.2%})\n"
+    )
     metrics = {
         "model": config["model_name"],
         "precision": precision,
