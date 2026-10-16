@@ -1,0 +1,13 @@
+              precision    recall  f1-score   support
+
+      DOSAGE     0.8000    0.8627    0.8302        51
+        DRUG     0.9458    0.9686    0.9570       414
+   FREQUENCY     0.9580    0.9637    0.9608       331
+       ROUTE     0.9535    0.9572    0.9553       257
+    STRENGTH     0.8936    0.9032    0.8984        93
+
+   micro avg     0.9399    0.9546    0.9472      1146
+   macro avg     0.9102    0.9311    0.9204      1146
+weighted avg     0.9403    0.9546    0.9474      1146
+
+Token-level BIO Accuracy: 0.9637 (96.37%)

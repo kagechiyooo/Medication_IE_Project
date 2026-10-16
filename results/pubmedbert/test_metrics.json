@@ -1,0 +1,14 @@
+{
+  "model": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+  "precision": 0.934453781512605,
+  "recall": 0.9528706083976007,
+  "f1": 0.9435723377174374,
+  "macro_f1": 0.8975494441470431,
+  "accuracy": 0.9633052459907584,
+  "learning_rate": 2e-05,
+  "batch_size": 32,
+  "configured_epochs": 20,
+  "best_checkpoint_epoch": 14.0,
+  "best_model_path": "/home/project02/6630300700/Medication_IE_Project/models/pubmedbert/grid/lr_2e-05_batch_32_epochs_20_seed_42/best_model",
+  "seed": 42
+}

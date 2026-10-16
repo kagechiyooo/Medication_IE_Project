@@ -1,0 +1,14 @@
+{
+  "model": "medicalai/ClinicalBERT",
+  "precision": 0.9328295549958019,
+  "recall": 0.9520137103684662,
+  "f1": 0.9423240033927058,
+  "macro_f1": 0.887699718218753,
+  "accuracy": 0.9605871160641478,
+  "learning_rate": 4e-05,
+  "batch_size": 8,
+  "configured_epochs": 7,
+  "best_checkpoint_epoch": 7.0,
+  "best_model_path": "/home/project02/6630300700/Medication_IE_Project/models/clinicalbert/grid/lr_4e-05_batch_8_epochs_7_seed_42/best_model",
+  "seed": 42
+}

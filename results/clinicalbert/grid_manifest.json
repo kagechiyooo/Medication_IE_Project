@@ -1,0 +1,6 @@
+{
+  "signature": "9d5d1a49014f88fa63ce18f5a20c04e4f7a5e3632f1f620a43035d3fa65562ad",
+  "model": "medicalai/ClinicalBERT",
+  "seed": 42,
+  "metric_mode": "seqeval default; fixed five-entity macro F1"
+}
