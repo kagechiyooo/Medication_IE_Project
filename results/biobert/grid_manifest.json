@@ -1,0 +1,6 @@
+{
+  "signature": "2b97a55ffa94b319a27fc5fb227edd86b905b5c14ef6130ae54c98a6a12ceac9",
+  "model": "dmis-lab/biobert-base-cased-v1.2",
+  "seed": 42,
+  "metric_mode": "seqeval default; fixed five-entity macro F1"
+}
