@@ -1,0 +1,6 @@
+{
+  "signature": "25ef13547da48d8b977317bdcf348547b63fc87b453ebc08542c0ecd10b43c03",
+  "model": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+  "seed": 42,
+  "metric_mode": "seqeval default; fixed five-entity macro F1"
+}

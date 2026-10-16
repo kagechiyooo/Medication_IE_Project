@@ -1,0 +1,26 @@
+{
+  "experiment_id": "lr_2e-05_batch_32_epochs_20_seed_42",
+  "model": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+  "learning_rate": 2e-05,
+  "batch_size": 32,
+  "configured_epochs": 20,
+  "seed": 42,
+  "signature": "25ef13547da48d8b977317bdcf348547b63fc87b453ebc08542c0ecd10b43c03",
+  "status": "Completed",
+  "validation": {
+    "precision": 0.9398625429553265,
+    "recall": 0.9546247818499127,
+    "f1": 0.9471861471861472,
+    "macro_f1": 0.9203616306563995,
+    "accuracy": 0.9637151367451936
+  },
+  "best_checkpoint_epoch": 14.0,
+  "best_model_path": "/home/project02/6630300700/Medication_IE_Project/models/pubmedbert/grid/lr_2e-05_batch_32_epochs_20_seed_42/best_model",
+  "classification_report_path": "/home/project02/6630300700/Medication_IE_Project/models/pubmedbert/grid/lr_2e-05_batch_32_epochs_20_seed_42/validation_classification_report.txt",
+  "total_training_steps": 1180,
+  "scheduler_type": "SchedulerType.LINEAR",
+  "warmup_steps": 0,
+  "model_commit": "e1354b7a3a09615f6aba48dfad4b7a613eef7062",
+  "training_seconds": 205.46091226674616,
+  "result_path": "/home/project02/6630300700/Medication_IE_Project/models/pubmedbert/grid/lr_2e-05_batch_32_epochs_20_seed_42/result.json"
+}
