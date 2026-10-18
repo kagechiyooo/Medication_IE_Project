@@ -1,5 +1,4 @@
 # Medication_IE_Project
-# Medication_IE_Project
 
 โปรเจกต์นี้ใช้สำหรับงาน Medication Information Extraction จาก Clinical Notes
 
