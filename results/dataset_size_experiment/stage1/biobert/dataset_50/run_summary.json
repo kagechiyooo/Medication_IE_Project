@@ -1,0 +1,102 @@
+{
+  "status": "Completed",
+  "model": "biobert",
+  "model_id": "dmis-lab/biobert-base-cased-v1.2",
+  "dataset_size": "dataset_50",
+  "dataset_paths": {
+    "train_file": "data/dataset_size/dataset_50/train.jsonl",
+    "validation_file": "data/dataset_size/dataset_50/validation.jsonl"
+  },
+  "seed": 42,
+  "training_settings": {
+    "learning_rate": 2e-05,
+    "train_batch_size": 16,
+    "eval_batch_size": 16,
+    "maximum_epochs": 100,
+    "seed": 42,
+    "gradient_accumulation_steps": 1,
+    "early_stopping_patience": 10,
+    "early_stopping_threshold": 0.0,
+    "lr_scheduler_type": "linear",
+    "warmup_steps": 0,
+    "weight_decay": 0.01
+  },
+  "maximum_epochs": 100,
+  "signature": "61dde6cfad04938090a3a8ce1981298e60ba2bdebff7c2410d8c11bf0cf5b005",
+  "signature_payload": {
+    "model": "dmis-lab/biobert-base-cased-v1.2",
+    "size": "dataset_50",
+    "training": {
+      "learning_rate": 2e-05,
+      "train_batch_size": 16,
+      "eval_batch_size": 16,
+      "maximum_epochs": 100,
+      "seed": 42,
+      "gradient_accumulation_steps": 1,
+      "early_stopping_patience": 10,
+      "early_stopping_threshold": 0.0,
+      "lr_scheduler_type": "linear",
+      "warmup_steps": 0,
+      "weight_decay": 0.01
+    },
+    "data": {
+      "train_file": {
+        "path": "data/dataset_size/dataset_50/train.jsonl",
+        "sha256": "e1f185f2d70113a9f5969f7d9202f18702610ed0c87eb7291adf049426fd9188"
+      },
+      "validation_file": {
+        "path": "data/dataset_size/dataset_50/validation.jsonl",
+        "sha256": "242b0071b21250128536deba91385ef1d6388e1979d99d180e75be2a95c33f7d"
+      }
+    },
+    "code": {
+      "dataset_size_experiment.py": "93f2e6bdb7d9b0c0cfaead7953057942f08d979e1192bb27acb93a7b6b304ff4",
+      "ner_common.py": "075d0003baf7dfbc41fbf6f85d4634dd34f6a2e9d6a13e2dc1a859eca98df1aa"
+    },
+    "versions": {
+      "torch": "2.6.0+cu124",
+      "transformers": "4.57.1",
+      "datasets": "4.4.1",
+      "accelerate": "1.10.1",
+      "seqeval": "1.2.2",
+      "numpy": "2.2.6"
+    }
+  },
+  "train_loss_definition": "Trainer loss logged during each epoch; not a loss recomputed at the best checkpoint.",
+  "learning_rate_note": "2e-5 is the initial LR; the linear scheduler reduces LR during training.",
+  "train_examples": 794,
+  "validation_examples": 340,
+  "actual_final_epoch": 36.0,
+  "best_checkpoint_epoch": 26.0,
+  "stopping_reason": "early_stopping_patience_10",
+  "best_validation_metrics": {
+    "loss": 0.31140896677970886,
+    "precision": 0.922,
+    "recall": 0.9524793388429752,
+    "f1": 0.9369918699186993,
+    "macro_f1": 0.9092397056894985,
+    "accuracy": 0.9511558538404176
+  },
+  "best_model_path": "/home/project02/6630300688/Medication_IE_Project/models/dataset_size_experiment/biobert/dataset_50/best_model",
+  "epoch_history_path": "/home/project02/6630300688/Medication_IE_Project/results/dataset_size_experiment/stage1/biobert/dataset_50/epoch_history.csv",
+  "validation_report_path": "/home/project02/6630300688/Medication_IE_Project/results/dataset_size_experiment/stage1/biobert/dataset_50/validation_classification_report.txt",
+  "scheduler": "linear",
+  "warmup_steps": 0,
+  "initial_learning_rate": 2e-05,
+  "validation_entity_counts_before_tokenization": {
+    "DRUG": 355,
+    "STRENGTH": 76,
+    "DOSAGE": 41,
+    "FREQUENCY": 275,
+    "ROUTE": 221
+  },
+  "validation_entity_counts_after_tokenization": {
+    "DRUG": 355,
+    "STRENGTH": 76,
+    "DOSAGE": 41,
+    "FREQUENCY": 275,
+    "ROUTE": 221
+  },
+  "validation_truncation_detected": false,
+  "training_seconds": 212.90400236845016
+}
