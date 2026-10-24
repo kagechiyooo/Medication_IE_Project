@@ -5,10 +5,24 @@ import json
 import math
 import os
 import random
+from collections import Counter
 from pathlib import Path
 
 ENTITY_TYPES = ['DRUG', 'STRENGTH', 'DOSAGE', 'FREQUENCY', 'ROUTE']
 METRIC_NAMES = ['precision', 'recall', 'f1', 'macro_f1', 'accuracy']
+LABEL_LIST = ['O'] + [prefix + entity for entity in ENTITY_TYPES for prefix in ('B-', 'I-')]
+LABEL2ID = {label: index for index, label in enumerate(LABEL_LIST)}
+ID2LABEL = {index: label for index, label in enumerate(LABEL_LIST)}
+SPURIOUS_ENTITY = 'Spurious Entity'
+MISSED_ENTITY = 'Missed Entity'
+LEGACY_MATRIX_LABELS = {
+    'ไม่มี Entity จริง': SPURIOUS_ENTITY,
+    'ไม่พบ Entity': MISSED_ENTITY,
+}
+
+def normalize_matrix_label(label):
+    """Return the canonical English label for old or current matrix files."""
+    return LEGACY_MATRIX_LABELS.get(label, label)
 
 def additional_metrics(true_labels, true_predictions):
     from seqeval.metrics import classification_report, accuracy_score
@@ -47,6 +61,46 @@ def decode_labels(predictions, labels, id2label):
         true_predictions.append(pred_seq)
         true_labels.append(label_seq)
     return true_labels, true_predictions
+
+def entity_counts(label_sequences):
+    """Count entities with seqeval's existing default BIO interpretation."""
+    from seqeval.metrics.sequence_labeling import get_entities
+    counts = Counter()
+    for labels in label_sequences:
+        counts.update(entity for entity, _start, _end in get_entities(labels))
+    return {entity: counts.get(entity, 0) for entity in ENTITY_TYPES}
+
+def entity_confusion(true_labels, predicted_labels):
+    """Build an exact-span, one-to-one entity confusion matrix per document."""
+    from seqeval.metrics.sequence_labeling import get_entities
+    rows = ENTITY_TYPES + [SPURIOUS_ENTITY]
+    columns = ENTITY_TYPES + [MISSED_ENTITY]
+    matrix = {row: {column: 0 for column in columns} for row in rows}
+    for truth, prediction in zip(true_labels, predicted_labels):
+        true_spans = {(start, end): entity for entity, start, end in get_entities(truth)}
+        predicted_spans = {(start, end): entity for entity, start, end in get_entities(prediction)}
+        for boundary in sorted(set(true_spans) | set(predicted_spans)):
+            true_entity = true_spans.get(boundary)
+            predicted_entity = predicted_spans.get(boundary)
+            if true_entity is not None and predicted_entity is not None:
+                matrix[true_entity][predicted_entity] += 1
+            elif true_entity is not None:
+                matrix[true_entity][MISSED_ENTITY] += 1
+            else:
+                matrix[SPURIOUS_ENTITY][predicted_entity] += 1
+    return rows, columns, matrix
+
+def format_classification_report(true_labels, predicted_labels, loss, split_name):
+    from seqeval.metrics import accuracy_score, classification_report
+    report = classification_report(
+        true_labels, predicted_labels, digits=4, zero_division=0
+    ).replace('support', 'จำนวน Entity', 1)
+    accuracy = accuracy_score(true_labels, predicted_labels)
+    return (
+        report
+        + f'\nToken-level BIO Accuracy: {accuracy:.4f} ({accuracy:.2%})\n'
+        + f'{split_name} Loss: {loss:.6f}\n'
+    )
 
 def save_json(path, data):
     path = Path(path)

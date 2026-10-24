@@ -1,5 +1,54 @@
 # Medication_IE_Project
 
+## Dataset-size experiment (Seed 42)
+
+การทดลองใหม่นี้เปรียบเทียบ Dataset 50%, 75%, 100% สำหรับ BioBERT,
+ClinicalBERT และ PubMedBERT โดยไม่ใช้ BioClinicalBERT และไม่แก้ผล Grid Search เดิม
+
+ติดตั้ง environment จาก project root (เลือก PyTorch build ที่ตรงกับ CUDA ของ server):
+
+```bash
+python -m pip install -r requirements-training.txt
+```
+
+Stage 1 ใช้ initial LR `2e-5`, batch size 16, linear scheduler, warmup 0,
+maximum 100 epochs และ early stopping เมื่อ Validation Entity Macro-F1 ไม่ดีขึ้น
+10 evaluation rounds ติดต่อกัน ค่า LR เป็นค่าเริ่มต้นและจะลดลงตาม linear scheduler
+ระหว่างฝึก `train_loss` คือค่าที่ Trainer log ในแต่ละ epoch ไม่ใช่ loss ที่คำนวณใหม่
+จาก best checkpoint ส่วน metrics และ Validation Loss ในแถว Best มาจาก epoch เดียวกัน
+
+ตัวอย่างรันหนึ่งขนาด หรือสามขนาดต่อกัน:
+
+```bash
+python scripts/training/dataset_size_experiment.py stage1 --config scripts/training/configs/dataset_size/biobert.json --dataset-size dataset_50
+python scripts/training/dataset_size_experiment.py stage1 --config scripts/training/configs/dataset_size/biobert.json --all-dataset-sizes
+```
+
+เปลี่ยนชื่อ config เป็น `clinicalbert.json` หรือ `pubmedbert.json` สำหรับโมเดลอื่น
+และสร้างกราฟใหม่จากประวัติเดิมได้ด้วย `--plots-only` โดยไม่ Train ใหม่
+
+Stage 2 เลือกขนาดที่ Validation Macro-F1 สูงสุดของแต่ละโมเดล โดย validation
+ของแต่ละขนาดมีจำนวนและองค์ประกอบต่างกัน และไม่อ่าน Test:
+
+```bash
+python scripts/training/dataset_size_experiment.py stage2 --configs scripts/training/configs/dataset_size/biobert.json scripts/training/configs/dataset_size/clinicalbert.json scripts/training/configs/dataset_size/pubmedbert.json
+```
+
+Stage 3 ทดสอบทีละโมเดล หรือทั้งสามโมเดลบน Shared Test เดียวกัน:
+
+```bash
+python scripts/training/dataset_size_experiment.py stage3 --config scripts/training/configs/dataset_size/biobert.json
+python scripts/training/dataset_size_experiment.py stage3 --configs scripts/training/configs/dataset_size/biobert.json scripts/training/configs/dataset_size/clinicalbert.json scripts/training/configs/dataset_size/pubmedbert.json
+```
+
+ผลอยู่ใต้ `results/dataset_size_experiment/stage1`, `stage2`, `stage3` และ
+weights อยู่ใต้ `models/dataset_size_experiment`. Run ที่ไม่สมบูรณ์จะเริ่มใหม่จาก
+pretrained model; ไม่มีการ resume optimizer หรือส่ง weights ต่อระหว่าง dataset sizes
+
+Entity-level Confusion Matrix ใช้แถวเป็น Ground Truth และคอลัมน์เป็น Prediction
+โดย `Spurious Entity` คือ Prediction ที่ไม่มี Ground Truth ขอบเขตตรงกัน และ
+`Missed Entity` คือ Ground Truth ที่ไม่มี Prediction ขอบเขตตรงกัน
+
 โปรเจกต์นี้ใช้สำหรับงาน Medication Information Extraction จาก Clinical Notes
 
 งานหลักตอนนี้คือการกำกับข้อมูลจาก MTSamples ด้วย Doccano เพื่อสร้าง Ground Truth สำหรับงาน Named Entity Recognition (NER)

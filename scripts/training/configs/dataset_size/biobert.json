@@ -1,0 +1,19 @@
+{
+  "model_key": "biobert",
+  "model_name": "dmis-lab/biobert-base-cased-v1.2",
+  "model_root": "models/dataset_size_experiment/biobert",
+  "result_root": "results/dataset_size_experiment/stage1/biobert",
+  "stage3_root": "results/dataset_size_experiment/stage3",
+  "test_file": "data/dataset_size/test_15.jsonl",
+  "datasets": {
+    "dataset_50": {"train_file": "data/dataset_size/dataset_50/train.jsonl", "validation_file": "data/dataset_size/dataset_50/validation.jsonl"},
+    "dataset_75": {"train_file": "data/dataset_size/dataset_75/train.jsonl", "validation_file": "data/dataset_size/dataset_75/validation.jsonl"},
+    "dataset_100": {"train_file": "data/dataset_size/dataset_100/train.jsonl", "validation_file": "data/dataset_size/dataset_100/validation.jsonl"}
+  },
+  "training": {"learning_rate": 0.00002, "train_batch_size": 16,
+    "eval_batch_size": 16, "maximum_epochs": 100, "seed": 42,
+    "gradient_accumulation_steps": 1, "early_stopping_patience": 10,
+    "early_stopping_threshold": 0.0, "lr_scheduler_type": "linear",
+    "warmup_steps": 0, "weight_decay": 0.01}
+}
+ 

@@ -1,0 +1,37 @@
+{
+  "model": "clinicalbert",
+  "dataset_size": "dataset_100",
+  "best_checkpoint_epoch": 8.0,
+  "seed": 42,
+  "best_model_path": "/home/project02/6630300688/Medication_IE_Project/models/dataset_size_experiment/clinicalbert/dataset_100/best_model",
+  "test_loss": 0.14616428315639496,
+  "precision": 0.9358867610324729,
+  "recall": 0.9358867610324729,
+  "f1": 0.9358867610324729,
+  "macro_f1": 0.904582274361956,
+  "accuracy": 0.967280163599182,
+  "evaluated_examples": 400,
+  "entity_counts_before_tokenization": {
+    "DRUG": 445,
+    "STRENGTH": 95,
+    "DOSAGE": 73,
+    "FREQUENCY": 329,
+    "ROUTE": 259
+  },
+  "entity_counts_after_tokenization": {
+    "DRUG": 445,
+    "STRENGTH": 95,
+    "DOSAGE": 73,
+    "FREQUENCY": 329,
+    "ROUTE": 259
+  },
+  "expected_source_entity_counts": {
+    "DRUG": 445,
+    "STRENGTH": 95,
+    "DOSAGE": 73,
+    "FREQUENCY": 329,
+    "ROUTE": 259
+  },
+  "source_entity_counts_match_expected": true,
+  "truncation_detected": false
+}

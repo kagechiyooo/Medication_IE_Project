@@ -1,0 +1,14 @@
+              precision    recall  f1-score   จำนวน Entity
+
+      DOSAGE     0.7500    0.8780    0.8090        41
+        DRUG     0.9290    0.9577    0.9431       355
+   FREQUENCY     0.9201    0.9636    0.9414       275
+       ROUTE     0.9638    0.9638    0.9638       221
+    STRENGTH     0.8831    0.8947    0.8889        76
+
+   micro avg     0.9220    0.9525    0.9370       968
+   macro avg     0.8892    0.9316    0.9092       968
+weighted avg     0.9232    0.9525    0.9374       968
+
+Token-level BIO Accuracy: 0.9512 (95.12%)
+Validation Loss: 0.311409

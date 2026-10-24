@@ -1,0 +1,102 @@
+{
+  "status": "Completed",
+  "model": "clinicalbert",
+  "model_id": "medicalai/ClinicalBERT",
+  "dataset_size": "dataset_50",
+  "dataset_paths": {
+    "train_file": "data/dataset_size/dataset_50/train.jsonl",
+    "validation_file": "data/dataset_size/dataset_50/validation.jsonl"
+  },
+  "seed": 42,
+  "training_settings": {
+    "learning_rate": 2e-05,
+    "train_batch_size": 16,
+    "eval_batch_size": 16,
+    "maximum_epochs": 100,
+    "seed": 42,
+    "gradient_accumulation_steps": 1,
+    "early_stopping_patience": 10,
+    "early_stopping_threshold": 0.0,
+    "lr_scheduler_type": "linear",
+    "warmup_steps": 0,
+    "weight_decay": 0.01
+  },
+  "maximum_epochs": 100,
+  "signature": "81216ea8af8d3ff1a33e8fc95e0be2cccc09c2f6297437fe20618863e4cce994",
+  "signature_payload": {
+    "model": "medicalai/ClinicalBERT",
+    "size": "dataset_50",
+    "training": {
+      "learning_rate": 2e-05,
+      "train_batch_size": 16,
+      "eval_batch_size": 16,
+      "maximum_epochs": 100,
+      "seed": 42,
+      "gradient_accumulation_steps": 1,
+      "early_stopping_patience": 10,
+      "early_stopping_threshold": 0.0,
+      "lr_scheduler_type": "linear",
+      "warmup_steps": 0,
+      "weight_decay": 0.01
+    },
+    "data": {
+      "train_file": {
+        "path": "data/dataset_size/dataset_50/train.jsonl",
+        "sha256": "e1f185f2d70113a9f5969f7d9202f18702610ed0c87eb7291adf049426fd9188"
+      },
+      "validation_file": {
+        "path": "data/dataset_size/dataset_50/validation.jsonl",
+        "sha256": "242b0071b21250128536deba91385ef1d6388e1979d99d180e75be2a95c33f7d"
+      }
+    },
+    "code": {
+      "dataset_size_experiment.py": "93f2e6bdb7d9b0c0cfaead7953057942f08d979e1192bb27acb93a7b6b304ff4",
+      "ner_common.py": "075d0003baf7dfbc41fbf6f85d4634dd34f6a2e9d6a13e2dc1a859eca98df1aa"
+    },
+    "versions": {
+      "torch": "2.6.0+cu124",
+      "transformers": "4.57.1",
+      "datasets": "4.4.1",
+      "accelerate": "1.10.1",
+      "seqeval": "1.2.2",
+      "numpy": "2.2.6"
+    }
+  },
+  "train_loss_definition": "Trainer loss logged during each epoch; not a loss recomputed at the best checkpoint.",
+  "learning_rate_note": "2e-5 is the initial LR; the linear scheduler reduces LR during training.",
+  "train_examples": 794,
+  "validation_examples": 340,
+  "actual_final_epoch": 35.0,
+  "best_checkpoint_epoch": 25.0,
+  "stopping_reason": "early_stopping_patience_10",
+  "best_validation_metrics": {
+    "loss": 0.2826327681541443,
+    "precision": 0.9327217125382263,
+    "recall": 0.9452479338842975,
+    "f1": 0.938943047716778,
+    "macro_f1": 0.904372850870781,
+    "accuracy": 0.9515287099179717
+  },
+  "best_model_path": "/home/project02/6630300688/Medication_IE_Project/models/dataset_size_experiment/clinicalbert/dataset_50/best_model",
+  "epoch_history_path": "/home/project02/6630300688/Medication_IE_Project/results/dataset_size_experiment/stage1/clinicalbert/dataset_50/epoch_history.csv",
+  "validation_report_path": "/home/project02/6630300688/Medication_IE_Project/results/dataset_size_experiment/stage1/clinicalbert/dataset_50/validation_classification_report.txt",
+  "scheduler": "linear",
+  "warmup_steps": 0,
+  "initial_learning_rate": 2e-05,
+  "validation_entity_counts_before_tokenization": {
+    "DRUG": 355,
+    "STRENGTH": 76,
+    "DOSAGE": 41,
+    "FREQUENCY": 275,
+    "ROUTE": 221
+  },
+  "validation_entity_counts_after_tokenization": {
+    "DRUG": 355,
+    "STRENGTH": 76,
+    "DOSAGE": 41,
+    "FREQUENCY": 275,
+    "ROUTE": 221
+  },
+  "validation_truncation_detected": false,
+  "training_seconds": 199.18541862629354
+}
