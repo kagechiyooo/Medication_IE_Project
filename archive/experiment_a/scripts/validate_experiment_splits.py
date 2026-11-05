@@ -14,19 +14,19 @@ ENTITY_TYPES = [
 
 DATASETS = {
     "final1": {
-        "train": "data/final1/train.jsonl",
-        "validation": "data/final1/validation.jsonl",
-        "test": "data/final1/test.jsonl",
+        "train": "archive/experiment_a/data/final1/train.jsonl",
+        "validation": "archive/experiment_a/data/final1/validation.jsonl",
+        "test": "archive/experiment_a/data/final1/test.jsonl",
     },
     "final2": {
-        "train": "data/final2/train.jsonl",
-        "validation": "data/final2/validation.jsonl",
-        "test": "data/final2/test.jsonl",
+        "train": "archive/experiment_a/data/final2/train.jsonl",
+        "validation": "archive/experiment_a/data/final2/validation.jsonl",
+        "test": "archive/experiment_a/data/final2/test.jsonl",
     },
     "final3": {
-        "train": "data/final3/train.jsonl",
-        "validation": "data/final3/validation.jsonl",
-        "test": "data/final3/test.jsonl",
+        "train": "archive/experiment_a/data/final3/train.jsonl",
+        "validation": "archive/experiment_a/data/final3/validation.jsonl",
+        "test": "archive/experiment_a/data/final3/test.jsonl",
     },
 }
 

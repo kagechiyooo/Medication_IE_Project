@@ -1,8 +1,8 @@
 import json
 from pathlib import Path
 
-input_file = Path("data/mtsamples/mtsamples_doccano.jsonl")
-output_dir = Path("data/mtsamples/annotation_parts")
+input_file = Path("data/mtsamples/archive/mtsamples_doccano.jsonl")
+output_dir = Path("data/mtsamples/annotation/annotation_parts")
 
 output_dir.mkdir(parents=True, exist_ok=True)
 

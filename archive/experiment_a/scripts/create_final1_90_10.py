@@ -17,6 +17,10 @@ SEED = 42
 N_TRIALS = 30000
 
 
+# ==========================================
+# FILES
+# ==========================================
+
 GLAUCOMA_REMAINING = (
     "data/glaucoma/experiment_splits/remaining_85.jsonl"
 )
@@ -34,13 +38,17 @@ MTSAMPLES_TEST = (
 )
 
 
-# final2 = 70/30
-GLAUCOMA_TRAIN_SIZE = 1112
-GLAUCOMA_VAL_SIZE = 476
+# final1 = 90/10
+GLAUCOMA_TRAIN_SIZE = 1429
+GLAUCOMA_VAL_SIZE = 159
 
-MTSAMPLES_TRAIN_SIZE = 476
-MTSAMPLES_VAL_SIZE = 204
+MTSAMPLES_TRAIN_SIZE = 612
+MTSAMPLES_VAL_SIZE = 68
 
+
+# ==========================================
+# BASIC FUNCTIONS
+# ==========================================
 
 def get_entity_counts(record):
     counts = Counter()
@@ -127,6 +135,11 @@ def save_jsonl(records, path):
                 + "\n"
             )
 
+
+# ==========================================
+# GLAUCOMA
+# GROUP-AWARE SPLIT
+# ==========================================
 
 def split_glaucoma_group_aware(
     records,
@@ -308,6 +321,12 @@ def split_glaucoma_group_aware(
     )
 
 
+# ==========================================
+# MTSAMPLES
+# NORMAL ENTITY-AWARE SPLIT
+# ไม่มี duplicate
+# ==========================================
+
 def split_mtsamples(
     records,
     train_size,
@@ -432,6 +451,10 @@ def split_mtsamples(
     )
 
 
+# ==========================================
+# LOAD REMAINING DATA
+# ==========================================
+
 glaucoma = load_jsonl(
     GLAUCOMA_REMAINING
 )
@@ -440,6 +463,10 @@ mtsamples = load_jsonl(
     MTSAMPLES_REMAINING
 )
 
+
+# ==========================================
+# SPLIT
+# ==========================================
 
 (
     glaucoma_train,
@@ -462,26 +489,34 @@ mtsamples = load_jsonl(
 )
 
 
+# ==========================================
+# SAVE SOURCE SPLITS
+# ==========================================
+
 save_jsonl(
     glaucoma_train,
-    "data/glaucoma/experiment_splits/train_70.jsonl"
+    "archive/experiment_a/data/glaucoma/experiment_splits/train_90.jsonl"
 )
 
 save_jsonl(
     glaucoma_val,
-    "data/glaucoma/experiment_splits/validation_30.jsonl"
+    "archive/experiment_a/data/glaucoma/experiment_splits/validation_10.jsonl"
 )
 
 save_jsonl(
     mtsamples_train,
-    "data/mtsamples/experiment_splits/train_70.jsonl"
+    "archive/experiment_a/data/mtsamples/experiment_splits/train_90.jsonl"
 )
 
 save_jsonl(
     mtsamples_val,
-    "data/mtsamples/experiment_splits/validation_30.jsonl"
+    "archive/experiment_a/data/mtsamples/experiment_splits/validation_10.jsonl"
 )
 
+
+# ==========================================
+# LOAD LOCKED TEST
+# ==========================================
 
 glaucoma_test = load_jsonl(
     GLAUCOMA_TEST
@@ -491,6 +526,10 @@ mtsamples_test = load_jsonl(
     MTSAMPLES_TEST
 )
 
+
+# ==========================================
+# MERGE
+# ==========================================
 
 final_train = (
     glaucoma_train
@@ -508,21 +547,29 @@ final_test = (
 )
 
 
+# ==========================================
+# SAVE FINAL1
+# ==========================================
+
 save_jsonl(
     final_train,
-    "data/final2/train.jsonl"
+    "archive/experiment_a/data/final1/train.jsonl"
 )
 
 save_jsonl(
     final_val,
-    "data/final2/validation.jsonl"
+    "archive/experiment_a/data/final1/validation.jsonl"
 )
 
 save_jsonl(
     final_test,
-    "data/final2/test.jsonl"
+    "archive/experiment_a/data/final1/test.jsonl"
 )
 
+
+# ==========================================
+# DUPLICATE CHECK
+# ==========================================
 
 train_keys = {
     record_key(record)
@@ -540,8 +587,12 @@ test_keys = {
 }
 
 
+# ==========================================
+# REPORT
+# ==========================================
+
 print(
-    "===== FINAL2 70/30 ====="
+    "===== FINAL1 90/10 ====="
 )
 
 

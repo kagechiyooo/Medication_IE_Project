@@ -2,9 +2,9 @@ import json
 from collections import Counter
 
 FILES = {
-    "train": "data/final/train.jsonl",
-    "validation": "data/final/validation.jsonl",
-    "test": "data/final/test.jsonl"
+    "train": "archive/initial_split/data/final/train.jsonl",
+    "validation": "archive/initial_split/data/final/validation.jsonl",
+    "test": "archive/initial_split/data/final/test.jsonl"
 }
 
 ENTITY_TYPES = [

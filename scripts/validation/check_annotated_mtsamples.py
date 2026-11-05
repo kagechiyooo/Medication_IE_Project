@@ -1,7 +1,7 @@
 import json
 
-input_file = "data/mtsamples/mtsamples_annotated_001_400.jsonl"
-output_file = "data/mtsamples/mtsamples_annotated_001_400_checked.jsonl"
+input_file = "data/mtsamples/archive/mtsamples_annotated_001_400.jsonl"
+output_file = "data/mtsamples/annotation/annotated_finish/mtsamples_annotated_001_400_checked.jsonl"
 
 VALID_LABELS = {
     "DRUG",

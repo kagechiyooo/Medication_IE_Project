@@ -4,9 +4,9 @@ from collections import Counter
 
 INPUT_FILE = "data/mtsamples/bio/mtsamples_annotated_001_800_bio.jsonl"
 
-TRAIN_FILE = "data/mtsamples/splits/mtsamples_train_001_800.jsonl"
-VAL_FILE = "data/mtsamples/splits/mtsamples_val_001_800.jsonl"
-TEST_FILE = "data/mtsamples/splits/mtsamples_test_001_800.jsonl"
+TRAIN_FILE = "archive/initial_split/data/mtsamples/splits/mtsamples_train_001_800.jsonl"
+VAL_FILE = "archive/initial_split/data/mtsamples/splits/mtsamples_val_001_800.jsonl"
+TEST_FILE = "archive/initial_split/data/mtsamples/splits/mtsamples_test_001_800.jsonl"
 
 ENTITY_TYPES = [
     "DRUG",

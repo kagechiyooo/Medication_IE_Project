@@ -2,7 +2,7 @@ import pandas as pd
 import json
 
 input_file = "data/mtsamples/mtsamples_medication_clean.csv"
-output_file = "data/mtsamples/mtsamples_doccano.jsonl"
+output_file = "data/mtsamples/archive/mtsamples_doccano.jsonl"
 
 df = pd.read_csv(input_file)
 

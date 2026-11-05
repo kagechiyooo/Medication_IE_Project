@@ -2,23 +2,23 @@ import json
 
 FILES = {
     "train": [
-    "data/glaucoma/splits/train.jsonl",
-    "data/mtsamples/splits/mtsamples_train_001_800.jsonl"
+    "archive/initial_split/data/glaucoma/splits/train.jsonl",
+    "archive/initial_split/data/mtsamples/splits/mtsamples_train_001_800.jsonl"
     ],
     "validation": [
-        "data/glaucoma/splits/validation.jsonl",
-        "data/mtsamples/splits/mtsamples_val_001_800.jsonl"
+        "archive/initial_split/data/glaucoma/splits/validation.jsonl",
+        "archive/initial_split/data/mtsamples/splits/mtsamples_val_001_800.jsonl"
     ],
     "test": [
-        "data/glaucoma/splits/test.jsonl",
-        "data/mtsamples/splits/mtsamples_test_001_800.jsonl"
+        "archive/initial_split/data/glaucoma/splits/test.jsonl",
+        "archive/initial_split/data/mtsamples/splits/mtsamples_test_001_800.jsonl"
     ]
 }
 
 OUTPUTS = {
-    "train": "data/final/train.jsonl",
-    "validation": "data/final/validation.jsonl",
-    "test": "data/final/test.jsonl"
+    "train": "archive/initial_split/data/final/train.jsonl",
+    "validation": "archive/initial_split/data/final/validation.jsonl",
+    "test": "archive/initial_split/data/final/test.jsonl"
 }
 
 

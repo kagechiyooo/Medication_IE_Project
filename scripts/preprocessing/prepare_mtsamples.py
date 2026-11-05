@@ -5,7 +5,7 @@ import re
 # 1. กำหนดไฟล์
 # =========================
 
-input_file = "data/mtsamples/mtsamples.csv"
+input_file = "data/mtsamples/raw/mtsamples.csv"
 output_file = "data/mtsamples/mtsamples_medication_clean.csv"
 
 

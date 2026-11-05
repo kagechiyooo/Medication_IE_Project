@@ -2,7 +2,7 @@ import json
 import re
 from collections import Counter
 
-file_path = "data/glaucoma/Annotations/Combined_annotations.jsonl"
+file_path = "data/glaucoma/raw/Annotations/Combined_annotations.jsonl"
 
 label_counter = Counter()
 

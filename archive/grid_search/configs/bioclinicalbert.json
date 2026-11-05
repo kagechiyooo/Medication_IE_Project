@@ -1,11 +1,11 @@
 {
   "model_key": "bioclinicalbert",
   "model_name": "emilyalsentzer/Bio_ClinicalBERT",
-  "train_file": "data/final/train.jsonl",
-  "validation_file": "data/final/validation.jsonl",
-  "test_file": "data/final/test.jsonl",
+  "train_file": "archive/initial_split/data/final/train.jsonl",
+  "validation_file": "archive/initial_split/data/final/validation.jsonl",
+  "test_file": "archive/initial_split/data/final/test.jsonl",
   "output_dir": "models/bioclinicalbert",
-  "result_dir": "results/bioclinicalbert",
+  "result_dir": "archive/grid_search/results/bioclinicalbert",
   "seed": 42,
   "grid": {
     "learning_rate": [

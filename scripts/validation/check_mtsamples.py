@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_path = "data/mtsamples/mtsamples.csv"
+file_path = "data/mtsamples/raw/mtsamples.csv"
 
 df = pd.read_csv(file_path)
 

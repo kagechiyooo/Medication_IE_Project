@@ -34,12 +34,12 @@ MTSAMPLES_TEST = (
 )
 
 
-# final3 = 50/50
-GLAUCOMA_TRAIN_SIZE = 794
-GLAUCOMA_VAL_SIZE = 794
+# final2 = 70/30
+GLAUCOMA_TRAIN_SIZE = 1112
+GLAUCOMA_VAL_SIZE = 476
 
-MTSAMPLES_TRAIN_SIZE = 340
-MTSAMPLES_VAL_SIZE = 340
+MTSAMPLES_TRAIN_SIZE = 476
+MTSAMPLES_VAL_SIZE = 204
 
 
 def get_entity_counts(record):
@@ -464,22 +464,22 @@ mtsamples = load_jsonl(
 
 save_jsonl(
     glaucoma_train,
-    "data/glaucoma/experiment_splits/train_50.jsonl"
+    "archive/experiment_a/data/glaucoma/experiment_splits/train_70.jsonl"
 )
 
 save_jsonl(
     glaucoma_val,
-    "data/glaucoma/experiment_splits/validation_50.jsonl"
+    "archive/experiment_a/data/glaucoma/experiment_splits/validation_30.jsonl"
 )
 
 save_jsonl(
     mtsamples_train,
-    "data/mtsamples/experiment_splits/train_50.jsonl"
+    "archive/experiment_a/data/mtsamples/experiment_splits/train_70.jsonl"
 )
 
 save_jsonl(
     mtsamples_val,
-    "data/mtsamples/experiment_splits/validation_50.jsonl"
+    "archive/experiment_a/data/mtsamples/experiment_splits/validation_30.jsonl"
 )
 
 
@@ -510,17 +510,17 @@ final_test = (
 
 save_jsonl(
     final_train,
-    "data/final3/train.jsonl"
+    "archive/experiment_a/data/final2/train.jsonl"
 )
 
 save_jsonl(
     final_val,
-    "data/final3/validation.jsonl"
+    "archive/experiment_a/data/final2/validation.jsonl"
 )
 
 save_jsonl(
     final_test,
-    "data/final3/test.jsonl"
+    "archive/experiment_a/data/final2/test.jsonl"
 )
 
 
@@ -541,7 +541,7 @@ test_keys = {
 
 
 print(
-    "===== FINAL3 50/50 ====="
+    "===== FINAL2 70/30 ====="
 )
 
 

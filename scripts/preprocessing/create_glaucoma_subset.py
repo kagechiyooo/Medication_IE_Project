@@ -1,7 +1,7 @@
 import json
 import re
 
-input_file = "data/glaucoma/Annotations/Combined_annotations.jsonl"
+input_file = "data/glaucoma/raw/Annotations/Combined_annotations.jsonl"
 output_file = "data/glaucoma/glaucoma_selected.jsonl"
 
 wanted_labels = {

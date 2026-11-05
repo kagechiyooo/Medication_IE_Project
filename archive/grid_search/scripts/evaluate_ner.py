@@ -311,9 +311,9 @@ def main():
         if torch.cuda.is_available(): torch.cuda.empty_cache()
     if args.configs:
         import csv
-        os.makedirs('results/final_comparison',exist_ok=True)
-        save_json('results/final_comparison/comparison.json',results)
-        with open('results/final_comparison/comparison.csv','w',encoding='utf-8-sig',newline='') as f:
+        os.makedirs('archive/grid_search/results/final_comparison',exist_ok=True)
+        save_json('archive/grid_search/results/final_comparison/comparison.json',results)
+        with open('archive/grid_search/results/final_comparison/comparison.csv','w',encoding='utf-8-sig',newline='') as f:
             writer=csv.DictWriter(f,fieldnames=list(results[0]));writer.writeheader();writer.writerows(results)
 
 
