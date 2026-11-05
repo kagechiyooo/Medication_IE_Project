@@ -8,22 +8,63 @@ import random
 from collections import Counter
 from pathlib import Path
 
+# ==============================================================================
+# ค่าคงที่และโครงสร้าง Label สำหรับโมเดล Token Classification (Named Entity Recognition)
+# ==============================================================================
+
+# ประเภท Entity ทั้ง 5 ชนิดที่สนใจสกัดในงาน Medication Information Extraction:
+# - DRUG: ชื่อยา
+# - STRENGTH: ความแรงยา (เช่น 500 mg)
+# - DOSAGE: ขนาดยาหรือจำนวนที่รับประทาน (เช่น 1 เม็ด)
+# - FREQUENCY: ความถี่ในการรับประทาน (เช่น วันละ 2 ครั้ง)
+# - ROUTE: ช่องทางการให้ยา (เช่น oral, IV)
 ENTITY_TYPES = ['DRUG', 'STRENGTH', 'DOSAGE', 'FREQUENCY', 'ROUTE']
+
+# รายชื่อตัววัดประสิทธิภาพ 5 ค่าหลักที่ใช้ในการประเมินผลการเรียนรู้
 METRIC_NAMES = ['precision', 'recall', 'f1', 'macro_f1', 'accuracy']
+
+# รายการป้ายกำกับ BIO Scheme ทั้งหมด 11 คลาส (O + B-/I- ของทั้ง 5 Entity)
+# รูปแบบ: 'O', 'B-DRUG', 'I-DRUG', 'B-STRENGTH', 'I-STRENGTH', ...
 LABEL_LIST = ['O'] + [prefix + entity for entity in ENTITY_TYPES for prefix in ('B-', 'I-')]
+
+# พจนานุกรมสำหรับแปลงป้ายกำกับสตริงเป็นตัวเลข ID เพื่อป้อนให้โมเดลประมวลผล
 LABEL2ID = {label: index for index, label in enumerate(LABEL_LIST)}
+
+# พจนานุกรมสำหรับแปลงตัวเลข ID ที่โมเดลทำนายกลับเป็นป้ายกำกับสตริง
 ID2LABEL = {index: label for index, label in enumerate(LABEL_LIST)}
+
+# ป้ายกำกับพิเศษสำหรับ Entity Confusion Matrix:
+# SPURIOUS_ENTITY: False Positive (โมเดลทำนายมี Entity แต่ใน Ground Truth ไม่มี)
+# MISSED_ENTITY: False Negative (ใน Ground Truth มี Entity แต่โมเดลตรวจไม่พบหรือขอบเขตผิด)
 SPURIOUS_ENTITY = 'Spurious Entity'
 MISSED_ENTITY = 'Missed Entity'
+
+# ตารางจับคู่สำหรับแปลงชื่อป้ายกำกับเดิมภาษาไทยให้เป็นชื่อมาตรฐานภาษาอังกฤษ
 LEGACY_MATRIX_LABELS = {
     'ไม่มี Entity จริง': SPURIOUS_ENTITY,
     'ไม่พบ Entity': MISSED_ENTITY,
 }
 
+# ------------------------------------------------------------------------------
+# ฟังก์ชัน: normalize_matrix_label
+# หน้าที่: แปลงชื่อป้ายกำกับของ Entity Confusion Matrix ให้เป็นชื่อภาษาอังกฤษมาตรฐาน
+# รับค่า: label (str) - ชื่อป้ายกำกับเดิม
+# คืนค่า: str - ชื่อป้ายกำกับมาตรฐาน
+# ถูกเรียกจาก: read_matrix_csv, normalize_matrix_csv_labels ใน dataset_size_experiment.py
+# ------------------------------------------------------------------------------
 def normalize_matrix_label(label):
     """Return the canonical English label for old or current matrix files."""
     return LEGACY_MATRIX_LABELS.get(label, label)
 
+# ------------------------------------------------------------------------------
+# ฟังก์ชัน: additional_metrics
+# หน้าที่: คำนวณ Fixed Five-Entity Macro-F1 (เฉลี่ย F1 ของทั้ง 5 Entity โดยไม่นำคลาส 'O' มาคิด)
+#         และ Token-level BIO Accuracy (วัดความแม่นยำของทุกตำแหน่ง Token/Subword แรกที่ไม่ใช่ -100)
+# รับค่า: true_labels (list ของ list ของ label strings จาก Ground Truth)
+#        true_predictions (list ของ list ของ label strings จาก Prediction ของโมเดล)
+# คืนค่า: dict ที่มี 'macro_f1' และ 'accuracy'
+# ถูกเรียกจาก: metrics() ใน Stage 1 และ test_one() ใน Stage 3
+# ------------------------------------------------------------------------------
 def additional_metrics(true_labels, true_predictions):
     from seqeval.metrics import classification_report, accuracy_score
     # Default seqeval mode, exactly as the existing P/R/F1 evaluation.
@@ -33,6 +74,15 @@ def additional_metrics(true_labels, true_predictions):
         'accuracy': accuracy_score(true_labels, true_predictions),
     }
 
+# ------------------------------------------------------------------------------
+# ฟังก์ชัน: seed_everything
+# หน้าที่: กำหนดค่า Random Seed (seed=42) ให้กับทุกระบบสุ่ม เพื่อความสามารถในการทำซ้ำได้ 100% (Reproducibility)
+#         ครอบคลุม Python random, numpy, PyTorch CPU, PyTorch CUDA (GPU), Transformers set_seed
+#         และตั้งค่า cuDNN ให้เป็น Deterministic
+# รับค่า: seed (int) - ค่า seed คงที่ (กำหนดเป็น 42)
+# คืนค่า: ไม่มี
+# ถูกเรียกจาก: train_one() ใน Stage 1 (ก่อนโหลด dataset, ก่อนโหลด model, และก่อน trainer.train)
+# ------------------------------------------------------------------------------
 def seed_everything(seed):
     import numpy as np
     import torch
@@ -46,6 +96,17 @@ def seed_everything(seed):
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
+# ------------------------------------------------------------------------------
+# ฟังก์ชัน: decode_labels
+# หน้าที่: ถอดรหัสผลลัพธ์ดิบ (Logits) จากโมเดลให้กลายเป็นชื่อป้ายกำกับ BIO แบบข้อความ
+#         โดยใช้ argmax หา class ID ที่มีความน่าจะเป็นสูงสุดในแต่ละตำแหน่ง
+#         และคัดกรองตำแหน่งที่เป็น -100 ออก (Subword ตัวถัดไปและ Special Tokens)
+# รับค่า: predictions (numpy array ของ logits [batch, seq_len, num_labels])
+#        labels (numpy array ของ ground truth IDs [batch, seq_len])
+#        id2label (dict แมป ID เป็นชื่อ label)
+# คืนค่า: tuple ของ (true_labels, true_predictions) ที่เป็น list ของ list ของข้อความ label
+# ถูกเรียกจาก: metrics(), train_one() (Stage 1) และ test_one() (Stage 3)
+# ------------------------------------------------------------------------------
 def decode_labels(predictions, labels, id2label):
     # Same argmax / -100 filtering loop as the original script.
     import numpy as np
@@ -62,6 +123,14 @@ def decode_labels(predictions, labels, id2label):
         true_labels.append(label_seq)
     return true_labels, true_predictions
 
+# ------------------------------------------------------------------------------
+# ฟังก์ชัน: entity_counts
+# หน้าที่: นับจำนวน Entity แต่ละประเภทจากลำดับป้ายกำกับ BIO ตามมาตรฐานของ seqeval get_entities
+#         เพื่อใช้วัดจำนวน Entity รวม และใช้เปรียบเทียบก่อน/หลัง Tokenization เพื่อตรวจจับ Truncation
+# รับค่า: label_sequences (list ของ list ของ BIO label strings)
+# คืนค่า: dict ของจำนวน Entity แต่ละประเภท เช่น {'DRUG': 445, 'STRENGTH': 95, ...}
+# ถูกเรียกจาก: train_one() (Stage 1) และ test_one() (Stage 3)
+# ------------------------------------------------------------------------------
 def entity_counts(label_sequences):
     """Count entities with seqeval's existing default BIO interpretation."""
     from seqeval.metrics.sequence_labeling import get_entities
@@ -70,6 +139,16 @@ def entity_counts(label_sequences):
         counts.update(entity for entity, _start, _end in get_entities(labels))
     return {entity: counts.get(entity, 0) for entity in ENTITY_TYPES}
 
+# ------------------------------------------------------------------------------
+# ฟังก์ชัน: entity_confusion
+# หน้าที่: สร้าง Entity Confusion Matrix ระดับ Exact-span (ขอบเขตคำต้องตรงกันพอดี) แบบ 1 ต่อ 1
+#         เปรียบเทียบระหว่าง Ground Truth Entity กับ Predicted Entity
+#         โดยจำแนกข้อผิดพลาดออกเป็น Misclassification (ทายผิดประเภท), Missed Entity (หลุดการตรวจจับ)
+#         และ Spurious Entity (ทำนายเกินขึ้นมา)
+# รับค่า: true_labels, predicted_labels (list ของ list ของ BIO tags)
+# คืนค่า: tuple ของ (rows, columns, matrix_dict)
+# ถูกเรียกจาก: test_one() ใน Stage 3
+# ------------------------------------------------------------------------------
 def entity_confusion(true_labels, predicted_labels):
     """Build an exact-span, one-to-one entity confusion matrix per document."""
     from seqeval.metrics.sequence_labeling import get_entities
@@ -90,6 +169,15 @@ def entity_confusion(true_labels, predicted_labels):
                 matrix[SPURIOUS_ENTITY][predicted_entity] += 1
     return rows, columns, matrix
 
+# ------------------------------------------------------------------------------
+# ฟังก์ชัน: format_classification_report
+# หน้าที่: จัดรูปแบบรายงานสรุปผลการจำแนกประเภท (Classification Report)
+#         แสดง Precision, Recall, F1-score และ Support ราย Entity
+#         พร้อมระบุ Token-level BIO Accuracy และ Loss ของชุดข้อมูลนั้น
+# รับค่า: true_labels, predicted_labels, loss (float), split_name (str เช่น 'Validation' หรือ 'Test')
+# คืนค่า: str - ข้อความรายงานพร้อมจัดหน้าสวยงาม
+# ถูกเรียกจาก: train_one() (Stage 1) และ test_one() (Stage 3)
+# ------------------------------------------------------------------------------
 def format_classification_report(true_labels, predicted_labels, loss, split_name):
     from seqeval.metrics import accuracy_score, classification_report
     report = classification_report(
@@ -102,6 +190,14 @@ def format_classification_report(true_labels, predicted_labels, loss, split_name
         + f'{split_name} Loss: {loss:.6f}\n'
     )
 
+# ------------------------------------------------------------------------------
+# ฟังก์ชัน: save_json
+# หน้าที่: บันทึกข้อมูลแบบ JSON ลงไฟล์แบบ Atomic Write เพื่อความปลอดภัยของข้อมูล
+#         (เขียนลงไฟล์ .tmp แล้วแทนที่) พร้อมจัด Indent 2 เคาะและบันทึกเป็น UTF-8
+# รับค่า: path (str หรือ Path), data (dict/list)
+# คืนค่า: ไม่มี
+# ถูกเรียกจาก: train_one() (Stage 1) และ test_one() (Stage 3)
+# ------------------------------------------------------------------------------
 def save_json(path, data):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -109,6 +205,13 @@ def save_json(path, data):
     temp.write_text(json.dumps(data, indent=2, ensure_ascii=False, allow_nan=False)+'\n', encoding='utf-8')
     os.replace(temp, path)
 
+# ------------------------------------------------------------------------------
+# ฟังก์ชัน: read_json
+# หน้าที่: โหลดและแปลงไฟล์ JSON เป็น Python dict ด้วยการเข้ารหัส UTF-8
+# รับค่า: path (str หรือ Path)
+# คืนค่า: ข้อมูลที่แปลงแล้ว (dict/list)
+# ถูกเรียกจาก: update_stage1, train_one, select, test_one
+# ------------------------------------------------------------------------------
 def read_json(path):
     with open(path, encoding='utf-8') as stream:
         return json.load(stream)
@@ -139,6 +242,14 @@ def completed_run(record, signature):
     return model_files_exist(record.get('best_model_path',''))
 
 
+# ------------------------------------------------------------------------------
+# ฟังก์ชัน: model_files_exist
+# หน้าที่: ตรวจสอบความสมบูรณ์ของโฟลเดอร์โมเดลที่บันทึกไว้ ว่ามีไฟล์สำคัญตามมาตรฐานครบถ้วนหรือไม่
+#         ประกอบด้วย: config.json, tokenizer_config.json และไฟล์น้ำหนักโมเดล (model.safetensors หรือ pytorch_model.bin)
+# รับค่า: path (str หรือ Path ไปยังโฟลเดอร์ best_model)
+# คืนค่า: bool (True ถ้าไฟล์ครบถ้วน, False ถ้าขาดหาย)
+# ถูกเรียกจาก: completed() ใน Stage 1/Stage 2 และ test_one() ใน Stage 3
+# ------------------------------------------------------------------------------
 def model_files_exist(path):
     model = Path(path)
     return ((model/'config.json').is_file()
